@@ -1,11 +1,13 @@
 \documentclass[a4paper,11pt,openright]{book}
-
-\usepackage[top=2cm,bottom=2cm,left=2cm,right=2cm]{geometry}
-\usepackage[pdftex]{graphicx} %per poter inserire le figure
+\usepackage[swapnames]{frontespizio}
+%\usepackage[classica]{topfront}
+%\usepackage[pdftex]{graphicx} %per poter inserire le figure
+%\usepackage[a4paper,left=2cm,bottom=2cm,right=2cm,top=2cm]{geometry}
 \usepackage{amssymb,amsmath,amsthm,amsfonts}
 \usepackage{xspace}
+\usepackage{indentfirst}
 \usepackage{tabularx}
-\usepackage{hyperref}
+\usepackage[pdfa]{hyperref}
 \usepackage{indentfirst}
 \usepackage{subfigure}
 \usepackage[small]{caption}
@@ -15,6 +17,7 @@
 \usepackage{booktabs}
 \usepackage{afterpage}
 \usepackage{parskip}
+\usepackage{bookmark}
 \usepackage{listings}
 \usepackage{fancyhdr}
 \usepackage{textcomp}
@@ -23,9 +26,9 @@
 \usepackage[utf8]{inputenc}   %per riuscire a scrivere gli accenti
 \usepackage[italian, english]{babel}   %per riuscire a scrivere gli accenti
 \usepackage{setspace}
-%\usepackage[swapnames]{frontespizio}
-%\pagestyle{fancy} 
 
+
+%%%%%%%%%%%
 \newenvironment{abstract}%
 {\cleardoublepage%
 \thispagestyle{empty}%
@@ -34,73 +37,99 @@
 \Huge \bfseries \abstractname 
 \end{center}}%
 {\vfill\null}
+%%%%%%%%%%%%%%%%%
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
+% CONFIGURAZIONE LINK E RIFERIMENTI
+\hypersetup{%
+    pdfpagemode={UseOutlines},
+    bookmarksopen,
+    pdfstartview={FitH},
+    colorlinks,
+    linkcolor={black}, %COLORE DEI RIFERIMENTI AL TESTO
+    citecolor={blue}, %COLORE DEI RIFERIMENTI ALLE CITAZIONI
+    urlcolor={blue} %COLORI DEGLI URL
+}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\frenchspacing
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+% INFORMAZIONI PDF - PERSONALIZZARE
+\pdfinfo{%
+  /Title    (Caratterizzazione spettroscopica del sistema di Didymos dopo l'impatto con la sonda DART)
+  /Author   (Gabriele Bertinelli)
+  /Subject  (Spettroscopia asteroide)
+  /Keywords (spettroscopia, asteroide, Didymos, dart, rotazione)
+}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+
+
+
 \begin{document}
+\selectlanguage{italian}
+\begin{frontespizio}
+
+    \Universita{Padova}
+    
+    
+    \Dipartimento{Fisica e Astronomia "Galileo Galilei"}
+    
+    
+    \Corso[Laurea]{Astronomia}
+    \Logo[3.0cm]{figure/UNIPD.png}
+    
+    
+    {\Titoletto{Tesi di laurea triennale}}
+    \Titolo{Caratterizzazione spettroscopica del sistema di\\ Didymos dopo l'impatto con la sonda DART}
+    
+    
+    \Relatore{Prof.ssa Monica Lazzarin}
+    \NRelatore{Relatrice}{}
+    
+    \Correlatore{Prof.ssa Fiorangela La Forgia}
+    \NCorrelatore{Correlatrice}{}
+    
+    
+    \Candidato{Gabriele Bertinelli}
+    
+    
+   
+    \Annoaccademico{2022-2023}
+    
+\end{frontespizio}
+
+
+
 \frontmatter
 
-\begin{titlepage}
-    \vspace{5mm}
-    \begin{figure}[hbtp]
-        \centering
-        \includegraphics[scale=.09]{figure/UNIPD.png}
-    \end{figure}
-    \vspace{5mm}
-    \begin{center}
-        {{\huge{\textsc{\bf UNIVERSIT\`A DEGLI STUDI DI PADOVA}}}\\}
-        \vspace{5mm}
-        {\Large{\bf Dipartimento di Fisica e Astronomia ``Galileo Galilei''}} \\
-        \vspace{5mm}
-        {\Large{\textsc{\bf Corso di Laurea in Astronomia}}}\\
-        \vspace{20mm}
-        {\Large{\textsc{\bf Tesi di Laurea}}}\\
-        \vspace{20mm}
-        \begin{spacing}{3}
-            {\LARGE \textbf{Caratterizzazione spettroscopica del sistema di Didymos dopo l'impatto con la sonda DART}}\\
-        \end{spacing}
-        \vspace{8mm}
-    \end{center}
-    
-    \vspace{20mm}
-    \begin{spacing}{2}
-        \begin{tabular}{ l  c  c c c  cc c c c c  l }
-            {\Large{\bf Relatrice}} &&&&&&&&&&& {\Large{\bf Laureando}}\\
-            {\Large{\bf Prof.ssa Monica Lazzarin}} &&&&&&&&&&& {\Large{\bf Gabriele Bertinelli}}\\
-            {\Large{\bf Correlatrice}}\\
-            {\Large{\bf Prof.ssa Fiorangela La Forgia}}\\
-        \end{tabular}
-    \end{spacing}
-    \vspace{15 mm}    
-    \begin{center}
-        {\Large{\bf Anno Accademico 2022/2023}}
-    \end{center}
-\end{titlepage}
-
-\clearpage{\pagestyle{empty}\cleardoublepage}
-
-%%Dedica
-\null\vspace{\stretch{1}}
+\vspace*{\stretch{1}}
 \begin{flushright}
+\noindent
 \textit{Alla mia famiglia}
 \end{flushright}
-\vspace{\stretch{2}}\null
-\clearpage{\pagestyle{empty}\cleardoublepage}
+\vspace*{\stretch{6}}
+\cleardoublepage
 
-%%Citazione
-\null\vspace{\stretch{1}}
+\vspace*{\stretch{1}}
 \begin{flushright}
-\textit{Complete the motion if you stumble\\RHCP}
+\noindent
+\textit{"Complete the motion if you stumble"}\\
+\textit{RHCP}
 \end{flushright}
-\vspace{\stretch{2}}\null
-\clearpage{\pagestyle{empty}\cleardoublepage}
+\vspace*{\stretch{6}}
+\cleardoublepage
 
-%%Sommario
-\selectlanguage{italian}
-\begin{abstract}
-    %\begin{center}
-        Qui ci sarà il riassunto della tesi.\\
-        16 novembre 2022 è la data dell’inizio di una nuova era di missione spaziali: l’era delle missioni Artemis, che si ripromettono di riportare sulla Luna l’essere umano.
+
+\begin{abstract}    
+Qui ci sarà il riassunto della tesi.\\
+16 novembre 2022 è la data dell’inizio di una nuova era di missione spaziali: l’era delle missioni Artemis, che si ripromettono di riportare sulla Luna l’essere umano.
 
 Alle 07:47, ora italiana, il razzo Space Launch System di NASA ha illuminato a giorno il pad 39-B al Kennedy Space Center, dando inizio alla missione Artemis I.
 Scopo della missione è testare SLS nel suo complesso, razzo, capsula, sottosistemi, procedure ecc. 
@@ -112,10 +141,9 @@ Attorno alle 09:14 è iniziata la Trans Lunar Injection Maneuver, manovra per sp
 I prossimi step sono la separazione dell'ICPS, il 2o stadio che ha permesso le ultime due manovre, correzioni dell’orbita e il rilascio di 13 cubesat, tra cui ArgoMoon: cubesat costruito da Argotec e ASI, azienda aerospaziale italiana, con l’obiettivo di monitorare da vicino tutte le operazioni che compirà la Orion attorno alla Luna.
 
 Nei prossimi giorni seguiranno aggiornamenti sulla missione.
-
-    %\end{center}
-\clearpage{\pagestyle{empty}\cleardoublepage}
 \end{abstract}
+
+
 
 \tableofcontents
 
@@ -123,14 +151,14 @@ Nei prossimi giorni seguiranno aggiornamenti sulla missione.
 
 \listoffigures
 
-\clearpage{\pagestyle{empty}\cleardoublepage}
 
 \mainmatter
+
 \chapter{Corpi minori del Sistema Solare}
 
 \section{Proprietà generali}
 
-Dal 1801, quando Giuseppe Piazzi scoprì il primo corpo minore Cerere, categorizzato poi come asteroide, per sottolineare le differenze apparenti rispetto alle comete, si sono scoperti e categorizzati più di 1 milione di asteroidi (https://solarsystem.nasa.gov/asteroids-comets-and-meteors/asteroids/overview/). La maggior parte orbita tra Marte e Giove e forma quella che è chiamata Main Belt (2-3.3 AU).
+Dal 1801, quando Giuseppe Piazzi scoprì il primo corpo minore Cerere, categorizzato poi come asteroide, per sottolineare le differenze apparenti rispetto alle comete, si sono scoperti e categorizzati più di 1 milione di asteroidi\footnote{\href{https://solarsystem.nasa.gov/asteroids-comets-and-meteors/asteroids/overview/}{https://solarsystem.nasa.gov/asteroids-comets-and-meteors/asteroids/overview/}} La maggior parte orbita tra Marte e Giove e forma quella che è chiamata Main Belt (2-3.3 AU).
 
 Esistono numerosi gruppi di asteroidi, a diverse distanze dal Sole. Nella Tabella sono riportati i principali gruppi e famiglie, con le loro classificazioni dinamiche.
 
@@ -141,22 +169,18 @@ L’effetto Yarkovsky è una forza percepita da un corpo dovuta all’emissione 
 
 L’effetto fu scoperto da Ivan Osipovich Yarkovsky, che notò come il riscaldamento diurno di un oggetto rotante nello spazio causasse una piccola forza sull’oggetto che avrebbe avuto effetti a lungo termine sulla sua orbita.
 
-L’effetto è dovuto a due componenti:
+L’effetto è dovuto a due componenti:\\
+\textit{Effetto diurno}: su un corpo rotante illuminato dal Sole, la superficie è più calda nel pomeriggio e nella prima parte della notte, rispetto alla mattina e a notte tarda. Il risultato è che viene radiato più calore dal lato notturno, rispetto a quello diurno, e, al netto, agisce una forza dovuta alla pressione di radiazione nella direzione opposta alla notte. Per oggetti rotanti in modo progrado, questa forza è nella direzione della loro orbita e il semiasse maggiore, nel lungo periodo, tende ad aumentare. Situazione opposta per gli oggetti che ruotano in modo retrogrado.
 
 
-\qquad \textit{Effetto diurno}: su un corpo rotante illuminato dal Sole, la superficie è più calda nel pomeriggio e nella prima parte della notte, rispetto alla mattina e a notte tarda. Il risultato è che viene radiato più calore dal lato notturno, rispetto a quello diurno, e, al netto, agisce una forza dovuta alla pressione di radiazione nella direzione opposta alla notte. Per oggetti rotanti in modo progrado, questa forza è nella direzione della loro orbita e il semiasse maggiore, nel lungo periodo, tende ad aumentare. Situazione opposta per gli oggetti che ruotano in modo retrogrado.
-
-
-\qquad \textit{Effetto stagionale}: per oggetti rotanti, l’effetto stagionale aumenta con l’inclinazione assiale. Esso domina solo se l’effetto diurno è abbastanza piccolo.
+\textit{Effetto stagionale}: per oggetti rotanti, l’effetto stagionale aumenta con l’inclinazione assiale. Esso domina solo se l’effetto diurno è abbastanza piccolo.
 L’effetto stagionale potrebbe avvenire per:
 
-
-    \begin{itemize}
-        \item rotazione molto veloce
-        \item piccole dimensioni dell’oggetto
-        \item inclinazione assiale vicina a 90°
-    \end{itemize}
-
+\begin{itemize}
+    \item rotazione molto veloce
+    \item piccole dimensioni dell’oggetto
+    \item inclinazione assiale vicina a 90°
+\end{itemize}
 
 Anche questo effetto ha ripercussioni sul semiasse maggiore, e nell’ordine dei milioni di anni può portare un asteroide dalla Main Belt al Sistema Solare interno.
 
@@ -192,21 +216,21 @@ Come fa intendere il nome, i \textit{Mars Crossers} sono oggetti che intersecano
 Si tratta di asteroidi situati tra le orbite di Marte e Giove. La maggior concentrazione si trova tra 2.0 e 3.3 AU.\\
 A causa delle risonanze orbitali dovute all’influenza gravitazionale di Giove, si vengono a creare molti gruppi, sotto-gruppi e famiglie. Di seguito sono riportati i più popolosi.
 
-\qquad \textit{Hungaria}: prendono il nome da 434 Hungaria. Hanno un semiasse maggiore tra 1.78 e 2.06 AU, un’eccentricità minore di 0.18 e un’inclinazione tra 16° e 34°. 
+\textit{Hungaria}: prendono il nome da 434 Hungaria. Hanno un semiasse maggiore tra 1.78 e 2.06 AU, un’eccentricità minore di 0.18 e un’inclinazione tra 16° e 34°. 
 
-\qquad \textit{Inner Main Belt}: hanno un semiasse maggiore tra 2.06 e 2.50 AU, limiti definiti dalle risonanze di moto medio 4:1 e 3:1.
+\textit{Inner Main Belt}: hanno un semiasse maggiore tra 2.06 e 2.50 AU, limiti definiti dalle risonanze di moto medio 4:1 e 3:1.
 
-\qquad \textit{Middle Main Belt}: hanno un semiasse maggiore tra 2.50 e 2.82 AU. I limiti sono definiti dalle risonanze di moto medio 3:1 e 5:2.
+\textit{Middle Main Belt}: hanno un semiasse maggiore tra 2.50 e 2.82 AU. I limiti sono definiti dalle risonanze di moto medio 3:1 e 5:2.
 
-\qquad \textit{Outer Main Belt}: hanno un semiasse maggiore tra 2.82 e 3.28 AU. All’interno del gruppo troviamo le famiglie \textit{Koronis}, \textit{Eos} e \textit{Themis}.
+\textit{Outer Main Belt}: hanno un semiasse maggiore tra 2.82 e 3.28 AU. All’interno del gruppo troviamo le famiglie \textit{Koronis}, \textit{Eos} e \textit{Themis}.
 
-\qquad \textit{Cybele}: hanno un semiasse maggiore tra 3.28 e 3.70 AU. Prendono il nome da 65 Cybele.
+\textit{Cybele}: hanno un semiasse maggiore tra 3.28 e 3.70 AU. Prendono il nome da 65 Cybele.
 
-\qquad \textit{Hilda}: hanno un semiasse maggiore medio tra 3.70 e 4.20 AU. Prendono il nome da 153 Hilda.
+\textit{Hilda}: hanno un semiasse maggiore medio tra 3.70 e 4.20 AU. Prendono il nome da 153 Hilda.
 
 \paragraph*{Jupiter Family Comets}
 Le comete sono divise in due gruppi: comete a lungo periodo e comete a corto periodo.\\
-Le comete a corto periodo hanno un periodo orbitale <20 anni a basse inclinazioni. Hanno anche $2<T_J<3$, con $T_J$ Invariante di Tisserand, espressa da
+Le comete a corto periodo hanno un periodo orbitale $< 20$ anni a basse inclinazioni. Hanno anche $2<T_J<3$, con $T_J$ Invariante di Tisserand, espressa da
 
 \begin{equation}
     T_J=\frac{a_J}{a}+2\cos(i)\biggl[\frac{a}{a_J}(1-e)\biggr]^{1/2}
@@ -223,11 +247,11 @@ Sono probabilmente più simili a comete che ad asteroidi, e uno di questi, Chiro
 \paragraph*{Trans Neptunian Objects}
 Sono oggetti con $a\geq 30$ AU e sono divisi nei seguenti gruppi:
 
-\qquad \textit{Kuiper Belt Objects}: si trovano tra 41 e 47 AU. A sua volta si divide nei sotto-gruppi dei \textit{Plutinos}, in risonanza 3:2 con Nettuno come Plutone e dei \textit{Cubewanos}, conosciuti come i classici KBOs.
+\textit{Kuiper Belt Objects}: si trovano tra 41 e 47 AU. A sua volta si divide nei sotto-gruppi dei \textit{Plutinos}, in risonanza 3:2 con Nettuno come Plutone e dei \textit{Cubewanos}, conosciuti come i classici KBOs.
 
-\qquad \textit{Scattered-Disk Objects (SDOs)}: hanno orbite molto grandi e molto ellittiche, probabilmente dovute a un’interazione con Nettuno.
+\textit{Scattered-Disk Objects (SDOs)}: hanno orbite molto grandi e molto ellittiche, probabilmente dovute a un’interazione con Nettuno.
 
-\qquad \textit{Oort Cloud Objects (OCOs)}: la Oort Cloud è una shell sferica di oggetti ghiacciati, di cui non si ha evidenza diretta perché troppo lontana e scura ma ipotizzata come luogo di origine delle comete a lungo/lunghissimo periodo. Si trova tra circa 50000 e 100000 AU.
+\textit{Oort Cloud Objects (OCOs)}: la Oort Cloud è una shell sferica di oggetti ghiacciati, di cui non si ha evidenza diretta perché troppo lontana e scura ma ipotizzata come luogo di origine delle comete a lungo/lunghissimo periodo. Si trova tra circa 50000 e 100000 AU.
 
 \section{Potentially Hazardous Asteroids (PHA)}
 Tra i NEO esiste una categoria di oggetti che riveste un ruolo importante: sono gli asteroidi potenzialmente pericolosi, Potentially Hazardous Asteroids (PHA). Rientrano in questa categoria tutti gli oggetti la cui minima distanza all'intersezione dell'orbita terrestre (Minimum Orbit Intersection Distance - MOID) è inferiore a 0.05 AU e la cui magnitudine assoluta H è minore di 22. Sono, quindi, quegli asteroidi che se impattassero con la Terra provocherebbero danni su larga scala, anche globale. Ad oggi si conoscono più di 2500 PHA, la maggior parte dei quali sono della famiglia Apollo, e ogni giorni vengo aggiunti o rimossi oggetti sulla base di nuovi risultati sulla base dei parametri orbitali.\\
@@ -267,7 +291,12 @@ Gli asteroidi di tipo A mostrano una forte decrescita nella riflettanza attorno 
 Sono asteroidi molto rari, situati principale nella Main Belt interna. Si ritiene che questi oggetti siano frammenti del mantello differenziato di corpi progenitori di dimensioni maggiori.\\
 Le analoghe meteoriti sono le acondrite a olivina e/o pallasite.
 
-%%immagine spettro q-s-a
+\begin{figure}
+\centering
+\includegraphics[scale=0.3]{figure/spettro_qsa.jpg}
+\caption{Esempio di spettri di tipo Q, S e A. Gli spettri sono normalizzati a $0.55\,\mu m$. Tra parentesi è riportato il range di albedo in percentuale. (Magrin, 2006)}
+\label{spettro_qsa}
+\end{figure}
 
 \paragraph*{Classe S}
 Rappresenta la seconda classe più numerosa ed è caratterizzata da spettri con una pendenza ripida attorno a $0.7\,\mu m$ e assorbimenti moderati attorno a $1$ e $2\,\mu m$. La loro albedo varia tra $0.1$ e $0.3$. Lo spettro tipico degli asteroidi di tipo S indica la presenza di un mix di olivine, pirosseni e metalli Fe-Ni; in particolare di silicati: ciò li rende i corpi progenitori più probabili per le meteoriti rocciose.\\
@@ -282,7 +311,12 @@ Questi spettri sono simili a quelli delle condriti ordinarie (CO), che rappresen
 Questa classe fu inizialmente proposta unicamente per (349) Dembowska. Il suo spettro mostra forti assorbimenti a $1$ e $2\,\mu m$, simili a quelli di Vesta. Dembowska, a differenza di Vesta, presenta caratteristiche allargate verso lunghezze d'onda maggiori, mentre l'assorbimento a $2\,\mu m$ è più stretto e centrato su lunghezze d'onda minori.\\
 Le caratteristiche spettrali indicano la presenza di olivine e pirosseni (circa in eguali quantità) e pochi o alcun metalli. 
 
-%%Immagine spettro classe r-v
+\begin{figure}
+    \centering
+    \includegraphics[scale=0.3]{figure/spettro_rv.jpg}
+    \caption{Esempio di spettri di tipo V e R. Gli spettri sono normalizzati a $0.55\,\mu m$. Tra parentesi è riportato il range di albedo in percentuale. (Magrin, 2006)}
+    \label{spettro_rv}
+\end{figure}
 
 \paragraph*{Classe V}
 Questa classe fu proposta per (4) Vesta. Il suo spettro è caratterizzato da forti assorbimenti centrati vicino a $1$ e $2\,\mu m$, dovuti ai pirosseni.\\
@@ -296,15 +330,32 @@ Circa due terzi degli oggetti del gruppo C appaiono idratati, dall'analisi dello
 
 \paragraph*{Classe D}
 Gli spettri degli asteroidi di classe D sono generalmente senza caratteristiche particolari, con spettri tendenti leggermente verso il rosso attorno a $0.55\,\mu m$ e spettri molto rossi dopo $0.55\,\mu m$. Hanno, inoltre, albedo molto bassi ($\leq 0.05$).\\
-Sono situati nella Main Belt esterna e tra i Troiani di Giove, di cui costituiscono il 60\% della popolazione totale. È stato ipotizzato che questi asteroidi siano composti da una complessa miscela di materiale organico e di regolite\footnote[1]{La regolite è uno strato di frammenti rocciosi incoerenti che forma il terreno superficiale dei vari oggetti nel Sistema Solare.} e che provengano dalla Kuiper Belt.
+Sono situati nella Main Belt esterna e tra i Troiani di Giove, di cui costituiscono il 60\% della popolazione totale. È stato ipotizzato che questi asteroidi siano composti da una complessa miscela di materiale organico e di regolite\footnote{La regolite è uno strato di frammenti rocciosi incoerenti che forma il terreno superficiale dei vari oggetti nel Sistema Solare.} e che provengano dalla Kuiper Belt.
 
-%%spettro classe D
+\begin{figure}
+    \centering
+    \includegraphics[scale=0.3]{figure/spettro_bgc.jpg}
+    \caption{Esempio di spettri di tipo B, G e C. Gli spettri sono normalizzati a $0.55\,\mu m$. La scala verticale è ampliata per rendere apprezzabili le differenze tra le classi. Tra parentesi è riportato il range di albedo in percentuale. (Magrin, 2006)}
+    \label{spettro_bgc}
+\end{figure}
+
+\begin{figure}
+    \centering
+    \includegraphics[scale=0.3]{figure/spettro_d.jpg}
+    \caption{Esempio di spettro di tipo D. Lo spettro è normalizzato a $0.55\,\mu m$. Tra parentesi è riportato il range di albedo in percentuale. (Magrin, 2006)}
+    \label{spettro_d}
+\end{figure}
 
 \paragraph*{Classe E}
 GLi asteroidi di classe E hanno uno spettro senza caratteristiche, molto simile a quello della classe M. Si differenziano da questi ultimi per via della loro elevata albedo, superiore a $0.3$. La composizione superficiale dovrebbe essere costituita da silicati poveri di ferro, come enstatite e feldspato.\\
 Il gruppo degli Hungaria contiene la metà degli asteroidi di classe E noti. Si crede che alcuni NEO di questo gruppo siano i corpi progenitori delle aubriti, una sottoclasse delle meteoriti acondriti.
 
-%%spettro classe E e M
+\begin{figure}
+    \centering
+    \includegraphics[scale=0.3]{figure/spettro_em.jpg}
+    \caption{Esempio di spettri di tipo E e M. Gli spettri sono normalizzati a $0.55\,\mu m$. Tra parentesi è riportato il range di albedo in percentuale. (Magrin, 2006)}
+    \label{spettro_em}
+\end{figure}
 
 \paragraph*{Classe M}
 Si tratta del terzo gruppo più numeroso. Gli spettri sono caratterizzati da un leggero arrossamento e senza particolari caratteristiche. Gli asteroidi di questa classe hanno albedo comprese tra $0.1$ e $0.2$. I dati suggeriscono che la composizione è principalmente ferro e nichel, suggerendo che questi oggetti siano i nuclei metallici differenziati di oggetti più grandi andati distrutti. Si ritengono essere quindi i progenitori delle meteoriti metalliche.
@@ -313,14 +364,23 @@ Si tratta del terzo gruppo più numeroso. Gli spettri sono caratterizzati da un 
 Gli asteroidi di classe T sono molto rari e hanno albedo molto basse ($\leq 0.1$) con spettri leggermente rossi vero $0.85\,\mu m$. Si ritiene che siano composti da materiale carbonaceo fortemente
 alterato (o termicamente o dall'azione dell'acqua).
 
-%%spettro classe T
+\begin{figure}
+    \centering
+    \includegraphics[scale=0.3]{figure/spettro_t.jpg}
+    \caption{Esempio di spettro di tipo T. Lo spettro è normalizzato a $0.55\,\mu m$. Tra parentesi è riportato il range di albedo in percentuale. (Magrin, 2006)}
+    \label{spettro_t}
+\end{figure}
 
 \subsection{Tassonomia di Bus}
 I dati della SMASSII\footnote{\href{http://smass.mit.edu/smass.html}{http://smass.mit.edu/smass.html}} (Small Main-Belt Asteroid Spectroscopic Survey) hanno fornito delle nuove base oer una tassonomia. Bus \& Binzel (2002b) and Bus \& Binzel (2002a) hanno costruito il loro sistema di classificazione basandosi sulle tassonomie pre-esistenti. In particolare hanno definito tre gruppi principali: S-, C- e X-complex, corrispondenti alle definizioni classiche dei tipi S, C e X. Di conseguenza sono state definite 26 classi sulla base della presenza o assenza di alcune caratteristiche spettrali. Di queste 26 classi, 12 hanno una designazione a una lettera: A, B, C, D, K, O, Q, R, S, T, V e X. Una nuova classe, la L, è stata introdotta per descrivere gli oggetti con una pendenza molto ripida nell'UV, vicino a $0.75\,\mu m$, ma con uno spettro piatto oltre i $0.75\,\mu m$. Asteroidi con caratteristiche intermedie sono associati a classi multi-lettera: Cb, Cg, Cgh, Ch, Ld, Sa, Sk, Sl, Sq, Sr, Xc, Xe, e Xk. I membri delle classi Cgh- e Ch- hanno spettri contenenti un assorbimento a $0.7\,\mu m$ legato all'idratazione.\\
 Un nuovo asteroide può quindi venire facilmente classificato all’interno di una di queste classi solamente sulla base delle sue caratteristiche spettrali. Di seguito un riassunto delle chiavi tassonomiche della classificazione di Bus-DeMeo.
 
-%%Immagine bus-demeo
-
+\begin{figure}[t]
+    \centering
+    \includegraphics[scale=0.44]{figure/spettro_bus.jpg}
+    \caption{Spettri dei tipi tassonomici introdotti da Bus e Binzel. (DeMeo et al., 2009)}
+    \label{spettro_bus}
+\end{figure}
 \section{Space Weathering (foorse)}
 
 
