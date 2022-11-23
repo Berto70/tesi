@@ -5,6 +5,7 @@
 \usepackage{amssymb,amsmath,amsthm,amsfonts}
 \usepackage{xspace}
 \usepackage{tabularx}
+\usepackage{hyperref}
 \usepackage{indentfirst}
 \usepackage{subfigure}
 \usepackage[small]{caption}
@@ -232,7 +233,7 @@ Sono oggetti con $a\geq 30$ AU e sono divisi nei seguenti gruppi:
 Tra i NEO esiste una categoria di oggetti che riveste un ruolo importante: sono gli asteroidi potenzialmente pericolosi, Potentially Hazardous Asteroids (PHA). Rientrano in questa categoria tutti gli oggetti la cui minima distanza all'intersezione dell'orbita terrestre (Minimum Orbit Intersection Distance - MOID) è inferiore a 0.05 AU e la cui magnitudine assoluta H è minore di 22. Sono, quindi, quegli asteroidi che se impattassero con la Terra provocherebbero danni su larga scala, anche globale. Ad oggi si conoscono più di 2500 PHA, la maggior parte dei quali sono della famiglia Apollo, e ogni giorni vengo aggiunti o rimossi oggetti sulla base di nuovi risultati sulla base dei parametri orbitali.\\
 La determinazione dell'orbita avviene sulla base delle osservazioni disponibili ed è definita da sei parametri orbitali, influenzati da diversi fattori. Quindi non si può determinare immediatamente con sufficiente accuratezza l'orbita ma servono osservazioni costanti nel tempo.\\
 Al momento della scoperta di un PHA si determina l'orbita per i successivi 100 anni. Si possono determinare in tal modo i passaggi ravvicinati (fly-by) che l'asteroide avrà con la Terra e, conoscendo la regione di incertezza, la probabilità di collisione con la stessa.
-I PHA con una probabilità non nulla di impatto con la Terra nei futuri 100 anni vengono catalogati nella Sentry Risk Table\footnote{https://cneos.jpl.nasa.gov/sentry/}, un sistema informatico gestito dal CNEOS (Center for Near-Earth Object Studies).\\
+I PHA con una probabilità non nulla di impatto con la Terra nei futuri 100 anni vengono catalogati nella Sentry Risk Table\footnote{\href {https://cneos.jpl.nasa.gov/sentry/}{https://cneos.jpl.nasa.gov/sentry/} }, un sistema informatico gestito dal CNEOS (Center for Near-Earth Object Studies).\\
 Oltre alla probabilità di collisione e alcune caratteristiche dell’oggetto (magnitudine assoluta, diametro) nella tabella vengono riportati i valori dell’asteroide sulla Scala Torino e Scala Palermo. Queste sono due classificazioni che permettono di quantificare il pericolo associato ad ogni asteroide: la Scala Torino è stata pensata per la comunicazione al pubblico, la Scala Palermo è più tecnica e viene usata direttamente dagli astronomi.
 %%direi che ha poco senso mettere due paragrafi sulla scala milano e torino, ma non costa nulla
 
@@ -258,9 +259,65 @@ Barucci et al., nel 1987, usarono sette colori spettrofotometrici e gli albedo r
 Infine, Bus e Binzel (Bus \& Binzel (2002b), Bus \& Binzel (2002a)) hanno derivato la loro classificazione tassonomica da dati spettrofotometrici recenti.
 
 \subsection{Tassonomia di Tholen}
+Ognuna delle tassonomie menzionate sopra separa gli asteroidi in diverse classi secondo riflettività e albedo visuali (nel visibile) simili. Sebbene non viene usato nessun criterio mineralogico nel definire le classi, la tassonomia può essere usata per derivare la caratterizzazione mineralogica di ogni asteroide nelle varie classi.\\
+Di seguito descriveremo brevemente le principali caratteristiche di ogni classe della tassonomia di Tholen e la loro relazione con le meteoriti.
+
+\paragraph*{Classe A}
+Gli asteroidi di tipo A mostrano una forte decrescita nella riflettanza attorno a $0.7\,\mu m$, relativa a composti metallici, e un forte banda di assorbimento centrata attorno a $1\,\mu m$ e nessun assorbimento rilevante a $2\,\mu m$ (caratteristica dei pirosseni).\\
+Sono asteroidi molto rari, situati principale nella Main Belt interna. Si ritiene che questi oggetti siano frammenti del mantello differenziato di corpi progenitori di dimensioni maggiori.\\
+Le analoghe meteoriti sono le acondrite a olivina e/o pallasite.
+
+%%immagine spettro q-s-a
+
+\paragraph*{Classe S}
+Rappresenta la seconda classe più numerosa ed è caratterizzata da spettri con una pendenza ripida attorno a $0.7\,\mu m$ e assorbimenti moderati attorno a $1$ e $2\,\mu m$. La loro albedo varia tra $0.1$ e $0.3$. Lo spettro tipico degli asteroidi di tipo S indica la presenza di un mix di olivine, pirosseni e metalli Fe-Ni; in particolare di silicati: ciò li rende i corpi progenitori più probabili per le meteoriti rocciose.\\
+A causa della classificazione di Tholen sono stati introdotti diversi sottogruppi definiti in base alle diverse composizioni e storie evolutive degli asteroidi.\\
+Gli asteroidi di tipo S sono situati principalmente nella Main Belt interna e diventano più rari spostandosi verso l'esterno.
+
+\paragraph*{Classe Q}
+È una classe di oggetti molto scarna, i pochi corpi di questo tipo sono NEO ma nessuno appartiene alla Main Belt. Un ottimo rappresentante della classe è il NEO (1862) Apollo. Lo spettro è fortemente arrossato attorno a $0.7\,\mu m$ e ha due forti assorbimenti a $1$ e $2\,\mu m$, caratteristiche proprie di un mix di olivine e pirosseni.\\
+Questi spettri sono simili a quelli delle condriti ordinarie (CO), che rappresentano circa l'80\% delle meteoriti trovate sulla superficie terrestre. Ciò indicherebbe che gli asteroidi di tipo Q siano i progenitori di queste meteoriti e quindi dovrebbero essere molto numerosi, in contrasto con le osservazioni.
+
+\paragraph*{Classe R}
+Questa classe fu inizialmente proposta unicamente per (349) Dembowska. Il suo spettro mostra forti assorbimenti a $1$ e $2\,\mu m$, simili a quelli di Vesta. Dembowska, a differenza di Vesta, presenta caratteristiche allargate verso lunghezze d'onda maggiori, mentre l'assorbimento a $2\,\mu m$ è più stretto e centrato su lunghezze d'onda minori.\\
+Le caratteristiche spettrali indicano la presenza di olivine e pirosseni (circa in eguali quantità) e pochi o alcun metalli. 
+
+%%Immagine spettro classe r-v
+
+\paragraph*{Classe V}
+Questa classe fu proposta per (4) Vesta. Il suo spettro è caratterizzato da forti assorbimenti centrati vicino a $1$ e $2\,\mu m$, dovuti ai pirosseni.\\
+All'incirca il 6\% degli asteroidi della Main Belt rientra all'interno di questo gruppo. La maggior parte degli asteroidi di tipo V, noti come vestoidi, orbitano nelle vicinanze di Vesta, il che suggerisce che siano dei suoi frammenti generatisi in seguito a impatti con altri corpi. Alcuni NEA sono risultati essere vestoidi: ciò dimostra l'efficacia dei meccanismi di trasporto degli asteroidi dalla Main Belt alle regioni del Sistema Solare interno.
+
+\paragraph*{Classe C}
+In letteratura ci si riferisce al gruppo C come un grande gruppo di oggetti scuri e primitivi. Contiene infatti circa il 75\% degli asteroidi noti. Questi oggetti dominano nelle regioni esterne della Main Belt, dove compongono l'80\% di tutta la popolazione, ma diventano più rari spostandosi verso l'interno.\\
+Gli asteroidi di tipo C non presentano alcuna caratteristica attorno a $0.4\,\mu m$ ma hanno diverse intensità di assorbimento nell'UV. All'interno di questa classe sono state introdotte le sottoclassi C, B, F, G e P.\\
+La classe P non ha assorbimenti nell'UV, la classe F ne ha uno debole, B e C leggermente più intenso e la classe G ha l'assorbimento UV più intenso di tutto il gruppo C. La classe B ha uno spettro da piatto e leggermente blu mentre la classe C da piatto a leggermente rosso. Bell et al. (1989) ha proposto un modello per interpretare le diversità nel gruppo C: le classi B, F e G sarebbero il risultato di un'alterazione metamorfica di un progenitore di classe C. La classe P, che si trova principalmente nella parte esterna della Main Belt, si pensa sia costituita da materiale primitivo contenente una gran quantità di materiale organico, e potrebbe essere una classe di transizione tra C e gli oggetti molto primitivi della classe D.\\
+Circa due terzi degli oggetti del gruppo C appaiono idratati, dall'analisi dello spettro attorno a $3\,\mu m$ e nella regione del visibile, probabilmente perché sono stati scaldati al punto che acqua liquida è entrata in contatto con il materiale circostante.
+
+\paragraph*{Classe D}
+Gli spettri degli asteroidi di classe D sono generalmente senza caratteristiche particolari, con spettri tendenti leggermente verso il rosso attorno a $0.55\,\mu m$ e spettri molto rossi dopo $0.55\,\mu m$. Hanno, inoltre, albedo molto bassi ($\leq 0.05$).\\
+Sono situati nella Main Belt esterna e tra i Troiani di Giove, di cui costituiscono il 60\% della popolazione totale. È stato ipotizzato che questi asteroidi siano composti da una complessa miscela di materiale organico e di regolite\footnote[1]{La regolite è uno strato di frammenti rocciosi incoerenti che forma il terreno superficiale dei vari oggetti nel Sistema Solare.} e che provengano dalla Kuiper Belt.
+
+%%spettro classe D
+
+\paragraph*{Classe E}
+GLi asteroidi di classe E hanno uno spettro senza caratteristiche, molto simile a quello della classe M. Si differenziano da questi ultimi per via della loro elevata albedo, superiore a $0.3$. La composizione superficiale dovrebbe essere costituita da silicati poveri di ferro, come enstatite e feldspato.\\
+Il gruppo degli Hungaria contiene la metà degli asteroidi di classe E noti. Si crede che alcuni NEO di questo gruppo siano i corpi progenitori delle aubriti, una sottoclasse delle meteoriti acondriti.
+
+%%spettro classe E e M
+
+\paragraph*{Classe M}
+Si tratta del terzo gruppo più numeroso. Gli spettri sono caratterizzati da un leggero arrossamento e senza particolari caratteristiche. Gli asteroidi di questa classe hanno albedo comprese tra $0.1$ e $0.2$. I dati suggeriscono che la composizione è principalmente ferro e nichel, suggerendo che questi oggetti siano i nuclei metallici differenziati di oggetti più grandi andati distrutti. Si ritengono essere quindi i progenitori delle meteoriti metalliche.
+
+\paragraph*{Classe T}
+Gli asteroidi di classe T sono molto rari e hanno albedo molto basse ($\leq 0.1$) con spettri leggermente rossi vero $0.85\,\mu m$. Si ritiene che siano composti da materiale carbonaceo fortemente
+alterato (o termicamente o dall'azione dell'acqua).
+
+%%spettro classe T
 
 \subsection{Tassonomia di Bus}
-Tassonomia di Bus
+
+
 \section{Space Weathering (foorse)}
 
 
@@ -288,9 +345,3 @@ Tassonomia di Bus
 
 
 \end{document}
-
-
-
-
-
-
