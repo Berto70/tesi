@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/W32TeX) (preloaded format=pdflatex 2020.2.13)  23 NOV 2022 16:38
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/W32TeX) (preloaded format=pdflatex 2020.2.13)  23 NOV 2022 16:43
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -228,11 +228,11 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 {c:/texlive/2019/texmf-var/fonts/map/pdftex/updmap/pdftex.map} <./figure/UNIPD.
 png>] ) 
 Here is how much of TeX's memory you used:
- 2839 strings out of 481242
- 41112 string characters out of 5921895
- 291311 words of memory out of 5000000
- 18088 multiletter control sequences out of 15000+600000
- 536296 words of font info for 37 fonts, out of 8000000 for 9000
+ 2840 strings out of 481242
+ 41129 string characters out of 5921895
+ 291314 words of memory out of 5000000
+ 18089 multiletter control sequences out of 15000+600000
+ 536597 words of font info for 38 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  31i,14n,39p,230b,250s stack positions out of 30000i,500n,32767p,200000b,80000s
 <c:/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb><c
