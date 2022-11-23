@@ -6,9 +6,10 @@
 \usepackage{amssymb,amsmath,amsthm,amsfonts}
 \usepackage{xspace}
 \usepackage{indentfirst}
+\usepackage{graphicx}
 \usepackage{tabularx}
 \usepackage[pdfa]{hyperref}
-\usepackage{indentfirst}
+\usepackage[noabbrev,capitalize, italian]{cleveref}
 \usepackage{subfigure}
 \usepackage[small]{caption}
 \usepackage{eucal}
@@ -23,6 +24,7 @@
 \usepackage{textcomp}
 \usepackage{cite}
 \usepackage{multirow}
+\usepackage{adjustbox}
 \usepackage[utf8]{inputenc}   %per riuscire a scrivere gli accenti
 \usepackage[italian, english]{babel}   %per riuscire a scrivere gli accenti
 \usepackage{setspace}
@@ -160,20 +162,23 @@ Nei prossimi giorni seguiranno aggiornamenti sulla missione.
 
 Dal 1801, quando Giuseppe Piazzi scoprì il primo corpo minore Cerere, categorizzato poi come asteroide, per sottolineare le differenze apparenti rispetto alle comete, si sono scoperti e categorizzati più di 1 milione di asteroidi\footnote{\href{https://solarsystem.nasa.gov/asteroids-comets-and-meteors/asteroids/overview/}{https://solarsystem.nasa.gov/asteroids-comets-and-meteors/asteroids/overview/}} La maggior parte orbita tra Marte e Giove e forma quella che è chiamata Main Belt (2-3.3 AU).
 
-Esistono numerosi gruppi di asteroidi, a diverse distanze dal Sole. Nella Tabella sono riportati i principali gruppi e famiglie, con le loro classificazioni dinamiche.
+Esistono numerosi gruppi di asteroidi, a diverse distanze dal Sole. Nella \cref{tab:asteroid-classification} sono riportati i principali gruppi e famiglie, con le loro classificazioni dinamiche.
 
 In questo capitolo verranno descritte brevemente le principali caratteristiche. La loro definizione è spesso legata alla risonanza con Giove o Nettuno, mentre altri gruppi sono definiti dall'intersezione della loro orbita con quella di un pianeta (i.e. Near Earth Objects e Mars Crossers).
 
-\subsection{Effetto Yarkovsky} %%aggiusta con info tesi balossi
-L’effetto Yarkovsky è una forza percepita da un corpo dovuta all’emissione anisotropa di fotoni termici, che trasportano momento. La sua influenza è più significativa per meteoroidi e piccoli asteroidi (da 10 cm a 10 km di diametro).
+\subsection{Effetto Yarkovsky}
+L’effetto Yarkovsky è una forza percepita da un corpo dovuta all’emissione anisotropa di fotoni termici, che trasportano momento. La sua influenza è più significativa per meteoroidi e piccoli asteroidi (da 10 cm a 10 km di diametro). %%ref 20 tesi balossi
 
 L’effetto fu scoperto da Ivan Osipovich Yarkovsky, che notò come il riscaldamento diurno di un oggetto rotante nello spazio causasse una piccola forza sull’oggetto che avrebbe avuto effetti a lungo termine sulla sua orbita.
 
-L’effetto è dovuto a due componenti:\\
-\textit{Effetto diurno}: su un corpo rotante illuminato dal Sole, la superficie è più calda nel pomeriggio e nella prima parte della notte, rispetto alla mattina e a notte tarda. Il risultato è che viene radiato più calore dal lato notturno, rispetto a quello diurno, e, al netto, agisce una forza dovuta alla pressione di radiazione nella direzione opposta alla notte. Per oggetti rotanti in modo progrado, questa forza è nella direzione della loro orbita e il semiasse maggiore, nel lungo periodo, tende ad aumentare. Situazione opposta per gli oggetti che ruotano in modo retrogrado.
+L’effetto è dovuto a due componenti:
 
 
-\textit{Effetto stagionale}: per oggetti rotanti, l’effetto stagionale aumenta con l’inclinazione assiale. Esso domina solo se l’effetto diurno è abbastanza piccolo.
+\qquad \textit{Effetto diurno}: su un corpo rotante illuminato dal Sole, la superficie è più calda nel pomeriggio e nella prima parte della notte, rispetto alla mattina e a notte tarda. Il risultato è che viene radiato più calore dal lato notturno, rispetto a quello diurno, e, al netto, agisce una forza dovuta alla pressione di radiazione nella direzione opposta alla notte. Per oggetti rotanti in modo progrado, questa forza è nella direzione della loro orbita e il semiasse maggiore, nel lungo periodo, tende ad aumentare. Situazione opposta per gli oggetti che ruotano in modo retrogrado.
+
+
+\qquad \textit{Effetto stagionale}: questa seconda tipologia tiene conto del fatto che nel corso di un anno uno dei due emisferi dell’asteroide risulta maggiormente esposto alla radiazione solare rispetto all’altro. Per oggetti rotanti, l’effetto stagionale aumenta con l’inclinazione assiale. Esso domina solo se l’effetto diurno è abbastanza piccolo.
+%%ref 25 tesi balossi
 L’effetto stagionale potrebbe avvenire per:
 
 \begin{itemize}
@@ -184,13 +189,20 @@ L’effetto stagionale potrebbe avvenire per:
 
 Anche questo effetto ha ripercussioni sul semiasse maggiore, e nell’ordine dei milioni di anni può portare un asteroide dalla Main Belt al Sistema Solare interno.
 
+\begin{figure}
+    \centering
+    \includegraphics[scale=0.3]{figure/yark.jpg}
+    \caption{Visualizzazione dell'effetto Yarkovsky diurno (a sinistra) e stagionale (a destra). (Credit: Bottkle et al., 2002)}
+    \label{yark}
+\end{figure}
+
 \paragraph*{Effetto YORP}
-L’effetto Yarkovsky-O'Keefe-Radzievskii-Paddack (YORP) è un variazione al 2o ordine dell’effetto Yarkovsky che causa l’aumentare o il diminuire della velocità di rotazione (o spin) di un piccolo corpo, come un asteroide.\\
+L’effetto Yarkovsky-O'Keefe-Radzievskii-Paddack (YORP) è un variazione al secondo ordine dell’effetto Yarkovsky che causa l’aumentare o il diminuire della velocità di rotazione (o spin) di un piccolo corpo, come un asteroide.\\
 Nel lungo termine, l'inclinazione e il tasso di rotazione dell'oggetto possono variare in modo casuale, in modo caotico o regolare, a seconda di molti fattori.
 
 \section{Distribuzione e classificazione dinamica}
 In questo capitolo verrà decritta la classificazione in gruppi e famiglie.
-La classificazione è riassunta nella Tabella.\\
+La classificazione è riassunta nella \cref{tab:asteroid-classification} .\\
 I corpi minori sono divisi in gruppi e famiglie in base alle loro caratteristiche orbitali. 
 Groups are relatively loose dynamical associations, whereas families are tighter e sono probabilmente il risultato di una distruzione catastrofica di un asteroide “genitore” (in inglese è tutto così bello “parent asteroid”).
 
@@ -208,6 +220,52 @@ dove \textit{a} e \textit{e} sono rispettivamente il semiasse maggiore e l'eccen
 I Near Earth Objects (NEOs) rappresentano un gruppo eterogeneo di asteroidi (NEAs) e nuclei cometari estinti (NECs) che hanno orbite con un perielio minore di quello di Marte: $q<1.3$ AU. Si ritiene che i NEOs siano la principale fonte di meteoriti che arrivano sulla Terra.\\
 In base alla relazione tra la loro orbita e quella della Terra sono catalogati in diversi sotto-gruppi: \textit{Atens} e \textit{Apollo} sono Earth Crossers (i.e. intersecano l’orbita della Terra), mentre gli \textit{Amors} si avvicinano alla Terra ma non intersecano mai la sua orbita. Gli Atens hanno un semiasse maggiore più piccolo di quello della Terra ($a<1$ AU) mentre gli Apollo hanno $a>1$ AU.
 
+
+\begin{table}
+    
+    \begin{center}
+    \resizebox{\linewidth}{!}{%
+    
+    \begin{tabular}{cccccc}
+      \toprule
+      \toprule
+      \bf{Popolazione} & \bf{Famiglia/Gruppo} & \bf{a}     & \bf{q}     & \bf{Q}     & \bf{Commento} \\
+      \midrule
+      NEAs        &                 &       &       &       &           \\
+                  & Atens           & $<1$  &              & $\geq 0.983$ & Earth Crossers     \\
+                  & Apollos         & $>1$  & $\leq 1.017$ &              & Earth Crossers \\
+                  & Amors           & $>1$  & $(1.017,1.3)$ &             &  \\
+      \midrule
+      Mars Crossers &               &       & $[1.3,1.67]$ &             &  \\
+      \midrule
+      \midrule
+      \bf{Popolazione} & \bf{Famiglia/Gruppo} & \bf{a}     & \bf{e}     & \bf{i}     & \bf{Risonanze} \\
+      \midrule
+      Main Belt Asteroids &       &       &       &       &  \\
+            & Hungarians & $[1.78,2.06]$ & $<0.18$ & $[16,34]$ & $[5:1, 4:1]$ \\
+            & Inner MB & $[2.06,2.50]$ &       & $[18,32]$ & $[4:1,3:1]$ \\
+            & Middle MB & $[2.50,2.82]$ &       &       & $[3:1,5:2]$ \\
+            & Outer MB & $[2.82,3.28]$ &       &       & $[5:2,2:1]$ \\
+            & Cybeles & $[3.28,3.70]$ & $<0.3$ & $<25$ & $[2:1,5:3]$ \\
+            & Hildas & $\sim 3.97$ & $>0.07$ & $<20$ & $3:2$ \\
+      \midrule
+      Jupiter Trojans &       & $\sim 5.20$ &       &       & $1:1$ \\
+      \midrule
+      Centaurs &       & $[5.4,30]$ &       &       &  \\
+      \midrule
+      Neptune Trojans &       & $\sim 30$ &       &       & 1:1 Nep \\
+      \midrule
+      TNOs (o KBOs) &       & $>32$ &       &       & $[4:5, 2:3]$ \\
+            &       &       &       &       & $[3:5, 1:2]$ \\
+      \bottomrule
+      \bottomrule
+    \end{tabular}}%
+    \end{center}
+    \caption[Lista e definizioni delle principali popolazioni di asteroidi]{Lista e definizioni dei principali gruppi e famiglie di asteroidi. Il semiasse maggiore $a$, il perielio $q$ e l'afelio $Q$ sono espressi in AU; l'inclinazione $i$ in gradi. $e$ è l'eccentricità. Le risonanze, dove non è indicato, si riferiscono all'orbita di Giove.}
+    \label{tab:asteroid-classification}
+\end{table}%
+  
+
 \paragraph*{Mars Crossers}
 Come fa intendere il nome, i \textit{Mars Crossers} sono oggetti che intersecano l’orbita di Marte.\\
 È stato mostrato che la popolazione dei Mars Crossers, che è circa 4 volte più grande di quella dei NEOs, è rifornita da risonanze diffusive nella Main Belt (Migliorini et al. 1998; Morbidelli \& Nesvorny 1999; Michel et al. 2000; Bottke et al. 2002), dalla regione chiamata “intermediate-source Mars-crossing region” o IMC.
@@ -216,17 +274,17 @@ Come fa intendere il nome, i \textit{Mars Crossers} sono oggetti che intersecano
 Si tratta di asteroidi situati tra le orbite di Marte e Giove. La maggior concentrazione si trova tra 2.0 e 3.3 AU.\\
 A causa delle risonanze orbitali dovute all’influenza gravitazionale di Giove, si vengono a creare molti gruppi, sotto-gruppi e famiglie. Di seguito sono riportati i più popolosi.
 
-\textit{Hungaria}: prendono il nome da 434 Hungaria. Hanno un semiasse maggiore tra 1.78 e 2.06 AU, un’eccentricità minore di 0.18 e un’inclinazione tra 16° e 34°. 
+\qquad \textit{Hungaria}: prendono il nome da (434) Hungaria. Hanno un semiasse maggiore tra 1.78 e 2.06 AU, un’eccentricità minore di 0.18 e un’inclinazione tra 16° e 34°. 
 
-\textit{Inner Main Belt}: hanno un semiasse maggiore tra 2.06 e 2.50 AU, limiti definiti dalle risonanze di moto medio 4:1 e 3:1.
+\qquad \textit{Inner Main Belt}: hanno un semiasse maggiore tra 2.06 e 2.50 AU, limiti definiti dalle risonanze di moto medio 4:1 e 3:1.
 
-\textit{Middle Main Belt}: hanno un semiasse maggiore tra 2.50 e 2.82 AU. I limiti sono definiti dalle risonanze di moto medio 3:1 e 5:2.
+\qquad \textit{Middle Main Belt}: hanno un semiasse maggiore tra 2.50 e 2.82 AU. I limiti sono definiti dalle risonanze di moto medio 3:1 e 5:2.
 
-\textit{Outer Main Belt}: hanno un semiasse maggiore tra 2.82 e 3.28 AU. All’interno del gruppo troviamo le famiglie \textit{Koronis}, \textit{Eos} e \textit{Themis}.
+\qquad \textit{Outer Main Belt}: hanno un semiasse maggiore tra 2.82 e 3.28 AU. All’interno del gruppo troviamo le famiglie \textit{Koronis}, \textit{Eos} e \textit{Themis}.
 
-\textit{Cybele}: hanno un semiasse maggiore tra 3.28 e 3.70 AU. Prendono il nome da 65 Cybele.
+\qquad \textit{Cybele}: hanno un semiasse maggiore tra 3.28 e 3.70 AU. Prendono il nome da (65) Cybele.
 
-\textit{Hilda}: hanno un semiasse maggiore medio tra 3.70 e 4.20 AU. Prendono il nome da 153 Hilda.
+\qquad \textit{Hilda}: hanno un semiasse maggiore medio tra 3.70 e 4.20 AU. Prendono il nome da (153) Hilda.
 
 \paragraph*{Jupiter Family Comets}
 Le comete sono divise in due gruppi: comete a lungo periodo e comete a corto periodo.\\
@@ -247,25 +305,25 @@ Sono probabilmente più simili a comete che ad asteroidi, e uno di questi, Chiro
 \paragraph*{Trans Neptunian Objects}
 Sono oggetti con $a\geq 30$ AU e sono divisi nei seguenti gruppi:
 
-\textit{Kuiper Belt Objects}: si trovano tra 41 e 47 AU. A sua volta si divide nei sotto-gruppi dei \textit{Plutinos}, in risonanza 3:2 con Nettuno come Plutone e dei \textit{Cubewanos}, conosciuti come i classici KBOs.
+\qquad \textit{Kuiper Belt Objects}: si trovano tra 41 e 47 AU. A sua volta si divide nei sotto-gruppi dei \textit{Plutinos}, in risonanza 3:2 con Nettuno come Plutone e dei \textit{Cubewanos}, conosciuti come i classici KBOs.
 
-\textit{Scattered-Disk Objects (SDOs)}: hanno orbite molto grandi e molto ellittiche, probabilmente dovute a un’interazione con Nettuno.
+\qquad \textit{Scattered-Disk Objects (SDOs)}: hanno orbite molto grandi e molto ellittiche, probabilmente dovute a un’interazione con Nettuno.
 
-\textit{Oort Cloud Objects (OCOs)}: la Oort Cloud è una shell sferica di oggetti ghiacciati, di cui non si ha evidenza diretta perché troppo lontana e scura ma ipotizzata come luogo di origine delle comete a lungo/lunghissimo periodo. Si trova tra circa 50000 e 100000 AU.
+\qquad \textit{Oort Cloud Objects (OCOs)}: la Oort Cloud è una shell sferica di oggetti ghiacciati, di cui non si ha evidenza diretta perché troppo lontana e scura ma ipotizzata come luogo di origine delle comete a lungo/lunghissimo periodo. Si trova tra circa 50000 e 100000 AU.
 
 \section{Potentially Hazardous Asteroids (PHA)}
 Tra i NEO esiste una categoria di oggetti che riveste un ruolo importante: sono gli asteroidi potenzialmente pericolosi, Potentially Hazardous Asteroids (PHA). Rientrano in questa categoria tutti gli oggetti la cui minima distanza all'intersezione dell'orbita terrestre (Minimum Orbit Intersection Distance - MOID) è inferiore a 0.05 AU e la cui magnitudine assoluta H è minore di 22. Sono, quindi, quegli asteroidi che se impattassero con la Terra provocherebbero danni su larga scala, anche globale. Ad oggi si conoscono più di 2500 PHA, la maggior parte dei quali sono della famiglia Apollo, e ogni giorni vengo aggiunti o rimossi oggetti sulla base di nuovi risultati sulla base dei parametri orbitali.\\
 La determinazione dell'orbita avviene sulla base delle osservazioni disponibili ed è definita da sei parametri orbitali, influenzati da diversi fattori. Quindi non si può determinare immediatamente con sufficiente accuratezza l'orbita ma servono osservazioni costanti nel tempo.\\
 Al momento della scoperta di un PHA si determina l'orbita per i successivi 100 anni. Si possono determinare in tal modo i passaggi ravvicinati (fly-by) che l'asteroide avrà con la Terra e, conoscendo la regione di incertezza, la probabilità di collisione con la stessa.
 I PHA con una probabilità non nulla di impatto con la Terra nei futuri 100 anni vengono catalogati nella Sentry Risk Table\footnote{\href {https://cneos.jpl.nasa.gov/sentry/}{https://cneos.jpl.nasa.gov/sentry/} }, un sistema informatico gestito dal CNEOS (Center for Near-Earth Object Studies).\\
-Oltre alla probabilità di collisione e alcune caratteristiche dell’oggetto (magnitudine assoluta, diametro) nella tabella vengono riportati i valori dell’asteroide sulla Scala Torino e Scala Palermo. Queste sono due classificazioni che permettono di quantificare il pericolo associato ad ogni asteroide: la Scala Torino è stata pensata per la comunicazione al pubblico, la Scala Palermo è più tecnica e viene usata direttamente dagli astronomi.
+Oltre alla probabilità di collisione e alcune caratteristiche dell’oggetto (magnitudine assoluta, diametro) nella \cref{tab:asteroid-classification} vengono riportati i valori dell’asteroide sulla Scala Torino e Scala Palermo. Queste sono due classificazioni che permettono di quantificare il pericolo associato ad ogni asteroide: la Scala Torino è stata pensata per la comunicazione al pubblico, la Scala Palermo è più tecnica e viene usata direttamente dagli astronomi.
 %%direi che ha poco senso mettere due paragrafi sulla scala milano e torino, ma non costa nulla
 
 \chapter{Spettroscopia}
 
 \section{Introduzione}
 Lo studio della mineralogia superficiale di singoli asteroidi o di gruppi di asteroidi può fornire i dati per migliorare la nostra comprensione della loro origine ed evoluzione. La superficie degli asteroidi può essere studiata dall'interpretazione delle proprietà osservabili per determinare la presenza, l'abbondanza e la composizione mineralogica.\\
-La spettroscopia di riflettanza nel visibile (Vis) e nell'infrarosso (IR) viene ampiamente usata per determinare la composizione degli asteroidi poiché può caratterizzare la composizione superficiale della maggior parte dei tipi di asteroidi. Le caratteristiche diagnostiche negli spettri, che derivano da transizioni elettroniche e vibrazionali all'interno dei minerali e delle molecole, sono riscontrabili nell'intervallo di frequenza $0.35-2.50\,\mu m$.\\
+La spettroscopia di riflettanza nel visibile (VIS) e nell'infrarosso (IR) viene ampiamente usata per determinare la composizione degli asteroidi poiché può caratterizzare la composizione superficiale della maggior parte dei tipi di asteroidi. Le caratteristiche diagnostiche negli spettri, che derivano da transizioni elettroniche e vibrazionali all'interno dei minerali e delle molecole, sono riscontrabili nell'intervallo di frequenza $0.35-2.50\,\mu m$.\\
 I minerali più importanti presenti negli spettri degli asteroidi sono: olivine, pirosseni, metalli Ferro-Nichel, feldspati e fillosilicati idrati e composti organici.\\
 La maggior parte degli asteroidi è composta da un mix di questi minerali. Poiché i parametri spettrali dei diversi assorbimenti (i.e. la posizione delle bande e il rapporto tra esse) sono legati a una specifica composizione del singolo minerale, l'analisi spettrale della superficie degli asteroidi è in grado, nella maggior parte dei casi, di rilevare le firme mineralogiche caratteristiche di una particolare specie.\\
 La possibilità di rilevare una feature dipende dall'abbondanza della particolare specie, in modo che la forza della feature possa essere rilevata sopra il rumore dello spettro.\\
@@ -350,7 +408,7 @@ Sono situati nella Main Belt esterna e tra i Troiani di Giove, di cui costituisc
 GLi asteroidi di classe E hanno uno spettro senza caratteristiche, molto simile a quello della classe M. Si differenziano da questi ultimi per via della loro elevata albedo, superiore a $0.3$. La composizione superficiale dovrebbe essere costituita da silicati poveri di ferro, come enstatite e feldspato.\\
 Il gruppo degli Hungaria contiene la metà degli asteroidi di classe E noti. Si crede che alcuni NEO di questo gruppo siano i corpi progenitori delle aubriti, una sottoclasse delle meteoriti acondriti.
 
-\begin{figure}
+\begin{figure}[h]
     \centering
     \includegraphics[scale=0.3]{figure/spettro_em.jpg}
     \caption{Esempio di spettri di tipo E e M. Gli spettri sono normalizzati a $0.55\,\mu m$. Tra parentesi è riportato il range di albedo in percentuale. (Magrin, 2006)}
@@ -375,7 +433,7 @@ alterato (o termicamente o dall'azione dell'acqua).
 I dati della SMASSII\footnote{\href{http://smass.mit.edu/smass.html}{http://smass.mit.edu/smass.html}} (Small Main-Belt Asteroid Spectroscopic Survey) hanno fornito delle nuove base oer una tassonomia. Bus \& Binzel (2002b) and Bus \& Binzel (2002a) hanno costruito il loro sistema di classificazione basandosi sulle tassonomie pre-esistenti. In particolare hanno definito tre gruppi principali: S-, C- e X-complex, corrispondenti alle definizioni classiche dei tipi S, C e X. Di conseguenza sono state definite 26 classi sulla base della presenza o assenza di alcune caratteristiche spettrali. Di queste 26 classi, 12 hanno una designazione a una lettera: A, B, C, D, K, O, Q, R, S, T, V e X. Una nuova classe, la L, è stata introdotta per descrivere gli oggetti con una pendenza molto ripida nell'UV, vicino a $0.75\,\mu m$, ma con uno spettro piatto oltre i $0.75\,\mu m$. Asteroidi con caratteristiche intermedie sono associati a classi multi-lettera: Cb, Cg, Cgh, Ch, Ld, Sa, Sk, Sl, Sq, Sr, Xc, Xe, e Xk. I membri delle classi Cgh- e Ch- hanno spettri contenenti un assorbimento a $0.7\,\mu m$ legato all'idratazione.\\
 Un nuovo asteroide può quindi venire facilmente classificato all’interno di una di queste classi solamente sulla base delle sue caratteristiche spettrali. Di seguito un riassunto delle chiavi tassonomiche della classificazione di Bus-DeMeo.
 
-\begin{figure}[t]
+\begin{figure}[h]
     \centering
     \includegraphics[scale=0.44]{figure/spettro_bus.jpg}
     \caption{Spettri dei tipi tassonomici introdotti da Bus e Binzel. (DeMeo et al., 2009)}
