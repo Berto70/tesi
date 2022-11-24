@@ -12,6 +12,7 @@
 \usepackage[noabbrev,capitalize, italian]{cleveref}
 \usepackage{subfigure}
 \usepackage[small]{caption}
+%\usepackage{subcaption}
 \usepackage{eucal}
 \usepackage{eso-pic}
 \usepackage{url}
@@ -156,7 +157,7 @@ Nei prossimi giorni seguiranno aggiornamenti sulla missione.
 
 \mainmatter
 
-\chapter{Corpi minori del Sistema Solare}
+\chapter{Corpi minori del Sistema Solare}\label{ch:ch_1}
 
 %\section{Proprietà generali}
 
@@ -182,7 +183,7 @@ Per la classificazione è utile conoscere le definizioni analitiche di afelio e 
 
 dove \textit{a} e \textit{e} sono rispettivamente il semiasse maggiore e l'eccentricità dell'orbita.
 
-\paragraph*{Near Earth Objects}
+\paragraph*{Near Earth Objects}\label{sec:neo}
 I Near Earth Objects (NEOs) rappresentano un gruppo eterogeneo di asteroidi (NEAs) e nuclei cometari estinti (NECs) che hanno orbite con un perielio minore di quello di Marte: $q<1.3$ AU. Si ritiene che i NEOs siano la principale fonte di meteoriti che arrivano sulla Terra.\\
 In base alla relazione tra la loro orbita e quella della Terra sono catalogati in diversi sotto-gruppi: \textit{Atens} e \textit{Apollo} sono Earth Crossers (i.e. intersecano l’orbita della Terra), mentre gli \textit{Amors} si avvicinano alla Terra ma non intersecano mai la sua orbita. Gli Atens hanno un semiasse maggiore più piccolo di quello della Terra ($a<1$ AU) mentre gli Apollo hanno $a>1$ AU.
 
@@ -277,10 +278,18 @@ Sono oggetti con $a\geq 30$ AU e sono divisi nei seguenti gruppi:
 
 \qquad \textit{Oort Cloud Objects (OCOs)}: la Oort Cloud è una shell sferica di oggetti ghiacciati, di cui non si ha evidenza diretta perché troppo lontana e scura ma ipotizzata come luogo di origine delle comete a lungo/lunghissimo periodo. Si trova tra circa 50000 e 100000 AU.
 
-\section{Potentially Hazardous Asteroids}
+\section{Potentially Hazardous Asteroids}\label{sec:pha}
 Tra i NEO esiste una categoria di oggetti che riveste un ruolo importante: sono gli asteroidi potenzialmente pericolosi, Potentially Hazardous Asteroids (PHA). Rientrano in questa categoria tutti gli oggetti la cui minima distanza all'intersezione dell'orbita terrestre (Minimum Orbit Intersection Distance - MOID) è inferiore a 0.05 AU e la cui magnitudine assoluta H è minore di 22. Sono, quindi, quegli asteroidi che se impattassero con la Terra provocherebbero danni su larga scala, anche globale. Ad oggi si conoscono più di 2500 PHA, la maggior parte dei quali sono della famiglia Apollo, e ogni giorni vengo aggiunti o rimossi oggetti sulla base di nuovi risultati sulla base dei parametri orbitali.\\
 La determinazione dell'orbita avviene sulla base delle osservazioni disponibili ed è definita da sei parametri orbitali, influenzati da diversi fattori. Quindi non si può determinare immediatamente con sufficiente accuratezza l'orbita ma servono osservazioni costanti nel tempo.\\
 Al momento della scoperta di un PHA si determina l'orbita per i successivi 100 anni. Si possono determinare in tal modo i passaggi ravvicinati (fly-by) che l'asteroide avrà con la Terra e, conoscendo la regione di incertezza, la probabilità di collisione con la stessa.
+
+\begin{figure}
+    \centering
+    \includegraphics[scale=0.35]{figure/pha_map.jpg}
+    \caption[Visualizzazione delle orbite dei PHA conosciuti.]{Visualizzazione delle orbite dei PHA conosciuti. Si nota come la zona intorno all'orbita terrestre sia molto popolata. (NASA/JPL-Caltech)}
+    \label{fig:pha_map}
+\end{figure}
+
 I PHA con una probabilità non nulla di impatto con la Terra nei futuri 100 anni vengono catalogati nella Sentry Risk Table\footnote{\href {https://cneos.jpl.nasa.gov/sentry/}{https://cneos.jpl.nasa.gov/sentry/} }, un sistema informatico gestito dal CNEOS (Center for Near-Earth Object Studies).\\
 Oltre alla probabilità di collisione e alcune caratteristiche dell’oggetto (magnitudine assoluta, diametro) nella \cref{tab:asteroid-classification} vengono riportati i valori dell’asteroide sulla Scala Torino e Scala Palermo. Queste sono due classificazioni che permettono di quantificare il pericolo associato ad ogni asteroide: la Scala Torino è stata pensata per la comunicazione al pubblico, la Scala Palermo è più tecnica e viene usata direttamente dagli astronomi.
 %%direi che ha poco senso mettere due paragrafi sulla scala milano e torino, ma non costa nulla
@@ -414,19 +423,74 @@ La missione Double Asteroid Redirection Test (DART) è un dimostratore tecnologi
 \begin{figure}[!h]
     \centering
     \includegraphics[scale=0.5]{figure/DART_mission_patch.png}
-    \caption[Logo della missione DART]{Logo della missione DART. (NASA/Johns Hopkins APL)}
+    \caption[Logo della missione DART]{Logo della missione DART. (NASA/JHU-APL)}
     \label{fig:logo_DART}
 \end{figure}
 
 L'obiettivo principale della missione è quello di dimostrare l'efficacia dello "\textit{impattatore cinetico}" come metodo per la difesa planetaria dai PHA. Il target scelto per testare la tecnologia è il sistema binario di (65803) Didymos, in particolare la sua luna (65803) Didymos I Dimorphos (d'ora in avanti chiamata semplicemente Dimorphos). Il concetto alla base dell'impattatore cinetico è quello di speronare un asteroide con un oggetto massivo con una velocità sufficientemente alta da cambiare l'orbita del corpo. (Rivskin et al., 2021)
 
 \section{La difesa planetaria}
+Come si è visto nella \cref{sec:pha} la regione di spazio attorno alla Terra è densamente popolata di asteroidi potenzialmente pericolosi.\\
+Negli anni è maturata sempre più la consapevolezza scientifica che questi oggetti rocciosi possono causare enormi danni al nostro pianeta in caso di collisione, ma al giorno d'oggi non esiste nessun sistema in funzione per la difesa planetaria.
 
+Per questi motivi la comunità scientifica ha iniziato a teorizzare e progettare diversi sistemi anti-collisione con asteroidi (Asteroid Impact Avoidance, AIA), che comprendono tutti quei metodi con cui sarebbe possibile deviare un asteroide in rotta di collisione con la Terra e che provocherebbe eventi distruttivi.\\
+Un impatto da parte di un asteroide sufficientemente grande, a seconda del luogo d'impatto, potrebbe causare massicci tsunami, tempeste di fuoco o un "inverno da impatto", dovuto al blocco della luce solare da parte di grandi quantità di polvere e altri detriti immessi nella stratosfera. Si ritiene che una collisione avvenuta 66 milioni di anni fa tra la Terra e un oggetto di 10 chilometri di diametro abbia generato il cratere di Chicxulub e abbia innescato l'estinzione del Cretaceo-Paleogene, che la comunità scientifica ritiene abbia portato all'estinzione di tutti i dinosauri non aviari.\\
+Più recentemente, gli eventi di Tunguska del 1908, quando una meteora di circa 65 metri esplose sopra i cieli della Siberia e devastò 2150 km$^2$ di foresta, o di Chelyabinsk del 2013, quando un oggetto di circa 20 metri esplose nei cieli russi causando danni a edifici e infrastrutture, hanno richiamato l'attenzione su tali minacce.
+
+In letteratura sono stati descritti diversi metodi per la difesa planetaria. Tuttavia, nel marzo 2019, gli scienziati hanno riferito che gli asteroidi potrebbero essere molto più difficili da distruggere di quanto si pensasse in precedenza. (El Mir et al., 2019) In aggiunta, un asteroide può anche ricompattarsi grazie alla gravità dopo essere stato distrutto. Nel marzo 2021, al termine della Planetary Defence Conference, gli astronomi e le astronome hanno dichiarato che, per evitare un impatto, potrebbero essere necessari dai 5 ai 10 anni di preparazione preliminare\footnote{\href{https://cneos.jpl.nasa.gov/pd/cs/pdc21/}{https://cneos.jpl.nasa.gov/pd/cs/pdc21/}}; per questo motivo è molto importante avere a disposizione dati orbitali molto precisi.
 
 \subsection{Impattatore cinetico}
+Le varie tecniche di prevenzione dalle collisioni presentano diversi compromessi rispetto a parametri quali le prestazioni complessive, i costi, i rischi di missione, le operazioni e le disponibilità tecnologiche. (Canavan, Solomen, 1992) Esistono vari metodi per modificare l'orbita di un asteroide o cometa (Hall, Ross, 1997), che possono essere catalogati in base al tipo di mitigazione (deflessione o frammentazione), la fonte di energia (cinetica, elettromagnetica, gravitazionale, solare/termica o nucleare) e la strategia di approccio (intercettazione o rendezvous (Solem, 1003)).
+
+Per lo scopo di questa tesi ci concentreremo sul metodo dell'impattatore cinetico.\\
+Quando un asteroide è ancora lontano dalla Terra, un modo per deflettere la sua orbita è quello di alterare direttamente il suo momento facendo collidere una sonda sulla sua superficie. Delle analisi condotte da NASA nel 2007\footnote{\href{https://web.archive.org/web/20160305101217/http://neo.jpl.nasa.gov/neo/report2007.html}{Near-Earth Object Survey and Deflection Analysis of Alternatives}} mostrarono che "gli impattatori cinetici non nucleari sono l'approccio più maturo e potrebbero essere usati in scenari di deflessione/mitigazione che coinvolgono piccoli oggetti singoli."
+
+Il principio di deviazione, applicato poi dalla sonda DART, si basa sulla legge di conservazione del momento
+\begin{equation}
+    m_1 \vec{v}_1 + M_2\vec{v}_2 = (m_1+M_2)\vec{v}_3
+\end{equation}
+con $\vec{v}_1$ e $m_1$ velocità e massa della sonda $\vec{v}_2$ e $M_2$ velocità e massa dell'asteroide e $\vec{v}_3$ velocità finale dopo l'impatto. 
+La velocità della sonda rispetto al NEO è nell'ordine dei $10\,km/s$ e il momento è trasferito al NEO, causando un cambio nella sua velocità orbitale che risulta in una leggera deviazione dell'orbita.
+
 \section{Double Asteroid Redirection Test}
-\subsection{Lancio e fase di crociera}
+DART è una missione NASA che nasce con l'intento di dimostrare la fattibilità del metodo, sopra descritto, dell'impattatore cinetico.\\
+NASA ed ESA hanno iniziato a collaborare nel 2015 al progetto AIDA\footnote{\href{https://www.esa.int/Space_Safety/Hera/Asteroid_Impact_Deflection_Assessment_AIDA_collaboration}{Pagina del progetto AIDA}} (Asteroid Impact and Deflection Assessment), che consiste in due sonde separate ma che lavorano in sinergia (Michel et al., 2018). Dopo varie modifiche al piano della missione si è giunti alla configurazione finale: DART, gestita da NASA, e HERA, di cui parleremo in seguito, gestita da ESA.
+
+Il 24 novembre 2021 la sonda DART è stata lanciata a bordo di un Falcon 9, verso la sua destinazione finale: il sistema di Didymos e Dimorphos.
+
+\subsection{Strumentazione}
+Poiché l'obiettivo della sonda era quello di schiantarsi contro un asteroide, essa è stata dotata degli strumenti essenziali per la fase di crociera e di approccio, nonostante ciò aveva una massa di $610\,kg$.
+
+\paragraph*{Camera}
+Oltre ai sensori base per la navigazione nello spazio, la sonda ospitava una camera da $20\,cm$ di apertura chiamata DRACO (Didymos Reconnaissance and Asteroid Camera for Optical navigation). DRACO era basata sulla camera LORRI della sonda di NASA New Horizons e ha consentito la navigazione autonoma della sonda fino all'impatto al centro di Dimorphos.\\
+La parte ottica della camera era un telescopio Ritchey-Chrétien equipaggiato con un teleobiettivo con campo di vista (FOV) di 0.29° e una lunghezza focale di $2.6208\,m$ (f/12.60). La risoluzione spaziale poco prima dell'impatto è stata di circa $20\,cm/px$.\\
+Il sensore utilizzato era un CMOS con un range spettrale di $0.4-1\,\mu m$ (dal visibile al vicino infrarosso).
+
+\begin{figure}
+    \centering
+    \includegraphics[scale=0.4]{figure/dart_cleanroom.jpg}
+    \caption[La sonda DART nella clean room.]{La sonda DART appena installata sul payload adapter. Al centro è possibile vedere il dispenser di LICIACube. (NASA/JHU-APL)}
+    \label{fig:dart_cleanroom}
+\end{figure}
+
+\paragraph*{LICIACube}
+Per osservare l'impatto e l'evoluzione dei detriti da una distanza tale da poter avere un quadro generale del test, ASI e Argotec hanno progettato un cubesat da 6U ($10\,cm\times 20\,cm\times 30\,cm$), LICIACube (Light Italian CubeSat for Imaging of Asteroids), che si è separato da DART l'11 settembre 2022 e ha seguito tutta la missione da una distanza di sicurezza di $\sim 1250\,km$,effettuando un flyby di Dimorphos a $56.7\,km$ 2 minuti e 45 secondi dopo l'impatto della sonda con la luna.
+
+A bordo di LICIACube ci sono due camere ottiche: LEIA (LICIACube Explorer Imaging for Asteroid) e LUKE (LICIACube Unit Key Explorer).
+
+\qquad \small{\textbf{LEIA}} È una camera catadriottica monocromatica con un campo di vista molto stretto (2.06°) e una risoluzione al punto di minima distanza di $1.38\,m/px$.
+
+\qquad \small{\textbf{LUKE}} Si tratta di una camera equipaggiata con un filtro RGB con pattern di Bayern, con un campo largo campo di vista (5°).\\
+Durante il flyby Luke ha osservato sia l'emisfero impattato che quello non impattato di Dimorphos con una risoluzione spaziale massima di $\sim 4.3\,m/px$. L'analisi spettrofotometrica dei dati ottenuti verrà usata per indagare la composizione superficiale di Dimorphos; i dati spettrofotometrici permetteranno di indagare l'eterogeneità superficiale e mappare la composizione superficiale dell'oggetto, e anche di cercare per materiali esogeni generati dalla collisione con altri asteroidi durante la storia evolutiva del sistema (Poggiali et al., 2021). I risultati forniti da LUKE, insieme a quelli di LEIA e DRACO, permetteranno di investigare la geologia del sistema di Didymos-Dimorphos (Pajola et al., 2022).
+
 \subsection{Missione primaria}
+Dopo 8 mesi di fase di crociera la camera DRACO è riuscita a rilevare Didymos a circa 32 milioni di km e DART ha così potuto iniziare a rifinire la sua traiettoria. 
+L'11 settembre 2022, 15 giorni prima dell'impatto, LICIACube è stato rilasciato. 2 minuti e 30 secondi prima dell'impatto l'obiettivo si trovava a $920\,km$. La sonda DART ha impattato sulla luna Dimorphos il 27 settembre 2022 alle 01:14 ora italiana.
+L'impatto è avvenuto a $6.6\,km/s$, liberando circa 11 gigajoule di energia.
+2 minuti e 45 secondi dopo l'impatto LICIACube ha effettuato il flyby di Dimorphos a $56.7\,km$.
+
+%%ci vanno le immagini ma non ho voglia di bestemmiare per oggi  
+
 \section{Missioni future}
 
 

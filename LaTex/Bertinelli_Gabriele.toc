@@ -13,7 +13,7 @@
 \contentsline {chapter}{\numberline {3}La missione DART}{15}{chapter.3}%
 \contentsline {section}{\numberline {3.1}La difesa planetaria}{16}{section.3.1}%
 \contentsline {subsection}{\numberline {3.1.1}Impattatore cinetico}{16}{subsection.3.1.1}%
-\contentsline {section}{\numberline {3.2}Double Asteroid Redirection Test}{16}{section.3.2}%
-\contentsline {subsection}{\numberline {3.2.1}Lancio e fase di crociera}{16}{subsection.3.2.1}%
-\contentsline {subsection}{\numberline {3.2.2}Missione primaria}{16}{subsection.3.2.2}%
-\contentsline {section}{\numberline {3.3}Missioni future}{16}{section.3.3}%
+\contentsline {section}{\numberline {3.2}Double Asteroid Redirection Test}{17}{section.3.2}%
+\contentsline {subsection}{\numberline {3.2.1}Strumentazione}{17}{subsection.3.2.1}%
+\contentsline {subsection}{\numberline {3.2.2}Missione primaria}{19}{subsection.3.2.2}%
+\contentsline {section}{\numberline {3.3}Missioni future}{19}{section.3.3}%
