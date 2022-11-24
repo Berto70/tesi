@@ -1,9 +1,9 @@
 # Fdb version 3
-["pdflatex"] 1669224324 "c:/Users/gabri/OneDrive - Università degli Studi di Padova/Desktop/UNI/Triennale/a.a. 2021-2022/Tesi/LaTex/Bertinelli_Gabriele.tex" "c:/Users/gabri/OneDrive - Università degli Studi di Padova/Desktop/UNI/Triennale/a.a. 2021-2022/Tesi/LaTex/Bertinelli_Gabriele.pdf" "Bertinelli_Gabriele" 1669224326
+["pdflatex"] 1669284922 "c:/Users/gabri/OneDrive - Università degli Studi di Padova/Desktop/UNI/Triennale/a.a. 2021-2022/Tesi/LaTex/Bertinelli_Gabriele.tex" "c:/Users/gabri/OneDrive - Università degli Studi di Padova/Desktop/UNI/Triennale/a.a. 2021-2022/Tesi/LaTex/Bertinelli_Gabriele.pdf" "Bertinelli_Gabriele" 1669284926
   "Bertinelli_Gabriele-frn.pdf" 1669218223 419233 8f7c9332d1bfc3def1c7be47d82b18b3 ""
-  "Bertinelli_Gabriele-frn.tex" 1669224325 993 641f3678d205d1b288b72e8f0a0257c0 ""
-  "c:/Users/gabri/OneDrive - Università degli Studi di Padova/Desktop/UNI/Triennale/a.a. 2021-2022/Tesi/LaTex/Bertinelli_Gabriele.aux" 1669224325 8914 315efd9aec9fb09c345fef87b436b824 ""
-  "c:/Users/gabri/OneDrive - Università degli Studi di Padova/Desktop/UNI/Triennale/a.a. 2021-2022/Tesi/LaTex/Bertinelli_Gabriele.tex" 1669224323 32976 445bed66f1a285cc8876a07fb6d5fc19 ""
+  "Bertinelli_Gabriele-frn.tex" 1669284924 993 c459f7531513a8f2beadb3c7e3971b7e ""
+  "c:/Users/gabri/OneDrive - Università degli Studi di Padova/Desktop/UNI/Triennale/a.a. 2021-2022/Tesi/LaTex/Bertinelli_Gabriele.aux" 1669284924 8037 bbc8f00d9b1761a88d7d198bc1040a6e ""
+  "c:/Users/gabri/OneDrive - Università degli Studi di Padova/Desktop/UNI/Triennale/a.a. 2021-2022/Tesi/LaTex/Bertinelli_Gabriele.tex" 1669284919 31967 2ce56b2ac7e6b8436466daf4e9182752 ""
   "c:/texlive/2019/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc" 1581612951 2900 1537cc8184ad1792082cd229ecc269f4 ""
   "c:/texlive/2019/texmf-dist/fonts/map/fontname/texfonts.map" 1581615449 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "c:/texlive/2019/texmf-dist/fonts/tfm/jknappen/ec/tcrm1095.tfm" 1581614393 1536 02c06700a42be0f5a28664c7273f82e7 ""
@@ -151,6 +151,7 @@
   "c:/texlive/2019/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1581625086 4809846 7ddb4bf10b8a6436de4feeda1d34a6a1 ""
   "c:/texlive/2019/texmf-var/web2c/pdftex/pdflatex.fmt" 1581625276 8252686 7f25022ff11c5f04bce5331758489a57 ""
   "c:/texlive/2019/texmf.cnf" 1581625060 673 4ae7b2f49cee444c5343a45b5d0f169c ""
+  "figure/DART_mission_patch.png" 1669284491 17425 9b32f25e05840fec3c3e5fc3241820c8 ""
   "figure/spettro_bgc.jpg" 1669210834 69280 a9244634e740fc0b90e9fc7f9b99059e ""
   "figure/spettro_bus.jpg" 1669211305 49951 a5f825b4cb60fc89fb7550c6df122730 ""
   "figure/spettro_d.jpg" 1669210931 39659 b0c0758e39fb5b492144e57db329d137 ""
@@ -158,7 +159,6 @@
   "figure/spettro_qsa.jpg" 1669209583 70199 838c2f527bde8006007bc7ce7cb2b59f ""
   "figure/spettro_rv.jpg" 1669210697 54733 ecf5f00de68d28dd0c320e2216308aed ""
   "figure/spettro_t.jpg" 1669211069 41548 1932fe3c6acce62bfe53ecbcdd7be41f ""
-  "figure/yark.jpg" 1669219467 50571 fe2aa0a8856c45fc66d3d3d181513473 ""
   (generated)
-  "c:/Users/gabri/OneDrive - Università degli Studi di Padova/Desktop/UNI/Triennale/a.a. 2021-2022/Tesi/LaTex/Bertinelli_Gabriele.log"
   "c:/Users/gabri/OneDrive - Università degli Studi di Padova/Desktop/UNI/Triennale/a.a. 2021-2022/Tesi/LaTex/Bertinelli_Gabriele.pdf"
+  "c:/Users/gabri/OneDrive - Università degli Studi di Padova/Desktop/UNI/Triennale/a.a. 2021-2022/Tesi/LaTex/Bertinelli_Gabriele.log"
