@@ -1,9 +1,9 @@
 # Fdb version 3
-["pdflatex"] 1669371807 "c:/Users/gabri/OneDrive - Università degli Studi di Padova/Desktop/UNI/Triennale/a.a. 2021-2022/Tesi/LaTex/Bertinelli_Gabriele.tex" "c:/Users/gabri/OneDrive - Università degli Studi di Padova/Desktop/UNI/Triennale/a.a. 2021-2022/Tesi/LaTex/Bertinelli_Gabriele.pdf" "Bertinelli_Gabriele" 1669371809
+["pdflatex"] 1669396070 "c:/Users/gabri/OneDrive - Università degli Studi di Padova/Desktop/UNI/Triennale/a.a. 2021-2022/Tesi/LaTex/Bertinelli_Gabriele.tex" "c:/Users/gabri/OneDrive - Università degli Studi di Padova/Desktop/UNI/Triennale/a.a. 2021-2022/Tesi/LaTex/Bertinelli_Gabriele.pdf" "Bertinelli_Gabriele" 1669396077
   "Bertinelli_Gabriele-frn.pdf" 1669303656 419158 23004d40c524fd42735cca4686216df7 ""
-  "Bertinelli_Gabriele-frn.tex" 1669371808 993 c459f7531513a8f2beadb3c7e3971b7e ""
-  "c:/Users/gabri/OneDrive - Università degli Studi di Padova/Desktop/UNI/Triennale/a.a. 2021-2022/Tesi/LaTex/Bertinelli_Gabriele.aux" 1669371808 10270 da7de845fd6ad10b6296753294d5d647 ""
-  "c:/Users/gabri/OneDrive - Università degli Studi di Padova/Desktop/UNI/Triennale/a.a. 2021-2022/Tesi/LaTex/Bertinelli_Gabriele.tex" 1669371803 53551 a904c7e72e3262228cd4f60d5b55b128 ""
+  "Bertinelli_Gabriele-frn.tex" 1669396072 993 c459f7531513a8f2beadb3c7e3971b7e ""
+  "c:/Users/gabri/OneDrive - Università degli Studi di Padova/Desktop/UNI/Triennale/a.a. 2021-2022/Tesi/LaTex/Bertinelli_Gabriele.aux" 1669396077 14309 bd9bf16ca7577db5000cf6b0fb7bf726 ""
+  "c:/Users/gabri/OneDrive - Università degli Studi di Padova/Desktop/UNI/Triennale/a.a. 2021-2022/Tesi/LaTex/Bertinelli_Gabriele.tex" 1669396069 64311 94728e06f8096d163d9e30827f547439 ""
   "c:/texlive/2019/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc" 1581612951 2900 1537cc8184ad1792082cd229ecc269f4 ""
   "c:/texlive/2019/texmf-dist/fonts/map/fontname/texfonts.map" 1581615449 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "c:/texlive/2019/texmf-dist/fonts/tfm/jknappen/ec/tcrm1000.tfm" 1581614393 1536 e07581a4bb3136ece9eeb4c3ffab8233 ""
@@ -42,6 +42,7 @@
   "c:/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb" 1581610651 32001 6aeea3afe875097b1eb0da29acd61e28 ""
   "c:/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb" 1581610651 30251 6afa5cb1d0204815a708a080681d4674 ""
   "c:/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb" 1581610651 36299 5f9df58c2139e7edcf37c8fca4bd384d ""
+  "c:/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb" 1581610651 36281 c355509802a035cadc5f15869451dcee ""
   "c:/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb" 1581610651 35469 dcf3a5f2fc1862f5952e3ee5eb1d98c4 ""
   "c:/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb" 1581610651 35752 024fb6c41858982481f6968b5fc26508 ""
   "c:/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb" 1581610651 32722 d7379af29a190c3f453aba36302ff5a9 ""
@@ -51,8 +52,10 @@
   "c:/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb" 1581610651 33993 9b89b85fd2d9df0482bd47194d1d3bf3 ""
   "c:/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmsl10.pfb" 1581610651 35022 e40946b20bfdcd1099eafb2bcd9f25dd ""
   "c:/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb" 1581610651 32569 5e5ddc8df908dea60932f3c484a54c0d ""
+  "c:/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb" 1581610651 32716 08e384dc442464e7285e891af9f45947 ""
   "c:/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb" 1581610651 37944 359e864bd06cde3b1cf57bb20757fb06 ""
   "c:/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmti9.pfb" 1581610651 36310 f5ddc6715cc60deb16d9db5ded6a9391 ""
+  "c:/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb" 1581610652 31764 459c573c03a4949a528c2cc7f557e217 ""
   "c:/texlive/2019/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb" 1581612951 138258 6525c253f16cededa14c7fd0da7f67b2 ""
   "c:/texlive/2019/texmf-dist/fonts/type1/public/cm-super/sfrm1095.pfb" 1581612951 145929 5c9aebea9ba6e33fc93158c04a3bdcd8 ""
   "c:/texlive/2019/texmf-dist/tex/context/base/mkii/supp-pdf.mkii" 1581617955 71627 94eb9990bed73c364d7f53f960cc8c5b ""
@@ -158,6 +161,8 @@
   "c:/texlive/2019/texmf.cnf" 1581625060 673 4ae7b2f49cee444c5343a45b5d0f169c ""
   "figure/DART_mission_patch.png" 1669284491 17425 9b32f25e05840fec3c3e5fc3241820c8 ""
   "figure/Hera_mission_timeline.png" 1669302744 466147 dc7b0a3dd1c3aa358c920f53a604982a ""
+  "figure/Telescopes_observing_DART's_impact.png" 1669387221 2505437 863bea76b19104224ae979608fc1455b ""
+  "figure/binaries_evolution.jpg" 1669394527 757703 f91e1bf078203b8b42634dc59e861fad ""
   "figure/dart_cleanroom.jpg" 1669296684 245210 3ac08024f2fdf16e4d3687997fee6acb ""
   "figure/pha_map.jpg" 1669289092 215204 15307dd81b1a12a8aeb1549c13606f2d ""
   "figure/spettro_bgc.jpg" 1669210834 69280 a9244634e740fc0b90e9fc7f9b99059e ""
@@ -168,5 +173,5 @@
   "figure/spettro_rv.jpg" 1669210697 54733 ecf5f00de68d28dd0c320e2216308aed ""
   "figure/spettro_t.jpg" 1669211069 41548 1932fe3c6acce62bfe53ecbcdd7be41f ""
   (generated)
-  "c:/Users/gabri/OneDrive - Università degli Studi di Padova/Desktop/UNI/Triennale/a.a. 2021-2022/Tesi/LaTex/Bertinelli_Gabriele.pdf"
   "c:/Users/gabri/OneDrive - Università degli Studi di Padova/Desktop/UNI/Triennale/a.a. 2021-2022/Tesi/LaTex/Bertinelli_Gabriele.log"
+  "c:/Users/gabri/OneDrive - Università degli Studi di Padova/Desktop/UNI/Triennale/a.a. 2021-2022/Tesi/LaTex/Bertinelli_Gabriele.pdf"
