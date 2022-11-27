@@ -1,4 +1,4 @@
-\babel@toc {english}{}
+\babel@toc {polish}{}
 \babel@toc {italian}{}
 \contentsline {chapter}{\numberline {1}Corpi minori del Sistema Solare}{1}{chapter.1}%
 \contentsline {section}{\numberline {1.1}Distribuzione e classificazione dinamica}{1}{section.1.1}%
@@ -25,12 +25,16 @@
 \contentsline {chapter}{\numberline {4}Il sistema di (65803) Didymos}{27}{chapter.4}%
 \contentsline {section}{\numberline {4.1}Sistemi binari di asteroidi}{27}{section.4.1}%
 \contentsline {subsection}{\numberline {4.1.1}Introduzione}{27}{subsection.4.1.1}%
-\contentsline {subsection}{\numberline {4.1.2}Osservazioni}{27}{subsection.4.1.2}%
-\contentsline {subsubsection}{Osservazioni radar dei NEA}{27}{section*.37}%
+\contentsline {subsection}{\numberline {4.1.2}Osservazioni}{28}{subsection.4.1.2}%
+\contentsline {subsubsection}{Osservazioni radar dei NEA}{28}{section*.37}%
 \contentsline {subsubsection}{Osservazioni della curva di luce di NEA e MBA}{28}{section*.38}%
 \contentsline {subsubsection}{Osservazioni spettrali di coppie di asteroidi}{29}{section*.39}%
 \contentsline {subsubsection}{Imaging diretto di MBA e Troiani}{29}{section*.40}%
 \contentsline {subsection}{\numberline {4.1.3}Formazione dei sistemi di piccoli asteroidi}{29}{subsection.4.1.3}%
-\contentsline {section}{\numberline {4.2}Scoperta, caratteristiche morfologiche}{31}{section.4.2}%
-\contentsline {section}{\numberline {4.3}Spettroscopia globale}{31}{section.4.3}%
-\contentsline {section}{\numberline {4.4}Didymos come obiettivo della missione DART}{31}{section.4.4}%
+\contentsline {section}{\numberline {4.2}Caratteristiche fisiche e morfologiche}{31}{section.4.2}%
+\contentsline {subsection}{\numberline {4.2.1}Modellizzazione della forma}{31}{subsection.4.2.1}%
+\contentsline {subsection}{\numberline {4.2.2}Formazione del crinale equatoriale}{32}{subsection.4.2.2}%
+\contentsline {subsection}{\numberline {4.2.3}Asteroidi rubble-pile}{33}{subsection.4.2.3}%
+\contentsline {subsection}{\numberline {4.2.4}Indizi sulla formazione ed evoluzione del sistema}{34}{subsection.4.2.4}%
+\contentsline {section}{\numberline {4.3}Spettroscopia globale}{34}{section.4.3}%
+\contentsline {section}{\numberline {4.4}Didymos come obiettivo della missione DART}{34}{section.4.4}%

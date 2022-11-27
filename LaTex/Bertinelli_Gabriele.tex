@@ -27,7 +27,7 @@
 \usepackage{multirow}
 \usepackage{adjustbox}
 \usepackage[utf8]{inputenc}   %per riuscire a scrivere gli accenti
-\usepackage[italian, english]{babel}   %per riuscire a scrivere gli accenti
+\usepackage[italian, english, polish]{babel}   %per riuscire a scrivere gli accenti
 \usepackage{setspace}
 
 
@@ -468,7 +468,7 @@ Come si è visto nella \cref{sec:pha} la regione di spazio attorno alla Terra è
 Negli anni è maturata sempre più la consapevolezza scientifica che questi oggetti rocciosi possono causare enormi danni al nostro pianeta in caso di collisione, ma al giorno d'oggi non esiste nessun sistema in funzione per la difesa planetaria.
 
 Per questi motivi la comunità scientifica ha iniziato a teorizzare e progettare diversi sistemi anti-collisione con asteroidi (Asteroid Impact Avoidance, AIA), che comprendono tutti quei metodi con cui sarebbe possibile deviare un asteroide in rotta di collisione con la Terra e che provocherebbe eventi distruttivi.\\
-Un impatto da parte di un asteroide sufficientemente grande, a seconda del luogo d'impatto, potrebbe causare massicci tsunami, tempeste di fuoco o un "inverno da impatto", dovuto al blocco della luce solare da parte di grandi quantità di polvere e altri detriti immessi nella stratosfera. Si ritiene che una collisione avvenuta 66 milioni di anni fa tra la Terra e un oggetto di 10 chilometri di diametro abbia generato il cratere di Chicxulub e abbia innescato l'estinzione del Cretaceo-Paleogene, che la comunità scientifica ritiene abbia portato all'estinzione di tutti i dinosauri non aviari.\\
+Un impatto da parte di un asteroide sufficientemente grande, a seconda del luogo d'impatto, potrebbe causare massicci tsunami, tempeste di fuoco o un "inverno da impatto", dovuto al blocco della luce solare da parte di grandi quantità di polvere e altri detriti immessi nella stratosfera. Si ritiene che una collisione avvenuta 66 milioni di anni fa tra la Terra e un oggetto di 10 chilometri di diametro abbia generato il cratere di Chicxulub e abbia innescato l'estinzione del Cretaceo-Paleogene, che la comunità scientifica ritiene abbia portato all'estinzione di tutti i dinosauri non aviani.\\
 Più recentemente, gli eventi di Tunguska del 1908, quando una meteora di circa 65 metri esplose sopra i cieli della Siberia e devastò 2150 km$^2$ di foresta, o di Chelyabinsk del 2013, quando un oggetto di circa 20 metri esplose nei cieli russi causando danni a edifici e infrastrutture, hanno richiamato l'attenzione su tali minacce.
 
 In letteratura sono stati descritti diversi metodi per la difesa planetaria. Tuttavia, nel marzo 2019, gli scienziati hanno riferito che gli asteroidi potrebbero essere molto più difficili da distruggere di quanto si pensasse in precedenza. (El Mir et al., 2019) In aggiunta, un asteroide può anche ricompattarsi grazie alla gravità dopo essere stato distrutto. Nel marzo 2021, al termine della Planetary Defence Conference, gli astronomi e le astronome hanno dichiarato che, per evitare un impatto, potrebbero essere necessari dai 5 ai 10 anni di preparazione preliminare\footnote{\href{https://cneos.jpl.nasa.gov/pd/cs/pdc21/}{https://cneos.jpl.nasa.gov/pd/cs/pdc21/}}; per questo motivo è molto importante avere a disposizione dati orbitali molto precisi.
@@ -563,8 +563,11 @@ Questi strumenti saranno necessari per raccogliere informazioni sui due asteroid
 %%vediamo se lasciarla perché non si vedono le scritte. al massimo si sostituisce con un render della sonda.
 
 \chapter{Il sistema di (65803) Didymos}\label{ch:ch_4}
+Il sistema di (65803) Didymos è un sistema binario di Near Earth Asteroids.\\
+Didymos (parola greca che significa "gemello", data la sua natura binaria), in origine chiamato 1996GT, è stato scoperto l'11 aprile 1996 dalla survey Spacewatch, eseguita dal Kitt Peak Observatory in Arizona. Durante il suo passaggio ravvicinato con la Terra nel novembre del 2003, è stato scoperto il suo satellite naturale Dimorphos (dal greco "che ha due forme", visto che la missione DART ne ha modificato il suo aspetto). Le osservazioni fotometriche sono state svolte dall'Ondrejov Observatory, dal Carbuncle Hill Observatory e dal Steward Observatory; le osservazioni radar sono state fatte dall'osservatorio di Arecibo.\\
+Successivamente, tra il 2003 e il 2022, sono state svolte altre osservazioni sia spettrografiche, che fotometriche, che radar per poter caratterizzare al meglio il sistema in vista della missione DART.
 
-\section{Sistemi binari di asteroidi}
+\section{Sistemi binari di asteroidi}\label{sec:binary_system}
 Negli ultimi decenni il numero di NEA binari è più che quadruplicato e il numero di grandi MBA binari è duplicato. Le attuali evidenze osservative confermano che gli asteroidi binari piccoli ($\lesssim 20\,km$) si sono formati da eventi di fissione rotazionale e stabiliscono che l'effetto YORP è responsabile dell'aumento del tasso di rotazione. I grandi asteroidi ($\gtrsim20\,km$) con piccoli satelliti è più probabile che vengano creati durante grandi eventi collisionali.
 
 \subsection{Introduzione}
@@ -610,7 +613,50 @@ Lungo $q\lesssim0.2$ il sistema binario è non-legato. Durante la fase caotica i
     \label{fig:binaries_evolution}
 \end{figure}
 
-\section{Scoperta, caratteristiche morfologiche}
+\section{Caratteristiche fisiche e morfologiche}
+Naidu et al. (2020) analizzando i dati radar raccolti con il radiotelescopio di Arecibo nel 2003, e includendo le curve di luce ottenuta da Pravec et al. (2006), ha ottenuto una stima del modello della forma del sistema di Didymos. Il primario, Didymos, è a forma "top-shaped" ("a forma di trottola") con un rigonfiamento equatoriale. Il diametro equivalente è di $780\pm 30\,m$ e le estensioni lungo i tre assi principali sono $832\,m$, $838\,m$, $786\,m$ (con un'incertezza del 6\% sugli assi x e y, e del 10\% sull'asse z). La densità è $2.17\pm 0.35\;g\,cm^{-3}$. I dati radar non contengono una rotazione completa del secondario, Dimorphos, ma mostrano un'estensione visibile di circa $75\,m$, implicando un diametro di $150\pm 30\,m$. La larghezza di banda del secondario suggerisce un periodo di rotazione di $12.4\pm 3.0h$, valore consistente con una rotazione che è sincronizzata con il periodo orbitale mutuo di 11.9 h. Usando il delay nel segnale e le separazioni Doppler si è ottenuto un valore del semiasse maggiore del sistema di $1190\pm 30\, m$, un'eccentricità $<0.05$ e un periodo orbitale di $11.93\pm 0.01$ h, valori consistenti con i precedenti lavori di Scheirich and Pravec (2009) e Fand and Margot (2012).
+
+\subsection{Modellizzazione della forma}\label{sec:shape_model}
+
+\begin{figure}[!h]
+    \centering
+    \includegraphics[scale=1.3]{figure/didymos_241103.jpg}
+    \caption[Immagini delay-Doppler ottenute con il telescopio di Arecibo.]{Immagini delay-Doppler ottenute con il telescopio di Arecibo il 24 novembre 2003 tra le 03:15 e le 05:09 UTC. Ogni immagine è la somma di tre pose, durante le quali il primario ha ruotato di 14°. La risoluzione dell'immagine è di $0.1\,\mu s\times 0.3\,Hz$. (Naidu et al., 2020)}
+    \label{fig:didymos_241103}
+\end{figure}
+
+La \cref{fig:didymos_shape_model} mostra la vista dei principali assi del modello di "best-fit" finale basato sui dati sopra descritti. Una delle caratteristiche più prominenti è una facet/faccia/sfaccettatura\footnote{Superficie piatta su una figura geometrica.} sul rigonfiamento equatoriale lunga $\sim 350\,m$. Un'altra piccola facet/faccia è presente a circa 120° in longitudine dalla prima. Il resto della superficie appare regolare su scale inferiori a $100\,m$, ma è un fattore probabilmente dovuto alla mancanza di caratteristiche nei dati dovuta al basso rapporto segnale-rumore ($S/N$) e alla bassa risoluzione, e non implica che la superficie sia effettivamente regolare su scale decametriche.\\
+La maggior parte dei punti delle curve di luce corrispondono in modo ottimale al modello della forma, ma ci sono delle eccezioni (\textit{outliers}). Queste potrebbero essere dovute a diversi fattori quali una topografia su scala minore che non è visibile nelle immagini radar, uno scattering ottico non ottimale sulla superficie e le assunzioni fatte nel definire i modelli di scattering ottico e radar.
+
+\begin{figure}
+    \centering
+    \includegraphics[scale=0.78]{figure/didymos_shape_model.jpg}
+    \caption[Vista degli assi principali del modello della forma del primario.]{Vista degli assi principali del modello della forma del primario. Il modello ha 1000 vertici e 1996 facets triangolari. La risoluzione efficace è $\sim 50\,m$. Le regioni in giallo indicano regioni in cui l'angolo di incidenza e di scattering è $>60^\circ$. (Naidu et al., 2020)}
+    \label{fig:didymos_shape_model}
+\end{figure}
+
+\subsection{Formazione del crinale equatoriale}
+Per lo studio della formazione del rigonfiamento equatoriale sono stati presi in considerazione due modelli con tassi di rotazione diversi (\cref{fig:failure_models}): uno con il periodo di rotazione attuale di 2.26 h, l'altro con un periodo più lungo, di 3.5 h, che è il caso in cui si trovava Didymos nel passato.\\
+Nel caso del periodo di 2.26 h si ottiene che l'asteroide debba essere andato incontro a un cedimento strutturale interno. Questo ha comportato una deformazione verso l'esterno del piano equatoriale e una deformazione verticale in altre regioni, modalità di cedimento consistente con altri asteroidi top-shaped con rotazioni rapide (Hirabayashi and Scheeres, 2019).\\
+Diversamente, il caso del periodo di rotazione di 3.5 h mostra una modalità di cedimento differente. Hirabayashi (2015) ha previsto che se un oggetto sferoidale che ruota lentamente ha una coesione vicino a zero, allora le condizioni superficiali diventano più sensibili al cedimento rispetto a quelle interne. Il modello mostra, quindi, zone di cedimento locale sparse per tutta la superficie ma che tendono ad collocarsi a basse latitudini, dove la pendenza del campo gravitazionale è ripida. I vettori di deformazione puntano principalmente verso l'interno.
+
+\begin{figure}
+    \centering
+    \includegraphics[scale=0.6]{figure/failure_models.jpg}
+    \caption[Soluzioni dei modelli di cedimento basati sull'analisi di Didymos.]{Soluzioni dei modelli di cedimento basati sull'analisi di Didymos. Le figure $a$ e $b$ mostrano la soluzione nel caso di un periodo di rotazione di 2.26 h; $c$ e $d$ il caso con un periodo di 3.5 h. Le frecce sono indicano i vettori di deformazione. (Naidu et al., 2020)}
+    \label{fig:failure_models}
+\end{figure}
+
+Una rotazione rapida contribuisce alla formazione di un asteroide top-shaped e lavori precedenti (Walsh et al., 2008, 2012) hanno ipotizzato che sia frane che deformazioni interne possono portare alla formazione di un crinale equatoriale. Al momento non è possibile identificare quale sia stata la causa della formazione del rigonfiamento, ma lavori futuri che analizzeranno i dati raccolti da DART, LICIACube e Hera potranno fare chiarezza su questo aspetto. In particolare, immagini dettagliate della morfologia superficiale di Didymos potranno essere usate per determinare come la deformazione avviene in un ambiente di microgravità e fornire vincoli alla struttura interna dell'asteroide.
+
+\subsection{Asteroidi rubble-pile}
+I modelli ottenuti utilizzando i dati delle osservazioni descritte nella \cref{sec:binary_system} hanno suggerito che la maggioranza degli asteroidi tra $\sim 0.2$ e $10\,km$ sono rubble-pile. In consistenza con queste aspettative, gli asteroidi Itokawa ($0.3\,km$), Bennu ($0.5\,km$) e Ryugu ($0.9\,km$) sembrano essere rubble-pile. Per di più, il confronto dei massi più grandi con i crateri più larghi ha rivelato che la popolazione di rocce grandi è stata ereditata dalla distruzione catastrofica di un corpo progenitore (DellaGiustina et al., 2019).\\
+Una recente analisi dei campioni recuperati dalla superficie di Ryugu ha rilevato che la densità del materiale di cui sono fatti i campioni è simile alla densità globale dell'asteroide, indicando un'alta microporosità e una bassa macroporosità (Pilorget et al. 2022). Ciò è in contrasto con Itokawa, dove la macroporosità è alta e la microporosità bassa (Tsuchiyama et al. 2014)\\
+Questi risultati indicano la possibilità di un forte contrasto tra le caratteristiche della porosità interna di asteroidi appartenenti a diverse classi tassonomiche e ha implicazioni importati per quanto riguarda Didymos e Dimorphos. È anzi probabile che Didymos, con la sua forma top-shaped e la rapida rotazione, sia un oggetto rubble-pile formatosi da una collisione (Zhang et al. 2021). Inoltre, analizzando qualitativamente le immagini, immortalate da LICIACube dello scontro tra DART e Dimorphos, si potrebbe dedurre che anche il secondario sia di tipo rubble-pile. Saranno però necessari studi approfonditi che verranno pubblicati nel prossimo futuro.
+
+\subsection{Indizi sulla formazione ed evoluzione del sistema}
+È importante sottolineare che le condizioni geologiche osservare su Didymos e Dimorphos potrebbero correlare direttamente con i meccanismi di formazione ed evoluzione del sistema.\\
+Prendendo in considerazione gli attuali dati radar (Naidu et al., 2020) e curve di luce (Pravec et al., 2016), è possibile escludere le forze mareali come meccanismo rilevante per la formazione ed evoluzione di Dimorphos. Infatti, le forze mareali fanno sì che il corpo precursore si deformi in un corpo allungato. Al contrario, secondo i modelli descritti nella \cref{sec:shape_model}, Didymos è pressoché assisimmetrico, in contraddizione con la forma attesa dovuta alle forze mareali. Le curve di luce più recenti suggeriscono un oggetto leggermente più piccolo, più sferico e più denso (Pravec and Scheirich 2022).
 
 \section{Spettroscopia globale}
 
