@@ -32,9 +32,10 @@
 \contentsline {subsubsection}{Imaging diretto di MBA e Troiani}{29}{section*.40}%
 \contentsline {subsection}{\numberline {4.1.3}Formazione dei sistemi di piccoli asteroidi}{29}{subsection.4.1.3}%
 \contentsline {section}{\numberline {4.2}Caratteristiche dinamiche}{31}{section.4.2}%
+\contentsline {subsection}{\numberline {4.2.1}La deriva dell'orbita del sistema(??)}{31}{subsection.4.2.1}%
 \contentsline {section}{\numberline {4.3}Caratteristiche fisiche e morfologiche}{32}{section.4.3}%
-\contentsline {subsection}{\numberline {4.3.1}Modellizzazione della forma}{32}{subsection.4.3.1}%
+\contentsline {subsection}{\numberline {4.3.1}Modellizzazione della forma}{33}{subsection.4.3.1}%
 \contentsline {subsection}{\numberline {4.3.2}Formazione del crinale equatoriale}{33}{subsection.4.3.2}%
 \contentsline {subsection}{\numberline {4.3.3}Asteroidi rubble-pile}{35}{subsection.4.3.3}%
-\contentsline {subsection}{\numberline {4.3.4}Indizi sulla formazione ed evoluzione del sistema}{35}{subsection.4.3.4}%
-\contentsline {section}{\numberline {4.4}Didymos come obiettivo della missione DART}{36}{section.4.4}%
+\contentsline {subsection}{\numberline {4.3.4}Indizi sulla formazione ed evoluzione del sistema}{36}{subsection.4.3.4}%
+\contentsline {section}{\numberline {4.4}Didymos come obiettivo della missione DART}{37}{section.4.4}%

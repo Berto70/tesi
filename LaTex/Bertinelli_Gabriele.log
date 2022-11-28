@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/W32TeX) (preloaded format=pdflatex 2020.2.13)  28 NOV 2022 11:50
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/W32TeX) (preloaded format=pdflatex 2020.2.13)  28 NOV 2022 14:10
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -621,7 +621,7 @@ l.182 \end{equation}
                    \relax 
 l.239 
        [2] [3] [4]
-<figure/pha_map.jpg, id=237, 764.8575pt x 625.33624pt>
+<figure/pha_map.jpg, id=239, 764.8575pt x 625.33624pt>
 File: figure/pha_map.jpg Graphic file (type jpg)
 <use figure/pha_map.jpg>
 Package pdftex.def Info: figure/pha_map.jpg  used on input line 288.
@@ -631,42 +631,42 @@ Package pdftex.def Info: figure/pha_map.jpg  used on input line 288.
 ]
 Capitolo 2.
 [7] [8]
-<figure/spettro_qsa.jpg, id=260, 818.30719pt x 589.4522pt>
+<figure/spettro_qsa.jpg, id=262, 818.30719pt x 589.4522pt>
 File: figure/spettro_qsa.jpg Graphic file (type jpg)
 <use figure/spettro_qsa.jpg>
 Package pdftex.def Info: figure/spettro_qsa.jpg  used on input line 329.
 (pdftex.def)             Requested size: 245.49405pt x 176.83702pt.
  [9 <./figure/spettro_qsa.jpg>]
-<figure/spettro_rv.jpg, id=268, 791.95876pt x 582.67688pt>
+<figure/spettro_rv.jpg, id=270, 791.95876pt x 582.67688pt>
 File: figure/spettro_rv.jpg Graphic file (type jpg)
 <use figure/spettro_rv.jpg>
 Package pdftex.def Info: figure/spettro_rv.jpg  used on input line 349.
 (pdftex.def)             Requested size: 237.58946pt x 174.80441pt.
  [10 <./figure/spettro_rv.jpg>]
-<figure/spettro_bgc.jpg, id=276, 812.28468pt x 581.92406pt>
+<figure/spettro_bgc.jpg, id=278, 812.28468pt x 581.92406pt>
 File: figure/spettro_bgc.jpg Graphic file (type jpg)
 <use figure/spettro_bgc.jpg>
 Package pdftex.def Info: figure/spettro_bgc.jpg  used on input line 370.
 (pdftex.def)             Requested size: 243.68729pt x 174.57855pt.
-<figure/spettro_d.jpg, id=277, 820.56563pt x 575.90157pt>
+<figure/spettro_d.jpg, id=279, 820.56563pt x 575.90157pt>
 File: figure/spettro_d.jpg Graphic file (type jpg)
 <use figure/spettro_d.jpg>
 Package pdftex.def Info: figure/spettro_d.jpg  used on input line 377.
 (pdftex.def)             Requested size: 246.17159pt x 172.7718pt.
  [11 <./figure/spettro_bgc.jpg>]
-<figure/spettro_em.jpg, id=286, 823.57687pt x 572.89032pt>
+<figure/spettro_em.jpg, id=288, 823.57687pt x 572.89032pt>
 File: figure/spettro_em.jpg Graphic file (type jpg)
 <use figure/spettro_em.jpg>
 Package pdftex.def Info: figure/spettro_em.jpg  used on input line 388.
 (pdftex.def)             Requested size: 247.07497pt x 171.86841pt.
  [12 <./figure/spettro_d.jpg> <./figure/spettro_em.jpg>]
-<figure/spettro_t.jpg, id=292, 822.82407pt x 584.1825pt>
+<figure/spettro_t.jpg, id=294, 822.82407pt x 584.1825pt>
 File: figure/spettro_t.jpg Graphic file (type jpg)
 <use figure/spettro_t.jpg>
 Package pdftex.def Info: figure/spettro_t.jpg  used on input line 402.
 (pdftex.def)             Requested size: 246.84912pt x 175.25609pt.
  [13 <./figure/spettro_t.jpg>]
-<figure/spettro_bus.jpg, id=301, 666.99188pt x 560.0925pt>
+<figure/spettro_bus.jpg, id=303, 666.99188pt x 560.0925pt>
 File: figure/spettro_bus.jpg Graphic file (type jpg)
 <use figure/spettro_bus.jpg>
 Package pdftex.def Info: figure/spettro_bus.jpg  used on input line 413.
@@ -675,7 +675,7 @@ Package pdftex.def Info: figure/spettro_bus.jpg  used on input line 413.
 
 ]
 Capitolo 3.
-<figure/DART_mission_patch.png, id=328, 224.33812pt x 276.03125pt>
+<figure/DART_mission_patch.png, id=330, 224.33812pt x 276.03125pt>
 File: figure/DART_mission_patch.png Graphic file (type png)
 <use figure/DART_mission_patch.png>
 Package pdftex.def Info: figure/DART_mission_patch.png  used on input line 459.
@@ -694,13 +694,13 @@ Overfull \hbox (65.05545pt too wide) in paragraph at lines 491--491
  []
 
 [21]
-<figure/dart_cleanroom.jpg, id=354, 792.71156pt x 566.115pt>
+<figure/dart_cleanroom.jpg, id=356, 792.71156pt x 566.115pt>
 File: figure/dart_cleanroom.jpg Graphic file (type jpg)
 <use figure/dart_cleanroom.jpg>
 Package pdftex.def Info: figure/dart_cleanroom.jpg  used on input line 505.
 (pdftex.def)             Requested size: 317.07901pt x 226.44199pt.
  [22 <./figure/dart_cleanroom.jpg>]
-<figure/Telescopes_observing_DART's_impact.png, id=362, 3096.2877pt x 1674.0141pt>
+<figure/Telescopes_observing_DART's_impact.png, id=364, 3096.2877pt x 1674.0141pt>
 File: figure/Telescopes_observing_DART's_impact.png Graphic file (type png)
 <use figure/Telescopes_observing_DART's_impact.png>
 Package pdftex.def Info: figure/Telescopes_observing_DART's_impact.png  used on input line 536.
@@ -710,7 +710,7 @@ Package pdftex.def Info: figure/Telescopes_observing_DART's_impact.png  used on 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 [23] [24 <./figure/Telescopes_observing_DART's_impact.png>]
-<figure/Hera_mission_timeline.png, id=379, 578.16pt x 343.5234pt>
+<figure/Hera_mission_timeline.png, id=381, 578.16pt x 343.5234pt>
 File: figure/Hera_mission_timeline.png Graphic file (type png)
 <use figure/Hera_mission_timeline.png>
 Package pdftex.def Info: figure/Hera_mission_timeline.png  used on input line 559.
@@ -720,7 +720,7 @@ Package pdftex.def Info: figure/Hera_mission_timeline.png  used on input line 55
 ]
 Capitolo 4.
 [27] [28] [29]
-<figure/binaries_evolution.jpg, id=410, 487.8225pt x 430.81642pt>
+<figure/binaries_evolution.jpg, id=412, 487.8225pt x 430.81642pt>
 File: figure/binaries_evolution.jpg Graphic file (type jpg)
 <use figure/binaries_evolution.jpg>
 Package pdftex.def Info: figure/binaries_evolution.jpg  used on input line 611.
@@ -729,54 +729,60 @@ Package pdftex.def Info: figure/binaries_evolution.jpg  used on input line 611.
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [30 <./figure/binaries_evolution.jpg>]
-<figure/orbit_viewer.jpg, id=416, 1927.2pt x 1011.78pt>
+<figure/orbit_viewer.jpg, id=418, 1927.2pt x 1011.78pt>
 File: figure/orbit_viewer.jpg Graphic file (type jpg)
 <use figure/orbit_viewer.jpg>
 Package pdftex.def Info: figure/orbit_viewer.jpg  used on input line 621.
 (pdftex.def)             Requested size: 346.88104pt x 182.11253pt.
-<figure/system_orbit.jpg, id=417, 328.65643pt x 212.9384pt>
+<figure/system_orbit.jpg, id=419, 328.65643pt x 212.9384pt>
 File: figure/system_orbit.jpg Graphic file (type jpg)
 <use figure/system_orbit.jpg>
-Package pdftex.def Info: figure/system_orbit.jpg  used on input line 630.
+Package pdftex.def Info: figure/system_orbit.jpg  used on input line 632.
 (pdftex.def)             Requested size: 256.35098pt x 166.09128pt.
- [31 <./figure/orbit_viewer.jpg> <./figure/system_orbit.jpg>]
-Underfull \hbox (badness 10000) in paragraph at lines 637--639
 
- []
-
-<figure/didymos_241103.jpg, id=422, 248.8497pt x 161.403pt>
-File: figure/didymos_241103.jpg Graphic file (type jpg)
-<use figure/didymos_241103.jpg>
-Package pdftex.def Info: figure/didymos_241103.jpg  used on input line 649.
-(pdftex.def)             Requested size: 323.50455pt x 209.82387pt.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[32]
-<figure/didymos_shape_model.jpg, id=431, 455.22897pt x 252.34476pt>
+[31 <./figure/orbit_viewer.jpg>] [32 <./figure/system_orbit.jpg>]
+<figure/didymos_241103.jpg, id=429, 248.8497pt x 161.403pt>
+File: figure/didymos_241103.jpg Graphic file (type jpg)
+<use figure/didymos_241103.jpg>
+Package pdftex.def Info: figure/didymos_241103.jpg  used on input line 655.
+(pdftex.def)             Requested size: 323.50455pt x 209.82387pt.
+<figure/didymos_shape_model.jpg, id=432, 455.22897pt x 252.34476pt>
 File: figure/didymos_shape_model.jpg Graphic file (type jpg)
 <use figure/didymos_shape_model.jpg>
-Package pdftex.def Info: figure/didymos_shape_model.jpg  used on input line 659.
+Package pdftex.def Info: figure/didymos_shape_model.jpg  used on input line 665.
 (pdftex.def)             Requested size: 355.07715pt x 196.82811pt.
-<figure/failure_models.jpg, id=433, 369.99359pt x 346.896pt>
+ [33 <./figure/didymos_241103.jpg>]
+<figure/failure_models.jpg, id=439, 369.99359pt x 346.896pt>
 File: figure/failure_models.jpg Graphic file (type jpg)
 <use figure/failure_models.jpg>
-Package pdftex.def Info: figure/failure_models.jpg  used on input line 671.
+Package pdftex.def Info: figure/failure_models.jpg  used on input line 677.
 (pdftex.def)             Requested size: 221.99785pt x 208.13919pt.
- [33 <./figure/didymos_241103.jpg>] [34 <./figure/didymos_shape_model.jpg> <./figure/failure_models.jpg>] [35]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 709.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [34 <./figure/didymos_shape_model.jpg>]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [35 <./figure/failure_models.jpg>]
+Underfull \vbox (badness 2005) has occurred while \output is active []
+
  [36]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 709.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 715.
+ [37]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 715.
  (c:/Users/gabri/OneDrive - Università degli Studi di Padova/Desktop/UNI/Triennale/a.a. 2021-2022/Tesi/LaTex/Bertinelli_Gabriele.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 709.
-Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 709.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 709.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 715.
+Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 715.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 715.
  ) 
 Here is how much of TeX's memory you used:
- 14513 strings out of 481242
- 230649 string characters out of 5921895
+ 14516 strings out of 481242
+ 230678 string characters out of 5921895
  513356 words of memory out of 5000000
- 29323 multiletter control sequences out of 15000+600000
+ 29324 multiletter control sequences out of 15000+600000
  545334 words of font info for 72 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  41i,11n,77p,1726b,458s stack positions out of 30000i,500n,32767p,200000b,80000s
@@ -801,10 +807,10 @@ pdfTeX warning (dest): name{Hfootnote.2} has been referenced but does not exist,
 pdfTeX warning (dest): name{Hfootnote.1} has been referenced but does not exist, replaced by a fixed one
 
 {c:/texlive/2019/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}<c:/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb><c:/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb><c:/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb><c:/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb><c:/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><c:/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb><c:/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb><c:/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><c:/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb><c:/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb><c:/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb><c:/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb><c:/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb><c:/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmsl10.pfb><c:/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><c:/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb><c:/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb><c:/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmti9.pfb><c:/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb><c:/texlive/2019/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb><c:/texlive/2019/texmf-dist/fonts/type1/public/cm-super/sfrm1095.pfb>
-Output written on "c:/Users/gabri/OneDrive - Università degli Studi di Padova/Desktop/UNI/Triennale/a.a. 2021-2022/Tesi/LaTex/Bertinelli_Gabriele.pdf" (50 pages, 5325181 bytes).
+Output written on "c:/Users/gabri/OneDrive - Università degli Studi di Padova/Desktop/UNI/Triennale/a.a. 2021-2022/Tesi/LaTex/Bertinelli_Gabriele.pdf" (51 pages, 5327391 bytes).
 PDF statistics:
- 645 PDF objects out of 1000 (max. 8388607)
- 543 compressed objects within 6 object streams
- 140 named destinations out of 1000 (max. 500000)
- 352 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 654 PDF objects out of 1000 (max. 8388607)
+ 551 compressed objects within 6 object streams
+ 142 named destinations out of 1000 (max. 500000)
+ 360 words of extra memory for PDF output out of 10000 (max. 10000000)
 
