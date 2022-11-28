@@ -1,9 +1,9 @@
 # Fdb version 3
-["pdflatex"] 1669641044 "c:/Users/gabri/OneDrive - Università degli Studi di Padova/Desktop/UNI/Triennale/a.a. 2021-2022/Tesi/LaTex/Bertinelli_Gabriele.tex" "c:/Users/gabri/OneDrive - Università degli Studi di Padova/Desktop/UNI/Triennale/a.a. 2021-2022/Tesi/LaTex/Bertinelli_Gabriele.pdf" "Bertinelli_Gabriele" 1669641053
+["pdflatex"] 1669647208 "c:/Users/gabri/OneDrive - Università degli Studi di Padova/Desktop/UNI/Triennale/a.a. 2021-2022/Tesi/LaTex/Bertinelli_Gabriele.tex" "c:/Users/gabri/OneDrive - Università degli Studi di Padova/Desktop/UNI/Triennale/a.a. 2021-2022/Tesi/LaTex/Bertinelli_Gabriele.pdf" "Bertinelli_Gabriele" 1669647215
   "Bertinelli_Gabriele-frn.pdf" 1669396184 419159 ffc0c87335480cd17b937ea8294a4b03 ""
-  "Bertinelli_Gabriele-frn.tex" 1669641046 993 c459f7531513a8f2beadb3c7e3971b7e ""
-  "c:/Users/gabri/OneDrive - Università degli Studi di Padova/Desktop/UNI/Triennale/a.a. 2021-2022/Tesi/LaTex/Bertinelli_Gabriele.aux" 1669641053 18109 a04f876e5ed5802f8c981b48dbdc95c0 ""
-  "c:/Users/gabri/OneDrive - Università degli Studi di Padova/Desktop/UNI/Triennale/a.a. 2021-2022/Tesi/LaTex/Bertinelli_Gabriele.tex" 1669641031 81136 b20de08526eb203e9497f830554cc642 ""
+  "Bertinelli_Gabriele-frn.tex" 1669647209 993 c459f7531513a8f2beadb3c7e3971b7e ""
+  "c:/Users/gabri/OneDrive - Università degli Studi di Padova/Desktop/UNI/Triennale/a.a. 2021-2022/Tesi/LaTex/Bertinelli_Gabriele.aux" 1669647215 19241 cf5c09228280ce82258112c1bb0aa27d ""
+  "c:/Users/gabri/OneDrive - Università degli Studi di Padova/Desktop/UNI/Triennale/a.a. 2021-2022/Tesi/LaTex/Bertinelli_Gabriele.tex" 1669647198 86760 e7edb64b3c5344579128d68cb86b0f60 ""
   "c:/texlive/2019/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc" 1581612951 2900 1537cc8184ad1792082cd229ecc269f4 ""
   "c:/texlive/2019/texmf-dist/fonts/map/fontname/texfonts.map" 1581615449 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "c:/texlive/2019/texmf-dist/fonts/tfm/jknappen/ec/tcrm1000.tfm" 1581614393 1536 e07581a4bb3136ece9eeb4c3ffab8233 ""
@@ -53,6 +53,7 @@
   "c:/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmsl10.pfb" 1581610651 35022 e40946b20bfdcd1099eafb2bcd9f25dd ""
   "c:/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb" 1581610651 32569 5e5ddc8df908dea60932f3c484a54c0d ""
   "c:/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb" 1581610651 32716 08e384dc442464e7285e891af9f45947 ""
+  "c:/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb" 1581610651 32626 5abc8bb2f28aa647d4c70f8ea38cc0d3 ""
   "c:/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb" 1581610651 37944 359e864bd06cde3b1cf57bb20757fb06 ""
   "c:/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmti9.pfb" 1581610651 36310 f5ddc6715cc60deb16d9db5ded6a9391 ""
   "c:/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb" 1581610652 31764 459c573c03a4949a528c2cc7f557e217 ""
@@ -162,6 +163,7 @@
   "c:/texlive/2019/texmf.cnf" 1581625060 673 4ae7b2f49cee444c5343a45b5d0f169c ""
   "figure/DART_mission_patch.png" 1669284491 17425 9b32f25e05840fec3c3e5fc3241820c8 ""
   "figure/Hera_mission_timeline.png" 1669302744 466147 dc7b0a3dd1c3aa358c920f53a604982a ""
+  "figure/Ieva et al.jpg" 1669643625 76760 ca932b5ca1fc0621edc9db3886a523de ""
   "figure/Telescopes_observing_DART's_impact.png" 1669387221 2505437 863bea76b19104224ae979608fc1455b ""
   "figure/binaries_evolution.jpg" 1669394527 757703 f91e1bf078203b8b42634dc59e861fad ""
   "figure/dart_cleanroom.jpg" 1669296684 245210 3ac08024f2fdf16e4d3687997fee6acb ""
