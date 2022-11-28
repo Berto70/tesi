@@ -39,4 +39,4 @@
 \contentsline {subsection}{\numberline {4.3.3}Asteroidi rubble-pile}{35}{subsection.4.3.3}%
 \contentsline {subsection}{\numberline {4.3.4}Indizi sulla formazione ed evoluzione del sistema}{36}{subsection.4.3.4}%
 \contentsline {section}{\numberline {4.4}Caratteristiche spettrali (pre impatto(??))}{37}{section.4.4}%
-\contentsline {section}{\numberline {4.5}Didymos come obiettivo della missione DART}{38}{section.4.5}%
+\contentsline {section}{\numberline {4.5}Didymos come obiettivo della missione DART}{39}{section.4.5}%
