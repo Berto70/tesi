@@ -1,0 +1,265 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model 
+    href="https://pds.nasa.gov/pds4/pds/v1/PDS4_PDS_1B00.sch"
+    schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model 
+    href="https://pds.nasa.gov/pds4/speclib/v1/PDS4_SPECLIB_1B00_1000.sch"
+    schematypens="http://purl.oclc.org/dsdl/schematron"?>
+
+<Product_Ancillary xmlns="http://pds.nasa.gov/pds4/pds/v1"
+    xmlns:speclib="http://pds.nasa.gov/pds4/speclib/v1"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://pds.nasa.gov/pds4/pds/v1
+                        http://pds.nasa.gov/pds4/pds/v1/PDS4_PDS_1B00.xsd
+                        http://pds.nasa.gov/pds4/speclib/v1
+                        http://pds.nasa.gov/pds4/speclib/v1/PDS4_SPECLIB_1B00_1000.xsd">
+    <Identification_Area>
+        <logical_identifier>urn:nasa:pds:relab:data_ancillary_chemistry:aa-a1s-001_specimenchemistry</logical_identifier>
+        <version_id>1.0</version_id>
+        <title>RELAB Ancillary Data Product AA-A1S-001_SpecimenChemistry</title>
+        <information_model_version>1.11.0.0</information_model_version>
+        <product_class>Product_Ancillary</product_class>
+        <Modification_History>
+            <Modification_Detail>
+                <modification_date>2020-09-30</modification_date>
+                <version_id>1.0</version_id>
+                <description>
+                    Post-peer-review version
+                </description>
+            </Modification_Detail>
+        </Modification_History>
+    </Identification_Area>
+    <Context_Area>
+        <Time_Coordinates>
+            <start_date_time xsi:nil="true" nilReason="unknown"></start_date_time>
+            <stop_date_time xsi:nil="true" nilReason="unknown"></stop_date_time>
+        </Time_Coordinates>
+        <Investigation_Area>
+            <name>RELAB Spectral Library</name>
+            <type>Other Investigation</type>
+            <Internal_Reference>
+                <lid_reference>urn:nasa:pds:context:investigation:other_investigation.relab_speclib</lid_reference>
+                <reference_type>data_to_investigation</reference_type>
+            </Internal_Reference>
+        </Investigation_Area>
+        <Observing_System>
+            <name>RELAB</name>
+            <description>Brown University Reflectance Spectroscopy Laboratory</description>
+            <Observing_System_Component>
+                <name>NASA/Keck Reflectance Experiment Laboratory (RELAB)</name>
+                <type>Facility</type>
+                <Internal_Reference>
+                    <lid_reference>urn:nasa:pds:context:facility:laboratory.relab</lid_reference>
+                    <reference_type>is_facility</reference_type>
+                </Internal_Reference>
+            </Observing_System_Component>
+        </Observing_System>
+        <Target_Identification>
+            <name>AA-A1S-001</name>
+            <type>Synthetic Sample</type>
+        </Target_Identification>
+    </Context_Area>
+    <File_Area_Ancillary>
+        <File>
+            <file_name>aa-a1s-001_specimenchemistry.csv</file_name>
+        </File>
+        <Table_Delimited>
+            <local_identifier>Column-Headings</local_identifier>
+            <offset unit="byte">0</offset>
+            <object_length unit="byte">282</object_length>
+            <parsing_standard_id>PDS DSV 1</parsing_standard_id>
+            <description>The Column-Headings table contains a single record with the names of the columns in the Chemistry-Data table.</description>
+            <records>1</records>
+            <record_delimiter>Carriage-Return Line-Feed</record_delimiter>
+            <field_delimiter>Comma</field_delimiter>
+            <Record_Delimited>
+                <fields>0</fields>
+                <groups>1</groups>
+                <Group_Field_Delimited>
+                    <repetitions>23</repetitions>
+                    <fields>1</fields>
+                    <groups>0</groups>
+                    <Field_Delimited>
+                        <name>Column-Name</name>
+                        <field_number>1</field_number>
+                        <data_type>ASCII_String</data_type>
+                        <description>The name of a column in the Chemistry-Data table</description>
+                    </Field_Delimited>
+                </Group_Field_Delimited>
+            </Record_Delimited>
+        </Table_Delimited>
+        <Table_Delimited>
+            <local_identifier>Chemistry-Data</local_identifier>
+            <offset unit="byte">283</offset>
+            <parsing_standard_id>PDS DSV 1</parsing_standard_id>
+            <description>The Chemistry-Data table contains one or more records of various chemical measurements of a specimen.</description>
+            <records>1</records>
+            <record_delimiter>Carriage-Return Line-Feed</record_delimiter>
+            <field_delimiter>Comma</field_delimiter>
+            <Record_Delimited>
+                <fields>23</fields>
+                <groups>0</groups>
+                <Field_Delimited>
+                    <name>Specimen_ID</name>
+                    <field_number>1</field_number>
+                    <data_type>ASCII_String</data_type>
+                    <description>RELAB identification for the specimen</description>
+                </Field_Delimited>
+                <Field_Delimited>
+                    <name>Phase Abbreviation</name>
+                    <field_number>2</field_number>
+                    <data_type>ASCII_String</data_type>
+                    <description>Abbreviation of the Phase Name</description>
+                </Field_Delimited>
+                <Field_Delimited>
+                    <name>Phase Name</name>
+                    <field_number>3</field_number>
+                    <data_type>ASCII_String</data_type>
+                    <description>Name of phase or part of sample associated with the measured chemistry values</description>
+                </Field_Delimited>
+                <Field_Delimited>
+                    <name>SiO2 Percent</name>
+                    <field_number>4</field_number>
+                    <data_type>ASCII_Real</data_type>
+                    <unit>percent</unit>
+                    <description>Weight percent of SiO2</description>
+                </Field_Delimited>
+                <Field_Delimited>
+                    <name>TiO2 Percent</name>
+                    <field_number>5</field_number>
+                    <data_type>ASCII_Real</data_type>
+                    <unit>percent</unit>
+                    <description>Weight percent of TiO2</description>
+                </Field_Delimited>
+                <Field_Delimited>
+                    <name>Al2O3 Percent</name>
+                    <field_number>6</field_number>
+                    <data_type>ASCII_Real</data_type>
+                    <unit>percent</unit>
+                    <description>Weight percent of Al2O3</description>
+                </Field_Delimited>
+                <Field_Delimited>
+                    <name>Cr2O3 Percent</name>
+                    <field_number>7</field_number>
+                    <data_type>ASCII_Real</data_type>
+                    <unit>percent</unit>
+                    <description>Weight percent of Cr2O3</description>
+                </Field_Delimited>
+                <Field_Delimited>
+                    <name>Fe2O3 Percent</name>
+                    <field_number>8</field_number>
+                    <data_type>ASCII_Real</data_type>
+                    <unit>percent</unit>
+                    <description>Weight percent of Fe2O3</description>
+                </Field_Delimited>
+                <Field_Delimited>
+                    <name>FeO Percent</name>
+                    <field_number>9</field_number>
+                    <data_type>ASCII_Real</data_type>
+                    <unit>percent</unit>
+                    <description>Weight percent of FeO</description>
+                </Field_Delimited>
+                <Field_Delimited>
+                    <name>MnO Percent</name>
+                    <field_number>10</field_number>
+                    <data_type>ASCII_Real</data_type>
+                    <unit>percent</unit>
+                    <description>Weight percent of MnO</description>
+                </Field_Delimited>
+                <Field_Delimited>
+                    <name>MgO Percent</name>
+                    <field_number>11</field_number>
+                    <data_type>ASCII_Real</data_type>
+                    <unit>percent</unit>
+                    <description>Weight percent of MgO</description>
+                </Field_Delimited>
+                <Field_Delimited>
+                    <name>CaO Percent</name>
+                    <field_number>12</field_number>
+                    <data_type>ASCII_Real</data_type>
+                    <unit>percent</unit>
+                    <description>Weight percent of CaO</description>
+                </Field_Delimited>
+                <Field_Delimited>
+                    <name>Na2O Percent</name>
+                    <field_number>13</field_number>
+                    <data_type>ASCII_Real</data_type>
+                    <unit>percent</unit>
+                    <description>Weight percent of Na2O</description>
+                </Field_Delimited>
+                <Field_Delimited>
+                    <name>K2O Percent</name>
+                    <field_number>14</field_number>
+                    <data_type>ASCII_Real</data_type>
+                    <unit>percent</unit>
+                    <description>Weight percent of K2O</description>
+                </Field_Delimited>
+                <Field_Delimited>
+                    <name>P2O5 Percent</name>
+                    <field_number>15</field_number>
+                    <data_type>ASCII_Real</data_type>
+                    <unit>percent</unit>
+                    <description>Weight percent of P2O5</description>
+                </Field_Delimited>
+                <Field_Delimited>
+                    <name>Loss On Ignition</name>
+                    <field_number>16</field_number>
+                    <data_type>ASCII_Real</data_type>
+                    <unit>percent</unit>
+                    <description>Weight percent loss during rapid heating (loss on ignition) often to temperatures in excess of 500 degrees Celsius</description>
+                </Field_Delimited>
+                <Field_Delimited>
+                    <name>Cu ppm</name>
+                    <field_number>17</field_number>
+                    <data_type>ASCII_Real</data_type>
+                    <unit>parts per million</unit>
+                    <description>Cu abundance in parts per million</description>
+                </Field_Delimited>
+                <Field_Delimited>
+                    <name>Ni ppm</name>
+                    <field_number>18</field_number>
+                    <data_type>ASCII_Real</data_type>
+                    <unit>parts per million</unit>
+                    <description>Ni abundance in parts per million</description>
+                </Field_Delimited>
+                <Field_Delimited>
+                    <name>Co ppm</name>
+                    <field_number>19</field_number>
+                    <data_type>ASCII_Real</data_type>
+                    <unit>parts per million</unit>
+                    <description>Co abundance in parts per million</description>
+                </Field_Delimited>
+                <Field_Delimited>
+                    <name>Zn ppm</name>
+                    <field_number>20</field_number>
+                    <data_type>ASCII_Real</data_type>
+                    <unit>parts per million</unit>
+                    <description>Zn abundance in parts per million</description>
+                </Field_Delimited>
+                <Field_Delimited>
+                    <name>V ppm</name>
+                    <field_number>21</field_number>
+                    <data_type>ASCII_Real</data_type>
+                    <unit>parts per million</unit>
+                    <description>V abundance in parts per million</description>
+                </Field_Delimited>
+                <Field_Delimited>
+                    <name>Sources and Methods</name>
+                    <field_number>22</field_number>
+                    <data_type>ASCII_String</data_type>
+                    <description>
+                        Additional text that may include decription of the method used to measure
+                        the chemical abundances, the person who provided the data, or the paper from which the 
+                        numbers were extracted
+                    </description>
+                </Field_Delimited>
+                <Field_Delimited>
+                    <name>Additional Notes</name>
+                    <field_number>23</field_number>
+                    <data_type>ASCII_String</data_type>
+                    <description>Additional text related to the sample chemistry</description>
+                </Field_Delimited>
+            </Record_Delimited>
+        </Table_Delimited>
+    </File_Area_Ancillary>
+</Product_Ancillary>

@@ -146,8 +146,6 @@ INPUT c:/texlive/2019/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty
 INPUT c:/texlive/2019/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty
 INPUT c:/texlive/2019/texmf-dist/tex/latex/base/textcomp.sty
 INPUT c:/texlive/2019/texmf-dist/tex/latex/base/textcomp.sty
-INPUT c:/texlive/2019/texmf-dist/tex/latex/cite/cite.sty
-INPUT c:/texlive/2019/texmf-dist/tex/latex/cite/cite.sty
 INPUT c:/texlive/2019/texmf-dist/tex/latex/multirow/multirow.sty
 INPUT c:/texlive/2019/texmf-dist/tex/latex/multirow/multirow.sty
 INPUT c:/texlive/2019/texmf-dist/tex/latex/adjustbox/adjustbox.sty
@@ -183,17 +181,63 @@ INPUT c:/texlive/2019/texmf-dist/tex/generic/babel-english/english.ldf
 INPUT c:/texlive/2019/texmf-dist/tex/generic/babel-english/english.ldf
 INPUT c:/texlive/2019/texmf-dist/tex/generic/babel-polish/polish.ldf
 INPUT c:/texlive/2019/texmf-dist/tex/generic/babel-polish/polish.ldf
+INPUT c:/texlive/2019/texmf-dist/tex/generic/babel-greek/greek.ldf
+INPUT c:/texlive/2019/texmf-dist/tex/generic/babel-greek/greek.ldf
+INPUT c:/texlive/2019/texmf-dist/tex/latex/greek-fontenc/lgrenc.def
+INPUT c:/texlive/2019/texmf-dist/tex/latex/greek-fontenc/lgrenc.def
+INPUT c:/texlive/2019/texmf-dist/tex/latex/greek-inputenc/lgrenc.dfu
+INPUT c:/texlive/2019/texmf-dist/tex/latex/greek-inputenc/lgrenc.dfu
+INPUT c:/texlive/2019/texmf-dist/tex/latex/greek-fontenc/greek-fontenc.def
+INPUT c:/texlive/2019/texmf-dist/tex/latex/greek-fontenc/greek-fontenc.def
 INPUT c:/texlive/2019/texmf-dist/tex/latex/setspace/setspace.sty
 INPUT c:/texlive/2019/texmf-dist/tex/latex/setspace/setspace.sty
+INPUT c:/texlive/2019/texmf-dist/tex/latex/biblatex/biblatex.sty
+INPUT c:/texlive/2019/texmf-dist/tex/latex/biblatex/biblatex.sty
+INPUT c:/texlive/2019/texmf-dist/tex/latex/logreq/logreq.sty
+INPUT c:/texlive/2019/texmf-dist/tex/latex/logreq/logreq.sty
+INPUT c:/texlive/2019/texmf-dist/tex/latex/logreq/logreq.def
+INPUT c:/texlive/2019/texmf-dist/tex/latex/logreq/logreq.def
+INPUT c:/texlive/2019/texmf-dist/tex/latex/base/ifthen.sty
+INPUT c:/texlive/2019/texmf-dist/tex/latex/base/ifthen.sty
+INPUT c:/texlive/2019/texmf-dist/tex/latex/biblatex/blx-dm.def
+INPUT c:/texlive/2019/texmf-dist/tex/latex/biblatex/blx-dm.def
+INPUT c:/texlive/2019/texmf-dist/tex/latex/biblatex/blx-compat.def
+INPUT c:/texlive/2019/texmf-dist/tex/latex/biblatex/blx-compat.def
+INPUT c:/texlive/2019/texmf-dist/tex/latex/biblatex/biblatex.def
+INPUT c:/texlive/2019/texmf-dist/tex/latex/biblatex/biblatex.def
+INPUT c:/texlive/2019/texmf-dist/tex/latex/biblatex/blx-natbib.def
+INPUT c:/texlive/2019/texmf-dist/tex/latex/biblatex/blx-natbib.def
+INPUT c:/texlive/2019/texmf-dist/tex/latex/biblatex/bbx/authoryear-comp.bbx
+INPUT c:/texlive/2019/texmf-dist/tex/latex/biblatex/bbx/authoryear-comp.bbx
+INPUT c:/texlive/2019/texmf-dist/tex/latex/biblatex/bbx/authoryear.bbx
+INPUT c:/texlive/2019/texmf-dist/tex/latex/biblatex/bbx/authoryear.bbx
+INPUT c:/texlive/2019/texmf-dist/tex/latex/biblatex/bbx/standard.bbx
+INPUT c:/texlive/2019/texmf-dist/tex/latex/biblatex/bbx/standard.bbx
+INPUT c:/texlive/2019/texmf-dist/tex/latex/biblatex/cbx/authoryear-comp.cbx
+INPUT c:/texlive/2019/texmf-dist/tex/latex/biblatex/cbx/authoryear-comp.cbx
+INPUT c:/texlive/2019/texmf-dist/tex/latex/biblatex/biblatex.cfg
+INPUT c:/texlive/2019/texmf-dist/tex/latex/biblatex/biblatex.cfg
+INPUT c:/texlive/2019/texmf-dist/tex/latex/biblatex/lbx/american.lbx
+INPUT c:/texlive/2019/texmf-dist/tex/latex/csquotes/csquotes.sty
+INPUT c:/texlive/2019/texmf-dist/tex/latex/csquotes/csquotes.sty
+INPUT c:/texlive/2019/texmf-dist/tex/latex/csquotes/csquotes.def
+INPUT c:/texlive/2019/texmf-dist/tex/latex/csquotes/csquotes.def
+INPUT c:/texlive/2019/texmf-dist/tex/latex/csquotes/csquotes.cfg
+INPUT c:/texlive/2019/texmf-dist/tex/latex/csquotes/csquotes.cfg
 INPUT c:/texlive/2019/texmf-dist/tex/latex/l3backend/l3backend-pdfmode.def
 INPUT c:/texlive/2019/texmf-dist/tex/latex/l3backend/l3backend-pdfmode.def
 INPUT c:/Users/gabri/OneDrive - Università degli Studi di Padova/Desktop/UNI/Triennale/a.a. 2021-2022/Tesi/LaTex/Bertinelli_Gabriele.aux
 INPUT c:/Users/gabri/OneDrive - Università degli Studi di Padova/Desktop/UNI/Triennale/a.a. 2021-2022/Tesi/LaTex/Bertinelli_Gabriele.aux
+INPUT c:/texlive/2019/texmf-dist/tex/latex/cbfonts-fd/lgrcmr.fd
+INPUT c:/texlive/2019/texmf-dist/tex/latex/cbfonts-fd/lgrcmr.fd
+INPUT c:/texlive/2019/texmf-dist/fonts/tfm/public/cbfonts/grmn1095.tfm
 OUTPUT c:/Users/gabri/OneDrive - Università degli Studi di Padova/Desktop/UNI/Triennale/a.a. 2021-2022/Tesi/LaTex/Bertinelli_Gabriele.aux
 INPUT c:/texlive/2019/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 INPUT c:/texlive/2019/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 INPUT c:/texlive/2019/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
 INPUT c:/texlive/2019/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
+INPUT c:/texlive/2019/texmf-dist/tex/latex/grfext/grfext.sty
+INPUT c:/texlive/2019/texmf-dist/tex/latex/grfext/grfext.sty
 INPUT c:/texlive/2019/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
 INPUT c:/texlive/2019/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
 INPUT c:/texlive/2019/texmf-dist/tex/latex/hyperref/nameref.sty
@@ -203,16 +247,27 @@ INPUT c:/texlive/2019/texmf-dist/tex/latex/refcount/refcount.sty
 INPUT c:/texlive/2019/texmf-dist/tex/generic/gettitlestring/gettitlestring.sty
 INPUT c:/texlive/2019/texmf-dist/tex/generic/gettitlestring/gettitlestring.sty
 OUTPUT c:/Users/gabri/OneDrive - Università degli Studi di Padova/Desktop/UNI/Triennale/a.a. 2021-2022/Tesi/LaTex/Bertinelli_Gabriele.pdf
+INPUT c:/texlive/2019/texmf-dist/tex/latex/biblatex/lbx/greek.lbx
+INPUT c:/texlive/2019/texmf-dist/tex/latex/biblatex/lbx/greek.lbx
+INPUT c:/texlive/2019/texmf-dist/tex/latex/biblatex/lbx/polish.lbx
+INPUT c:/texlive/2019/texmf-dist/tex/latex/biblatex/lbx/polish.lbx
+INPUT c:/texlive/2019/texmf-dist/tex/latex/biblatex/lbx/english.lbx
+INPUT c:/texlive/2019/texmf-dist/tex/latex/biblatex/lbx/english.lbx
+INPUT c:/texlive/2019/texmf-dist/tex/latex/biblatex/lbx/italian.lbx
+INPUT c:/texlive/2019/texmf-dist/tex/latex/biblatex/lbx/italian.lbx
+OUTPUT c:/Users/gabri/OneDrive - Università degli Studi di Padova/Desktop/UNI/Triennale/a.a. 2021-2022/Tesi/LaTex/Bertinelli_Gabriele.bcf
+INPUT c:/Users/gabri/OneDrive - Università degli Studi di Padova/Desktop/UNI/Triennale/a.a. 2021-2022/Tesi/LaTex/Bertinelli_Gabriele.bbl
+INPUT c:/Users/gabri/OneDrive - Università degli Studi di Padova/Desktop/UNI/Triennale/a.a. 2021-2022/Tesi/LaTex/Bertinelli_Gabriele.bbl
+INPUT c:/Users/gabri/OneDrive - Università degli Studi di Padova/Desktop/UNI/Triennale/a.a. 2021-2022/Tesi/LaTex/Bertinelli_Gabriele.bbl
 INPUT c:/Users/gabri/OneDrive - Università degli Studi di Padova/Desktop/UNI/Triennale/a.a. 2021-2022/Tesi/LaTex/Bertinelli_Gabriele-frn.pdf
 INPUT c:/Users/gabri/OneDrive - Università degli Studi di Padova/Desktop/UNI/Triennale/a.a. 2021-2022/Tesi/LaTex/Bertinelli_Gabriele-frn.pdf
 INPUT ./Bertinelli_Gabriele-frn.pdf
 INPUT ./Bertinelli_Gabriele-frn.pdf
 INPUT c:/texlive/2019/texmf-var/fonts/map/pdftex/updmap/pdftex.map
 INPUT ./Bertinelli_Gabriele-frn.tex
-INPUT c:/texlive/2019/texmf-dist/fonts/tfm/public/cm/cmti10.tfm
-INPUT c:/texlive/2019/texmf-dist/fonts/tfm/public/cm/cmsl10.tfm
 INPUT c:/texlive/2019/texmf-dist/fonts/tfm/public/cm/cmr17.tfm
 INPUT c:/texlive/2019/texmf-dist/fonts/tfm/public/cm/cmbx12.tfm
+INPUT c:/texlive/2019/texmf-dist/fonts/tfm/public/cm/cmsl10.tfm
 INPUT c:/Users/gabri/OneDrive - Università degli Studi di Padova/Desktop/UNI/Triennale/a.a. 2021-2022/Tesi/LaTex/Bertinelli_Gabriele.toc
 INPUT c:/Users/gabri/OneDrive - Università degli Studi di Padova/Desktop/UNI/Triennale/a.a. 2021-2022/Tesi/LaTex/Bertinelli_Gabriele.toc
 INPUT c:/texlive/2019/texmf-dist/fonts/tfm/public/cm/cmbx10.tfm
@@ -246,6 +301,8 @@ INPUT c:/Users/gabri/OneDrive - Università degli Studi di Padova/Desktop/UNI/Tr
 OUTPUT c:/Users/gabri/OneDrive - Università degli Studi di Padova/Desktop/UNI/Triennale/a.a. 2021-2022/Tesi/LaTex/Bertinelli_Gabriele.lof
 INPUT c:/texlive/2019/texmf-dist/fonts/tfm/public/cm/cmr17.tfm
 INPUT c:/texlive/2019/texmf-dist/fonts/tfm/public/cm/cmbx12.tfm
+INPUT c:/texlive/2019/texmf-dist/fonts/tfm/public/cm/cmr12.tfm
+INPUT c:/texlive/2019/texmf-dist/fonts/tfm/public/cm/cmbx12.tfm
 INPUT c:/texlive/2019/texmf-dist/fonts/tfm/public/cm/cmr9.tfm
 INPUT c:/texlive/2019/texmf-dist/fonts/tfm/public/cm/cmmi9.tfm
 INPUT c:/texlive/2019/texmf-dist/fonts/tfm/public/cm/cmsy9.tfm
@@ -257,6 +314,7 @@ INPUT c:/texlive/2019/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm10.tfm
 INPUT c:/texlive/2019/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm5.tfm
 INPUT c:/texlive/2019/texmf-dist/fonts/tfm/public/cm/cmr12.tfm
 INPUT c:/texlive/2019/texmf-dist/fonts/tfm/public/cm/cmbx12.tfm
+INPUT c:/texlive/2019/texmf-dist/fonts/tfm/public/cm/cmti10.tfm
 INPUT c:/texlive/2019/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm
 INPUT c:/texlive/2019/texmf-dist/fonts/tfm/public/amsfonts/symbols/msam10.tfm
 INPUT c:/texlive/2019/texmf-dist/fonts/tfm/public/amsfonts/symbols/msam7.tfm
@@ -266,8 +324,6 @@ INPUT c:/texlive/2019/texmf-dist/fonts/tfm/jknappen/ec/tcrm1095.tfm
 INPUT c:/Users/gabri/OneDrive - Università degli Studi di Padova/Desktop/UNI/Triennale/a.a. 2021-2022/Tesi/LaTex/figure/pha_map.jpg
 INPUT ./figure/pha_map.jpg
 INPUT ./figure/pha_map.jpg
-INPUT c:/texlive/2019/texmf-dist/fonts/tfm/public/cm/cmr12.tfm
-INPUT c:/texlive/2019/texmf-dist/fonts/tfm/public/cm/cmbx12.tfm
 INPUT c:/Users/gabri/OneDrive - Università degli Studi di Padova/Desktop/UNI/Triennale/a.a. 2021-2022/Tesi/LaTex/figure/spettro_qsa.jpg
 INPUT ./figure/spettro_qsa.jpg
 INPUT ./figure/spettro_qsa.jpg
@@ -323,13 +379,24 @@ INPUT ./figure/didymos_shape_model.jpg
 INPUT c:/Users/gabri/OneDrive - Università degli Studi di Padova/Desktop/UNI/Triennale/a.a. 2021-2022/Tesi/LaTex/figure/failure_models.jpg
 INPUT ./figure/failure_models.jpg
 INPUT ./figure/failure_models.jpg
+INPUT c:/Users/gabri/OneDrive - Università degli Studi di Padova/Desktop/UNI/Triennale/a.a. 2021-2022/Tesi/LaTex/figure/spettri_tot_ieva.jpg
+INPUT ./figure/spettri_tot_ieva.jpg
+INPUT ./figure/spettri_tot_ieva.jpg
+INPUT c:/Users/gabri/OneDrive - Università degli Studi di Padova/Desktop/UNI/Triennale/a.a. 2021-2022/Tesi/LaTex/figure/slope_ieva.jpg
+INPUT ./figure/slope_ieva.jpg
+INPUT ./figure/slope_ieva.jpg
 INPUT c:/Users/gabri/OneDrive - Università degli Studi di Padova/Desktop/UNI/Triennale/a.a. 2021-2022/Tesi/LaTex/figure/Ieva et al.jpg
 INPUT ./figure/Ieva et al.jpg
 INPUT ./figure/Ieva et al.jpg
 INPUT c:/Users/gabri/OneDrive - Università degli Studi di Padova/Desktop/UNI/Triennale/a.a. 2021-2022/Tesi/LaTex/figure/Michel et al.png
 INPUT ./figure/Michel et al.png
 INPUT ./figure/Michel et al.png
+INPUT c:/texlive/2019/texmf-dist/fonts/tfm/public/cm/cmcsc10.tfm
+INPUT c:/texlive/2019/texmf-dist/fonts/tfm/public/cm/cmtt10.tfm
 INPUT c:/Users/gabri/OneDrive - Università degli Studi di Padova/Desktop/UNI/Triennale/a.a. 2021-2022/Tesi/LaTex/Bertinelli_Gabriele.aux
+INPUT c:/texlive/2019/texmf-dist/fonts/tfm/public/cbfonts/grmn1000.tfm
+INPUT c:/Users/gabri/OneDrive - Università degli Studi di Padova/Desktop/UNI/Triennale/a.a. 2021-2022/Tesi/LaTex/Bertinelli_Gabriele.run.xml
+OUTPUT c:/Users/gabri/OneDrive - Università degli Studi di Padova/Desktop/UNI/Triennale/a.a. 2021-2022/Tesi/LaTex/Bertinelli_Gabriele.run.xml
 INPUT c:/texlive/2019/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc
 INPUT c:/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb
 INPUT c:/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb
@@ -350,6 +417,7 @@ INPUT c:/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb
 INPUT c:/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb
 INPUT c:/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb
 INPUT c:/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmti9.pfb
+INPUT c:/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb
 INPUT c:/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb
 INPUT c:/texlive/2019/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb
 INPUT c:/texlive/2019/texmf-dist/fonts/type1/public/cm-super/sfrm1095.pfb

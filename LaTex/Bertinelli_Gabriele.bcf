@@ -66,7 +66,7 @@
     </bcf:option>
     <bcf:option type="singlevalued">
       <bcf:key>labeldateparts</bcf:key>
-      <bcf:value>0</bcf:value>
+      <bcf:value>1</bcf:value>
     </bcf:option>
     <bcf:option type="multivalued">
       <bcf:key>labeldatespec</bcf:key>
@@ -91,15 +91,15 @@
     </bcf:option>
     <bcf:option type="singlevalued">
       <bcf:key>maxbibnames</bcf:key>
-      <bcf:value>3</bcf:value>
+      <bcf:value>2</bcf:value>
     </bcf:option>
     <bcf:option type="singlevalued">
       <bcf:key>maxcitenames</bcf:key>
-      <bcf:value>3</bcf:value>
+      <bcf:value>2</bcf:value>
     </bcf:option>
     <bcf:option type="singlevalued">
       <bcf:key>maxsortnames</bcf:key>
-      <bcf:value>3</bcf:value>
+      <bcf:value>2</bcf:value>
     </bcf:option>
     <bcf:option type="singlevalued">
       <bcf:key>maxitems</bcf:key>
@@ -159,11 +159,11 @@
     </bcf:option>
     <bcf:option type="singlevalued">
       <bcf:key>sortlocale</bcf:key>
-      <bcf:value>italian</bcf:value>
+      <bcf:value>greek</bcf:value>
     </bcf:option>
     <bcf:option type="singlevalued">
       <bcf:key>sortingtemplatename</bcf:key>
-      <bcf:value>none</bcf:value>
+      <bcf:value>nyt</bcf:value>
     </bcf:option>
     <bcf:option type="singlevalued">
       <bcf:key>sortsets</bcf:key>
@@ -175,7 +175,7 @@
     </bcf:option>
     <bcf:option type="singlevalued">
       <bcf:key>uniquename</bcf:key>
-      <bcf:value>false</bcf:value>
+      <bcf:value>init</bcf:value>
     </bcf:option>
     <bcf:option type="singlevalued">
       <bcf:key>uniqueprimaryauthor</bcf:key>
@@ -412,7 +412,8 @@
     <bcf:option datatype="boolean">doi</bcf:option>
     <bcf:option datatype="boolean">eprint</bcf:option>
     <bcf:option datatype="boolean">related</bcf:option>
-    <bcf:option datatype="boolean">subentry</bcf:option>
+    <bcf:option datatype="boolean">dashed</bcf:option>
+    <bcf:option datatype="boolean">mergedate</bcf:option>
     <bcf:option datatype="integer">mincrossrefs</bcf:option>
     <bcf:option datatype="integer">minxrefs</bcf:option>
     <bcf:option datatype="integer">maxnames</bcf:option>
@@ -493,7 +494,7 @@
     <bcf:option datatype="boolean">doi</bcf:option>
     <bcf:option datatype="boolean">eprint</bcf:option>
     <bcf:option datatype="boolean">related</bcf:option>
-    <bcf:option datatype="boolean">subentry</bcf:option>
+    <bcf:option datatype="boolean">mergedate</bcf:option>
     <bcf:option datatype="xml">labelalphatemplate</bcf:option>
     <bcf:option datatype="xml">translit</bcf:option>
     <bcf:option datatype="xml">sortexclusion</bcf:option>
@@ -579,7 +580,7 @@
     <bcf:option datatype="boolean" backendout="1">doi</bcf:option>
     <bcf:option datatype="boolean" backendout="1">eprint</bcf:option>
     <bcf:option datatype="boolean" backendout="1">related</bcf:option>
-    <bcf:option datatype="boolean" backendout="1">subentry</bcf:option>
+    <bcf:option datatype="boolean" backendout="1">mergedate</bcf:option>
     <bcf:option datatype="integer" backendin="maxcitenames,maxbibnames,maxsortnames">maxnames</bcf:option>
     <bcf:option datatype="integer" backendin="mincitenames,minbibnames,minsortnames">minnames</bcf:option>
     <bcf:option datatype="integer" backendout="1">maxbibnames</bcf:option>
@@ -2179,14 +2180,188 @@
   <!-- CITATION DATA -->
   <!-- SECTION 0 -->
   <bcf:bibdata section="0">
+    <bcf:datasource type="file" datatype="bibtex">bertinelli_gabriele_bib.bib</bcf:datasource>
   </bcf:bibdata>
   <bcf:section number="0">
+    <bcf:citekey order="1">migliorini_origin_1998</bcf:citekey>
+    <bcf:citekey order="1">morbidelli_numerous_1999</bcf:citekey>
+    <bcf:citekey order="1">michel_population_2000</bcf:citekey>
+    <bcf:citekey order="1">bottke_debiased_2002</bcf:citekey>
+    <bcf:citekey order="2">tholen_asteroid_1984</bcf:citekey>
+    <bcf:citekey order="3">tholen_asteroid_1984</bcf:citekey>
+    <bcf:citekey order="4">bus_phase_2002-1</bcf:citekey>
+    <bcf:citekey order="4">bus_phase_2002</bcf:citekey>
+    <bcf:citekey order="5">magrin_spectroscopic_nodate</bcf:citekey>
+    <bcf:citekey order="6">magrin_spectroscopic_nodate</bcf:citekey>
+    <bcf:citekey order="7">magrin_spectroscopic_nodate</bcf:citekey>
+    <bcf:citekey order="8">magrin_spectroscopic_nodate</bcf:citekey>
+    <bcf:citekey order="9">bell_asteroids_1989</bcf:citekey>
+    <bcf:citekey order="10">bell_asteroids_1989</bcf:citekey>
+    <bcf:citekey order="11">VILAS1985503</bcf:citekey>
+    <bcf:citekey order="12">magrin_spectroscopic_nodate</bcf:citekey>
+    <bcf:citekey order="13">magrin_spectroscopic_nodate</bcf:citekey>
+    <bcf:citekey order="14">magrin_spectroscopic_nodate</bcf:citekey>
+    <bcf:citekey order="15">magrin_spectroscopic_nodate</bcf:citekey>
+    <bcf:citekey order="16">magrin_spectroscopic_nodate</bcf:citekey>
+    <bcf:citekey order="17">magrin_spectroscopic_nodate</bcf:citekey>
+    <bcf:citekey order="18">magrin_spectroscopic_nodate</bcf:citekey>
+    <bcf:citekey order="19">magrin_spectroscopic_nodate</bcf:citekey>
+    <bcf:citekey order="20">bus_phase_2002</bcf:citekey>
+    <bcf:citekey order="20">bus_phase_2002-1</bcf:citekey>
+    <bcf:citekey order="21">bus_phase_2002</bcf:citekey>
+    <bcf:citekey order="21">bus_phase_2002-1</bcf:citekey>
+    <bcf:citekey order="22">demeo_extension_2009</bcf:citekey>
+    <bcf:citekey order="23">demeo_extension_2009</bcf:citekey>
+    <bcf:citekey order="24">demeo_extension_2009</bcf:citekey>
+    <bcf:citekey order="25">gold_lunar_1955</bcf:citekey>
+    <bcf:citekey order="25">hapke_space_2001</bcf:citekey>
+    <bcf:citekey order="26">keller_nature_1997</bcf:citekey>
+    <bcf:citekey order="27">meibom_invited_1999</bcf:citekey>
+    <bcf:citekey order="28">binzel_observed_2004</bcf:citekey>
+    <bcf:citekey order="29">bennett_space-weathering_2013</bcf:citekey>
+    <bcf:citekey order="30">lazzarin_space_2006</bcf:citekey>
+    <bcf:citekey order="31">vernazza_paucity_2013</bcf:citekey>
+    <bcf:citekey order="32">binzel_muses-c_2001</bcf:citekey>
+    <bcf:citekey order="33">hapke_space_2001</bcf:citekey>
+    <bcf:citekey order="34">ishiguro_scattered_2014</bcf:citekey>
+    <bcf:citekey order="35">noguchi_incipient_2011</bcf:citekey>
+    <bcf:citekey order="36">noguchi_space_2014</bcf:citekey>
+    <bcf:citekey order="37">loeffler_irradiation_2009</bcf:citekey>
+    <bcf:citekey order="37">brunetto_space_2006</bcf:citekey>
+    <bcf:citekey order="38">shestopalov_optical_2013</bcf:citekey>
+    <bcf:citekey order="39">michel_asteroid_2015</bcf:citekey>
+    <bcf:citekey order="40">binzel_earth_2010</bcf:citekey>
+    <bcf:citekey order="41">binzel_earth_2010</bcf:citekey>
+    <bcf:citekey order="42">rivkin_double_2021</bcf:citekey>
+    <bcf:citekey order="43">el_mir_new_2019</bcf:citekey>
+    <bcf:citekey order="44">canavan_interception_1992</bcf:citekey>
+    <bcf:citekey order="45">hall_ross_1997</bcf:citekey>
+    <bcf:citekey order="46">solem_interception_1993</bcf:citekey>
+    <bcf:citekey order="47">michel_european_2018</bcf:citekey>
+    <bcf:citekey order="48">poggiali_expected_2022</bcf:citekey>
+    <bcf:citekey order="49">pajola_anticipated_2022</bcf:citekey>
+    <bcf:citekey order="50">michel_esa_2022</bcf:citekey>
+    <bcf:citekey order="51">taylor_shape_2012</bcf:citekey>
+    <bcf:citekey order="52">becker_physical_2015</bcf:citekey>
+    <bcf:citekey order="52">brozovic_radar_2011</bcf:citekey>
+    <bcf:citekey order="53">pravec_photometric_2006</bcf:citekey>
+    <bcf:citekey order="54">pravec_photometric_2006</bcf:citekey>
+    <bcf:citekey order="55">scheirich_modeling_2009</bcf:citekey>
+    <bcf:citekey order="56">scheirich_modeling_2009</bcf:citekey>
+    <bcf:citekey order="57">scheirich_binary_2015</bcf:citekey>
+    <bcf:citekey order="58">scheirich_binary_2015</bcf:citekey>
+    <bcf:citekey order="59">carry_small_2015</bcf:citekey>
+    <bcf:citekey order="60">pravec_binary_2007</bcf:citekey>
+    <bcf:citekey order="61">pravec_binary_2012</bcf:citekey>
+    <bcf:citekey order="62">jacobson_dynamics_2011</bcf:citekey>
+    <bcf:citekey order="63">jacobson_dynamics_2011</bcf:citekey>
+    <bcf:citekey order="64">jacobson_dynamics_2011</bcf:citekey>
+    <bcf:citekey order="65">jacobson_dynamics_2011</bcf:citekey>
+    <bcf:citekey order="66">naidu_radar_2020</bcf:citekey>
+    <bcf:citekey order="67">naidu_radar_2020</bcf:citekey>
+    <bcf:citekey order="68">scheirich_modeling_2009</bcf:citekey>
+    <bcf:citekey order="69">scheirich_modeling_2009</bcf:citekey>
+    <bcf:citekey order="70">fang_near-earth_2012</bcf:citekey>
+    <bcf:citekey order="71">fang_near-earth_2012</bcf:citekey>
+    <bcf:citekey order="72">walsh_rotational_2008</bcf:citekey>
+    <bcf:citekey order="73">richardson_dynamical_2016</bcf:citekey>
+    <bcf:citekey order="74">richardson_dynamical_2016</bcf:citekey>
+    <bcf:citekey order="75">bottiglieri_applied_2022</bcf:citekey>
+    <bcf:citekey order="76">bottiglieri_applied_2022</bcf:citekey>
+    <bcf:citekey order="77">scheirich_preimpact_2022</bcf:citekey>
+    <bcf:citekey order="78">pravec_binary_2010</bcf:citekey>
+    <bcf:citekey order="79">pravec_binary_2010</bcf:citekey>
+    <bcf:citekey order="80">scheirich_preimpact_2022</bcf:citekey>
+    <bcf:citekey order="81">scheirich_preimpact_2022</bcf:citekey>
+    <bcf:citekey order="82">jacobson_dynamics_2011</bcf:citekey>
+    <bcf:citekey order="83">jacobson_dynamics_2011</bcf:citekey>
+    <bcf:citekey order="84">scheirich_satellite_2021</bcf:citekey>
+    <bcf:citekey order="85">naidu_radar_2020</bcf:citekey>
+    <bcf:citekey order="86">naidu_radar_2020</bcf:citekey>
+    <bcf:citekey order="87">pravec_photometric_2006</bcf:citekey>
+    <bcf:citekey order="88">pravec_photometric_2006</bcf:citekey>
+    <bcf:citekey order="89">scheirich_preimpact_2022</bcf:citekey>
+    <bcf:citekey order="90">naidu_radar_2020</bcf:citekey>
+    <bcf:citekey order="91">naidu_radar_2020</bcf:citekey>
+    <bcf:citekey order="92">naidu_radar_2020</bcf:citekey>
+    <bcf:citekey order="93">naidu_radar_2020</bcf:citekey>
+    <bcf:citekey order="94">hirabayashi_rotationally_2019</bcf:citekey>
+    <bcf:citekey order="95">hirabayashi_failure_2015</bcf:citekey>
+    <bcf:citekey order="96">hirabayashi_failure_2015</bcf:citekey>
+    <bcf:citekey order="97">naidu_radar_2020</bcf:citekey>
+    <bcf:citekey order="98">naidu_radar_2020</bcf:citekey>
+    <bcf:citekey order="99">walsh_rotational_2008</bcf:citekey>
+    <bcf:citekey order="99">walsh_spin-up_2012</bcf:citekey>
+    <bcf:citekey order="100">DellaGiustina2019</bcf:citekey>
+    <bcf:citekey order="101">pilorget_first_2021</bcf:citekey>
+    <bcf:citekey order="102">tsuchiyama_three-dimensional_2014</bcf:citekey>
+    <bcf:citekey order="103">zhang_creep_2021</bcf:citekey>
+    <bcf:citekey order="104">naidu_radar_2020</bcf:citekey>
+    <bcf:citekey order="105">pravec_binary_2016</bcf:citekey>
+    <bcf:citekey order="106">pravec_photometric_2022</bcf:citekey>
+    <bcf:citekey order="107">daly_hemispherical_2020</bcf:citekey>
+    <bcf:citekey order="108">walsh_spin-up_2012</bcf:citekey>
+    <bcf:citekey order="109">agrusa_excited_2021</bcf:citekey>
+    <bcf:citekey order="110">naidu_radar_2020</bcf:citekey>
+    <bcf:citekey order="111">naidu_radar_2020</bcf:citekey>
+    <bcf:citekey order="112">binzel_observed_2004</bcf:citekey>
+    <bcf:citekey order="113">binzel_observed_2004</bcf:citekey>
+    <bcf:citekey order="114">binzel_observed_2004</bcf:citekey>
+    <bcf:citekey order="115">binzel_observed_2004</bcf:citekey>
+    <bcf:citekey order="116">de_leon_spectral_2006</bcf:citekey>
+    <bcf:citekey order="116">de_leon_observations_2010</bcf:citekey>
+    <bcf:citekey order="117">de_leon_spectral_2006</bcf:citekey>
+    <bcf:citekey order="117">de_leon_observations_2010</bcf:citekey>
+    <bcf:citekey order="118">dunn_mineralogies_2013</bcf:citekey>
+    <bcf:citekey order="119">dunn_mineralogies_2013</bcf:citekey>
+    <bcf:citekey order="120">ieva_spectral_2022</bcf:citekey>
+    <bcf:citekey order="121">ieva_spectral_2022</bcf:citekey>
+    <bcf:citekey order="122">ieva_spectral_2022</bcf:citekey>
+    <bcf:citekey order="123">ieva_spectral_2022</bcf:citekey>
+    <bcf:citekey order="124">ieva_spectral_2022</bcf:citekey>
+    <bcf:citekey order="125">ieva_spectral_2022</bcf:citekey>
+    <bcf:citekey order="126">ieva_spectral_2022</bcf:citekey>
+    <bcf:citekey order="127">ieva_spectral_2022</bcf:citekey>
+    <bcf:citekey order="128">MICHEL20162529</bcf:citekey>
+    <bcf:citekey order="129">MICHEL20162529</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
-  <bcf:sortingtemplate name="none">
+  <bcf:sortingtemplate name="nyt">
     <bcf:sort order="1">
-      <bcf:sortitem order="1">citeorder</bcf:sortitem>
+      <bcf:sortitem order="1">presort</bcf:sortitem>
+    </bcf:sort>
+    <bcf:sort order="2" final="1">
+      <bcf:sortitem order="1">sortkey</bcf:sortitem>
+    </bcf:sort>
+    <bcf:sort order="3">
+      <bcf:sortitem order="1">sortname</bcf:sortitem>
+      <bcf:sortitem order="2">author</bcf:sortitem>
+      <bcf:sortitem order="3">editor</bcf:sortitem>
+      <bcf:sortitem order="4">translator</bcf:sortitem>
+      <bcf:sortitem order="5">sorttitle</bcf:sortitem>
+      <bcf:sortitem order="6">title</bcf:sortitem>
+    </bcf:sort>
+    <bcf:sort order="4">
+      <bcf:sortitem order="1">sortyear</bcf:sortitem>
+      <bcf:sortitem order="2">year</bcf:sortitem>
+    </bcf:sort>
+    <bcf:sort order="5">
+      <bcf:sortitem order="1">sorttitle</bcf:sortitem>
+      <bcf:sortitem order="2">title</bcf:sortitem>
+    </bcf:sort>
+    <bcf:sort order="6">
+      <bcf:sortitem order="1">volume</bcf:sortitem>
+      <bcf:sortitem literal="1" order="2">0</bcf:sortitem>
     </bcf:sort>
   </bcf:sortingtemplate>
   <!-- DATALISTS -->
+  <bcf:datalist section="0"
+                name="nyt/global//global/global"
+                type="entry"
+                sortingtemplatename="nyt"
+                sortingnamekeytemplatename="global"
+                labelprefix=""
+                uniquenametemplatename="global"
+                labelalphanametemplatename="global">
+  </bcf:datalist>
 </bcf:controlfile>
