@@ -64,7 +64,7 @@
     bookmarksopen,
     pdfstartview={FitH},
     colorlinks,
-    linkcolor={black}, %COLORE DEI RIFERIMENTI AL TESTO
+    linkcolor={blue}, %COLORE DEI RIFERIMENTI AL TESTO
     citecolor={blue}, %COLORE DEI RIFERIMENTI ALLE CITAZIONI
     urlcolor={blue} %COLORI DEGLI URL
 }
@@ -77,10 +77,10 @@
 
 % INFORMAZIONI PDF - PERSONALIZZARE
 \pdfinfo{%
-  /Title    (Caratterizzazione spettroscopica del sistema di Didymos dopo l'impatto con la sonda DART)
+  /Title    (La missione DART al sistema binario Didymos)
   /Author   (Gabriele Bertinelli)
-  /Subject  (Spettroscopia asteroide)
-  /Keywords (spettroscopia, asteroide, Didymos, dart, rotazione)
+  /Subject  (Ricerca bibliografica su asteroidi binari e il sistema di Didymos)
+  /Keywords (fotometria, spettroscopia, asteroide, didymos, dart, binari, radar, periodo)
 }
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -106,7 +106,7 @@
     
     
     {\Titoletto{Tesi di laurea triennale}}
-    \Titolo{Caratterizzazione spettroscopica del sistema di\\ Didymos dopo l'impatto con la sonda DART}
+    \Titolo{La missione DART al sistema binario Didymos}
     
     
     \Relatore{Prof.ssa Monica Lazzarin}
@@ -602,12 +602,17 @@ L'impatto è avvenuto a $6.6\,km/s$, liberando circa 11 gigajoule di energia.
 
 \begin{figure}[!h]
 \centering
-	{\includegraphics[width=.5\textwidth]{figure/primo_contatto.jpg}} \\
-	\vspace{0.5cm}
-	{\includegraphics[width=.3\textwidth]{figure/920.png}} \quad
-	{\includegraphics[width=.3\textwidth]{figure/penultima_dart.png}}
-\caption{Partendo dall'alto in senso antiorario: primo contatto di DART con il sistema di Didymos; immagine del sistema a 920 m; penultima immagine prima dello scontro. (NASA/JHU-JPL)}
-\label{fig:subfig}
+	\includegraphics[width=.8\textwidth]{figure/primo_contatto.jpg}
+\caption[Primo contatto della sonda DART con il sistema binario.]{Primo contatto della sonda DART con il sistema binario. (NASA/JHU-JPL)}
+\label{fig:primo_contatto}
+\end{figure}
+
+\begin{figure}[!h]
+\centering
+	{\includegraphics[width=.48\textwidth]{figure/920.png}} \quad
+	{\includegraphics[width=.48\textwidth]{figure/penultima_dart.png}}
+\caption[Immagini scattate dalla sonda DART in avvicinamento al sistema.]{Immagini scattate dalla sonda DART in avvicinamento al sistema. A sinistra il sistema binario visto da 920 metri di distanza, a destra la penultima immagine prima dell'impatto. (NASA/JHU-JPL)}
+\label{fig:920_penultima_dart}
 \end{figure}
 
 \subsection{Campagna di osservazioni}
@@ -933,24 +938,34 @@ Per questa analisi sarà necessario studiare le immagini di Dimorphos scattate d
 \end{figure}
 
 \section{Osservazioni da Asiago}
+Durante le notti del 17, 18, 19 ottobre ho contribuito a raccogliere gli spettri del sistema di Didymos con il telescopio Copernico dell'Osservatorio Astrofisico di Asiago. I dati sono al momento in fase di elaborazione e di confronto con quelli raccolti dagli altri team di DART.\\
+I dati raccolti ad Asiago andranno ridotti con estrema cura per poter escludere qualsiasi tipo di bias dovuto alle condizioni di osservazione non ottimali. Infatti, oltre alle condizioni meteo non ideali, il telescopio ha avuto dei problemi con l'inseguimento dell'asteroide, causando l'uscita dalla fenditura prima che il tempo di posa fosse terminato. Oltre a ciò, gli spettri di Didymos sono stati presi sotto un valore di airmass elevato, dal momento che l'oggetto si trovava a un'altezza non superiore ai 40° per tutto l'arco osservativo.\\
+Al momento, quindi, non c'è un risultato certo sulla composizione dei due asteroidi. Quando saranno disponibili, nei prossimi mesi, queste informazioni, complementari a quelle fotometriche e radar, saranno essenziali per migliorare la comprensione del sistema e le conseguenze dell'impatto.
 
 
 \begin{figure}
     \centering
     \includegraphics[width=\textwidth]{figure/liciacube_impact_1.png}
-    \caption[Riassunto dei dati fotometrici utilizzati per determinare l'orbita post-impatto.]{I grafici offrono un riassunto dei dati fotometrici che il team di DART ha utilizzato per determinare l'orbita di Dimorphos dopo l'impatto, grazie alle piccole diminuzioni di brillanza dovute alle eclissi reciproche tra Didymos e Dimorphos. I dati mostrano che le eclissi sono avvenute a un orario diverso (frecce arancioni) rispetto alle previsioni in cui il periodo orbitale rimane invariato (frecce grige). Le nuove diminuzioni di luminosità avvengono ogni 11 ore e 23 minuti, una diminuzione di 32 minuti rispetto al periodo orbitale pre-impatto di 11h 55m. (NASA/JHU-APL)}
+    \caption[Immagine scattata da LICIACube poco prima del flyby con Dimorphos.]{Immagine scattata da LICIACube poco prima del flyby con Dimorphos. Si vedono distintamente Didymos, Dimorphos e la nube di detriti generata dall'impatto. (ASI/NASA)}
     \label{fig:liciacube_impact_1}
 \end{figure}
 
 \begin{figure}
     \centering
     \includegraphics[width=\textwidth]{figure/liciacube_impact_tot.jpg}
-    \caption[Riassunto dei dati fotometrici utilizzati per determinare l'orbita post-impatto.]{I grafici offrono un riassunto dei dati fotometrici che il team di DART ha utilizzato per determinare l'orbita di Dimorphos dopo l'impatto, grazie alle piccole diminuzioni di brillanza dovute alle eclissi reciproche tra Didymos e Dimorphos. I dati mostrano che le eclissi sono avvenute a un orario diverso (frecce arancioni) rispetto alle previsioni in cui il periodo orbitale rimane invariato (frecce grige). Le nuove diminuzioni di luminosità avvengono ogni 11 ore e 23 minuti, una diminuzione di 32 minuti rispetto al periodo orbitale pre-impatto di 11h 55m. (NASA/JHU-APL)}
+    \caption[Riassunto dei dati fotometrici utilizzati per determinare l'orbita post-impatto.]{Immagine scattata da LICIACube dopo il flyby con Dimorphos. Ogni riquadro rappresenta un diverso livello di contrasto per mettere in risalto la struttura fine dei pennacchi di detriti. Studiando questi pennacchi si sarà in grado di approfondire le conoscenze sugli asteroidi e i processi di impatto. (ASI/NASA/APL)}
     \label{fig:liciacube_impact_tot}
 \end{figure}
 
+\begin{figure}
+    \centering
+    \includegraphics[scale=0.25]{figure/hst_plume.png}
+    \caption[Immagine della cosa di detriti scattata da HST.]{Immagine scattata dal telescopio spaziale Hubble l'8 ottobre 2022. Si nota chiaramente la cosa di detriti che si estende per più di 10000 km. (NASA/ESA/STScI/HST)}
+    \label{fig:hst_plume}
+\end{figure}
 
-\cleardoublepage
+
+
 \addcontentsline{toc}{chapter}{\bibname}
 \printbibliography
 
