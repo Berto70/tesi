@@ -1,19 +1,19 @@
 [0] Config.pm:304> INFO - This is Biber 2.14
 [0] Config.pm:307> INFO - Logfile is 'Bertinelli_Gabriele.blg'
-[71] biber-MSWIN32:322> INFO - === 
-[89] Biber.pm:415> INFO - Reading 'Bertinelli_Gabriele.bcf'
-[218] Biber.pm:943> INFO - Found 71 citekeys in bib section 0
-[235] Biber.pm:4256> INFO - Processing section 0
-[236] Utils.pm:75> INFO - Globbing data source 'bertinelli_gabriele_bib.bib'
-[244] Utils.pm:91> INFO - Globbed data source 'bertinelli_gabriele_bib.bib' to bertinelli_gabriele_bib.bib
-[258] Biber.pm:4455> INFO - Looking for bibtex format file 'bertinelli_gabriele_bib.bib' for section 0
-[272] bibtex.pm:1653> INFO - LaTeX decoding ...
-[531] bibtex.pm:1471> INFO - Found BibTeX data source 'bertinelli_gabriele_bib.bib'
-[603] Utils.pm:304> WARN - month field 'dec' in entry 'Vokrouhlicky_1999' is not an integer - this will probably not sort properly.
-[1707] UCollate.pm:68> INFO - Overriding locale 'el-GR' defaults 'variable = shifted' with 'variable = non-ignorable'
-[1707] UCollate.pm:68> INFO - Overriding locale 'el-GR' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[1707] Biber.pm:4084> INFO - Sorting list 'nyt/global//global/global' of type 'entry' with template 'nyt' and locale 'el-GR'
-[1707] Biber.pm:4090> INFO - No sort tailoring available for locale 'el-GR'
-[1848] bbl.pm:652> INFO - Writing 'Bertinelli_Gabriele.bbl' with encoding 'UTF-8'
-[2190] bbl.pm:755> INFO - Output to Bertinelli_Gabriele.bbl
-[2191] Biber.pm:128> INFO - WARNINGS: 1
+[75] biber-MSWIN32:322> INFO - === 
+[124] Biber.pm:415> INFO - Reading 'Bertinelli_Gabriele.bcf'
+[253] Biber.pm:943> INFO - Found 71 citekeys in bib section 0
+[269] Biber.pm:4256> INFO - Processing section 0
+[270] Utils.pm:75> INFO - Globbing data source 'bertinelli_gabriele_bib.bib'
+[301] Utils.pm:91> INFO - Globbed data source 'bertinelli_gabriele_bib.bib' to bertinelli_gabriele_bib.bib
+[326] Biber.pm:4455> INFO - Looking for bibtex format file 'bertinelli_gabriele_bib.bib' for section 0
+[348] bibtex.pm:1653> INFO - LaTeX decoding ...
+[629] bibtex.pm:1471> INFO - Found BibTeX data source 'bertinelli_gabriele_bib.bib'
+[717] Utils.pm:304> WARN - month field 'dec' in entry 'Vokrouhlicky_1999' is not an integer - this will probably not sort properly.
+[1824] UCollate.pm:68> INFO - Overriding locale 'el-GR' defaults 'variable = shifted' with 'variable = non-ignorable'
+[1824] UCollate.pm:68> INFO - Overriding locale 'el-GR' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[1824] Biber.pm:4084> INFO - Sorting list 'nyt/global//global/global' of type 'entry' with template 'nyt' and locale 'el-GR'
+[1824] Biber.pm:4090> INFO - No sort tailoring available for locale 'el-GR'
+[1991] bbl.pm:652> INFO - Writing 'Bertinelli_Gabriele.bbl' with encoding 'UTF-8'
+[2310] bbl.pm:755> INFO - Output to Bertinelli_Gabriele.bbl
+[2311] Biber.pm:128> INFO - WARNINGS: 1

@@ -24,9 +24,9 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {2.3}Tipi tassonomici}{10}{section.2.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.3.1}Tassonomia di Tholen}{10}{subsection.2.3.1}%
+\contentsline {subsection}{\numberline {2.3.1}Tassonomia di Tholen}{11}{subsection.2.3.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.3.2}Tassonomia di Bus}{14}{subsection.2.3.2}%
+\contentsline {subsection}{\numberline {2.3.2}Tassonomia di Bus}{15}{subsection.2.3.2}%
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {2.4}Space weathering}{16}{section.2.4}%
 \defcounter {refsection}{0}\relax 
@@ -82,4 +82,10 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {4.5}Didymos come obiettivo della missione DART}{40}{section.4.5}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{Bibliografia}{41}{figure.caption.61}%
+\contentsline {chapter}{\numberline {5}Risultati preliminari post-impatto}{43}{chapter.5}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {5.1}Risultati NASA}{43}{section.5.1}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {5.2}Osservazioni da Asiago}{45}{section.5.2}%
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{Bibliografia}{49}{figure.caption.69}%
