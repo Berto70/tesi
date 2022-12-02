@@ -441,79 +441,6 @@
       \verb https://pubs.acs.org/doi/10.1021/cr400153k
       \endverb
     \endentry
-    \entry{binzel_muses-c_2001}{article}{}
-      \name{author}{5}{}{%
-        {{un=0,uniquepart=base,hash=572537de6f94bb7dee50a36373c36b01}{%
-           family={Binzel},
-           familyi={B\bibinitperiod},
-           given={R.\bibnamedelimi P.},
-           giveni={R\bibinitperiod\bibinitdelim P\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=bb151f05443389872e21dfabf1361436}{%
-           family={Rivkin},
-           familyi={R\bibinitperiod},
-           given={A.\bibnamedelimi S.},
-           giveni={A\bibinitperiod\bibinitdelim S\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=271680b957d11ac66bf3293822e07ee7}{%
-           family={Bus},
-           familyi={B\bibinitperiod},
-           given={S.\bibnamedelimi J.},
-           giveni={S\bibinitperiod\bibinitdelim J\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=d1bf70d4850413f1921ffc0d9b54aefa}{%
-           family={Sunshine},
-           familyi={S\bibinitperiod},
-           given={J.\bibnamedelimi M.},
-           giveni={J\bibinitperiod\bibinitdelim M\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=1feace83ee7fcfe70a065251a6991cfa}{%
-           family={Burbine},
-           familyi={B\bibinitperiod},
-           given={T.\bibnamedelimi H.},
-           giveni={T\bibinitperiod\bibinitdelim H\bibinitperiod},
-           givenun=0}}%
-      }
-      \list{language}{1}{%
-        {en}%
-      }
-      \strng{namehash}{f48eca888b0070bc513cf7254b0cfbcb}
-      \strng{fullhash}{5a8e04e1f969bed1d5cfa25b6c7a63e9}
-      \strng{bibnamehash}{f48eca888b0070bc513cf7254b0cfbcb}
-      \strng{authorbibnamehash}{f48eca888b0070bc513cf7254b0cfbcb}
-      \strng{authornamehash}{f48eca888b0070bc513cf7254b0cfbcb}
-      \strng{authorfullhash}{5a8e04e1f969bed1d5cfa25b6c7a63e9}
-      \field{extraname}{1}
-      \field{sortinit}{B}
-      \field{sortinithash}{8de16967003c7207dae369d874f1456e}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{year}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{shorttitle}
-      \field{issn}{10869379, 19455100}
-      \field{journaltitle}{Meteoritics \& Planetary Science}
-      \field{month}{8}
-      \field{number}{8}
-      \field{shorttitle}{{MUSES}-{C} target asteroid (25143) 1998 {SF36}}
-      \field{title}{{MUSES}-{C} target asteroid (25143) 1998 {SF36}: {A} reddened ordinary chondrite}
-      \field{urlday}{30}
-      \field{urlmonth}{11}
-      \field{urlyear}{2022}
-      \field{volume}{36}
-      \field{year}{2001}
-      \field{urldateera}{ce}
-      \field{pages}{1167\bibrangedash 1172}
-      \range{pages}{6}
-      \verb{doi}
-      \verb 10.1111/j.1945-5100.2001.tb01950.x
-      \endverb
-      \verb{urlraw}
-      \verb https://onlinelibrary.wiley.com/doi/10.1111/j.1945-5100.2001.tb01950.x
-      \endverb
-      \verb{url}
-      \verb https://onlinelibrary.wiley.com/doi/10.1111/j.1945-5100.2001.tb01950.x
-      \endverb
-    \endentry
     \entry{binzel_observed_2004}{article}{}
       \name{author}{6}{}{%
         {{un=0,uniquepart=base,hash=e3de323311c8a39ea75bf0a90e0e2b97}{%
@@ -562,7 +489,6 @@
       \strng{authorbibnamehash}{bb9acb2c0c0067fe91cf4074ac235c99}
       \strng{authornamehash}{bb9acb2c0c0067fe91cf4074ac235c99}
       \strng{authorfullhash}{3b778d4f514f75d67072a52a74bcad4b}
-      \field{extraname}{2}
       \field{sortinit}{B}
       \field{sortinithash}{8de16967003c7207dae369d874f1456e}
       \field{extradatescope}{labelyear}
@@ -591,108 +517,6 @@
       \endverb
       \verb{url}
       \verb https://linkinghub.elsevier.com/retrieve/pii/S0019103504001253
-      \endverb
-    \endentry
-    \entry{binzel_earth_2010}{article}{}
-      \name{author}{10}{}{%
-        {{un=0,uniquepart=base,hash=e3de323311c8a39ea75bf0a90e0e2b97}{%
-           family={Binzel},
-           familyi={B\bibinitperiod},
-           given={Richard\bibnamedelima P.},
-           giveni={R\bibinitperiod\bibinitdelim P\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=dba710cfc9ede9d7a79dc6c2f814585b}{%
-           family={Morbidelli},
-           familyi={M\bibinitperiod},
-           given={Alessandro},
-           giveni={A\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=9f86cb5386a0bed9b713f5f06f2338a4}{%
-           family={Merouane},
-           familyi={M\bibinitperiod},
-           given={Sihane},
-           giveni={S\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=330d7b5c26a712124afe2f08c89817c0}{%
-           family={DeMeo},
-           familyi={D\bibinitperiod},
-           given={Francesca\bibnamedelima E.},
-           giveni={F\bibinitperiod\bibinitdelim E\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=2b83a6b2fc5d2fc01f6a9ac70ce77426}{%
-           family={Birlan},
-           familyi={B\bibinitperiod},
-           given={Mirel},
-           giveni={M\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=0c9faad6eeadf468f79d270906e9c8e3}{%
-           family={Vernazza},
-           familyi={V\bibinitperiod},
-           given={Pierre},
-           giveni={P\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=be2e8e53a6c997cc7e1fe7c7c090b439}{%
-           family={Thomas},
-           familyi={T\bibinitperiod},
-           given={Cristina\bibnamedelima A.},
-           giveni={C\bibinitperiod\bibinitdelim A\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=10f35e18aae6487202d78a17d9a00b09}{%
-           family={Rivkin},
-           familyi={R\bibinitperiod},
-           given={Andrew\bibnamedelima S.},
-           giveni={A\bibinitperiod\bibinitdelim S\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=f95b81e25387f8b7750c5748325a2c42}{%
-           family={Bus},
-           familyi={B\bibinitperiod},
-           given={Schelte\bibnamedelima J.},
-           giveni={S\bibinitperiod\bibinitdelim J\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=298d5818fa170ddfd50c9bd69fa535b8}{%
-           family={Tokunaga},
-           familyi={T\bibinitperiod},
-           given={Alan\bibnamedelima T.},
-           giveni={A\bibinitperiod\bibinitdelim T\bibinitperiod},
-           givenun=0}}%
-      }
-      \list{language}{1}{%
-        {en}%
-      }
-      \strng{namehash}{bb9acb2c0c0067fe91cf4074ac235c99}
-      \strng{fullhash}{6406e08eaf993486aab6a70dc84536a9}
-      \strng{bibnamehash}{bb9acb2c0c0067fe91cf4074ac235c99}
-      \strng{authorbibnamehash}{bb9acb2c0c0067fe91cf4074ac235c99}
-      \strng{authornamehash}{bb9acb2c0c0067fe91cf4074ac235c99}
-      \strng{authorfullhash}{6406e08eaf993486aab6a70dc84536a9}
-      \field{extraname}{3}
-      \field{sortinit}{B}
-      \field{sortinithash}{8de16967003c7207dae369d874f1456e}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{year}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{issn}{0028-0836, 1476-4687}
-      \field{journaltitle}{Nature}
-      \field{month}{1}
-      \field{number}{7279}
-      \field{title}{Earth encounters as the origin of fresh surfaces on near-{Earth} asteroids}
-      \field{urlday}{30}
-      \field{urlmonth}{11}
-      \field{urlyear}{2022}
-      \field{volume}{463}
-      \field{year}{2010}
-      \field{urldateera}{ce}
-      \field{pages}{331\bibrangedash 334}
-      \range{pages}{4}
-      \verb{doi}
-      \verb 10.1038/nature08709
-      \endverb
-      \verb{urlraw}
-      \verb http://www.nature.com/articles/nature08709
-      \endverb
-      \verb{url}
-      \verb http://www.nature.com/articles/nature08709
       \endverb
     \endentry
     \entry{bottiglieri_applied_2022}{article}{}
@@ -804,8 +628,10 @@
       \strng{authorbibnamehash}{3bf62eefc1e6cd4f1f0b6cc69668e252}
       \strng{authornamehash}{3bf62eefc1e6cd4f1f0b6cc69668e252}
       \strng{authorfullhash}{2d87606ac2b3e9d5d3716fd1e7e05693}
+      \field{extraname}{1}
       \field{sortinit}{B}
       \field{sortinithash}{8de16967003c7207dae369d874f1456e}
+      \field{extradate}{1}
       \field{extradatescope}{labelyear}
       \field{labeldatesource}{year}
       \field{labelnamesource}{author}
@@ -826,6 +652,90 @@
       \endverb
       \verb{url}
       \verb https://www.sciencedirect.com/science/article/pii/S0019103501967880
+      \endverb
+    \endentry
+    \entry{bottke_yarkovsky_2002}{incollection}{}
+      \name{author}{5}{}{%
+        {{un=0,uniquepart=base,hash=6ad27dbcf8f180df036e09f72369ae5c}{%
+           family={Bottke},
+           familyi={B\bibinitperiod},
+           given={W.\bibnamedelimi F.},
+           giveni={W\bibinitperiod\bibinitdelim F\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=e1664eff1d5bc351d3732453a3d52d85}{%
+           family={Vokrouhlicky},
+           familyi={V\bibinitperiod},
+           given={D.},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=5d66cf25541d5bb45c4afa1260f55c5f}{%
+           family={Rubincam},
+           familyi={R\bibinitperiod},
+           given={D.\bibnamedelimi P.},
+           giveni={D\bibinitperiod\bibinitdelim P\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=e20fd0e2e9d6df7443cb6a609212ef11}{%
+           family={Brož},
+           familyi={B\bibinitperiod},
+           given={M.},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=c968d1f25b18423a5e992353127b44c4}{%
+           family={Gehrels},
+           familyi={G\bibinitperiod},
+           given={T.},
+           giveni={T\bibinitperiod},
+           givenun=0}}%
+      }
+      \name{editor}{4}{}{%
+        {{hash=5cadc12913de4d19de2872e5b4c7f793}{%
+           family={Bottke},
+           familyi={B\bibinitperiod},
+           given={W.},
+           giveni={W\bibinitperiod}}}%
+        {{hash=046d2a941cc4938365704d713fb16d0b}{%
+           family={Cellino},
+           familyi={C\bibinitperiod},
+           given={A.},
+           giveni={A\bibinitperiod}}}%
+        {{hash=e3bf1ff9e8910d7ccdea91a83f5d6a2f}{%
+           family={Paolicchi},
+           familyi={P\bibinitperiod},
+           given={P.},
+           giveni={P\bibinitperiod}}}%
+        {{hash=572537de6f94bb7dee50a36373c36b01}{%
+           family={Binzel},
+           familyi={B\bibinitperiod},
+           given={R.\bibnamedelimi P.},
+           giveni={R\bibinitperiod\bibinitdelim P\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {University of Arizona Press}%
+      }
+      \strng{namehash}{3bf62eefc1e6cd4f1f0b6cc69668e252}
+      \strng{fullhash}{ee4ad6e5ffc118a6cc63a07bc1cb90d0}
+      \strng{bibnamehash}{3bf62eefc1e6cd4f1f0b6cc69668e252}
+      \strng{authorbibnamehash}{3bf62eefc1e6cd4f1f0b6cc69668e252}
+      \strng{authornamehash}{3bf62eefc1e6cd4f1f0b6cc69668e252}
+      \strng{authorfullhash}{ee4ad6e5ffc118a6cc63a07bc1cb90d0}
+      \strng{editorbibnamehash}{b78ec881b4259004101da15d437a4b2c}
+      \strng{editornamehash}{b78ec881b4259004101da15d437a4b2c}
+      \strng{editorfullhash}{aad8dcd6e3efdb96d10991519704b71d}
+      \field{extraname}{2}
+      \field{sortinit}{B}
+      \field{sortinithash}{8de16967003c7207dae369d874f1456e}
+      \field{extradate}{2}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Asteroids {III}}
+      \field{title}{The Effect of Yarkovsky Thermal Forces on the Dynamical Evolution of Asteroids and Meteoroids}
+      \field{year}{2002}
+      \field{pages}{395\bibrangedash 408}
+      \range{pages}{14}
+      \verb{doi}
+      \verb https://doi.org/10.2307/j.ctv1v7zdn4.32
       \endverb
     \endentry
     \entry{brozovic_radar_2011}{article}{}
@@ -1064,6 +974,7 @@
       \field{extraname}{1}
       \field{sortinit}{B}
       \field{sortinithash}{8de16967003c7207dae369d874f1456e}
+      \field{extradate}{1}
       \field{extradatescope}{labelyear}
       \field{labeldatesource}{year}
       \field{labelnamesource}{author}
@@ -1091,92 +1002,83 @@
       \verb https://linkinghub.elsevier.com/retrieve/pii/S0019103505004203
       \endverb
     \endentry
-    \entry{michel_asteroid_2015}{incollection}{}
-      \name{author}{5}{}{%
-        {{un=0,uniquepart=base,hash=1f03920592a667e4ac75156662821d80}{%
+    \entry{BRUNETTO2006327}{article}{}
+      \name{author}{7}{}{%
+        {{un=0,uniquepart=base,hash=e76e44df860444a837119345b22304e6}{%
            family={Brunetto},
            familyi={B\bibinitperiod},
-           given={R.},
+           given={Rosario},
            giveni={R\bibinitperiod},
            givenun=0}}%
-        {{un=0,uniquepart=base,hash=229b0a5a292016d17f8a7060b13dfb54}{%
-           family={Loeffler},
-           familyi={L\bibinitperiod},
-           given={M.\bibnamedelimi J.},
-           giveni={M\bibinitperiod\bibinitdelim J\bibinitperiod},
+        {{un=0,uniquepart=base,hash=0c9faad6eeadf468f79d270906e9c8e3}{%
+           family={Vernazza},
+           familyi={V\bibinitperiod},
+           given={Pierre},
+           giveni={P\bibinitperiod},
            givenun=0}}%
-        {{un=0,uniquepart=base,hash=2cd42e062b78f5a3386c2e9b751c7c88}{%
-           family={Nesvorný},
-           familyi={N\bibinitperiod},
-           given={D.},
-           giveni={D\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=57b5964a616dd92bce769aa042042587}{%
-           family={Sasaki},
-           familyi={S\bibinitperiod},
-           given={S.},
+        {{un=0,uniquepart=base,hash=965056050673d924e30d1cea1831c550}{%
+           family={Marchi},
+           familyi={M\bibinitperiod},
+           given={Simone},
            giveni={S\bibinitperiod},
            givenun=0}}%
-        {{un=0,uniquepart=base,hash=ae09631d2d26490ad6ba4dd39020d750}{%
+        {{un=0,uniquepart=base,hash=2b83a6b2fc5d2fc01f6a9ac70ce77426}{%
+           family={Birlan},
+           familyi={B\bibinitperiod},
+           given={Mirel},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=cdb132886970b98c8d758e3e7c3012dd}{%
+           family={Fulchignoni},
+           familyi={F\bibinitperiod},
+           given={Marcello},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=c8b11ea4c93a45d742c5c0d3972e5318}{%
+           family={Orofino},
+           familyi={O\bibinitperiod},
+           given={Vincenzo},
+           giveni={V\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=883eeaff4b2e9234d66fb1de2dc95323}{%
            family={Strazzulla},
            familyi={S\bibinitperiod},
-           given={G.},
+           given={Giovanni},
            giveni={G\bibinitperiod},
            givenun=0}}%
       }
-      \name{editor}{3}{}{%
-        {{hash=f6b799fa09a48a1b562238c5dfab042c}{%
-           family={Michel},
-           familyi={M\bibinitperiod},
-           given={Patrick},
-           giveni={P\bibinitperiod}}}%
-        {{hash=330d7b5c26a712124afe2f08c89817c0}{%
-           family={DeMeo},
-           familyi={D\bibinitperiod},
-           given={Francesca\bibnamedelima E.},
-           giveni={F\bibinitperiod\bibinitdelim E\bibinitperiod}}}%
-        {{hash=659cc4647fdfa3ff220c71cd77a8724f}{%
-           family={Bottke},
-           familyi={B\bibinitperiod},
-           given={William\bibnamedelima F.},
-           giveni={W\bibinitperiod\bibinitdelim F\bibinitperiod}}}%
-      }
-      \list{publisher}{1}{%
-        {University of Arizona Press}%
-      }
-      \strng{namehash}{3fbc5467c9f80b03ffcea5cdf6044c3f}
-      \strng{fullhash}{a44f2f3d64f6a7b132d2bb1426dc1f8d}
-      \strng{bibnamehash}{3fbc5467c9f80b03ffcea5cdf6044c3f}
-      \strng{authorbibnamehash}{3fbc5467c9f80b03ffcea5cdf6044c3f}
-      \strng{authornamehash}{3fbc5467c9f80b03ffcea5cdf6044c3f}
-      \strng{authorfullhash}{a44f2f3d64f6a7b132d2bb1426dc1f8d}
-      \strng{editorbibnamehash}{192e4924b279ebeb04cf5a044f5f765a}
-      \strng{editornamehash}{192e4924b279ebeb04cf5a044f5f765a}
-      \strng{editorfullhash}{3d583fb04eab070f375840a334a3b98c}
+      \strng{namehash}{19f1ae0a012325ac85fdd968b6ce61ee}
+      \strng{fullhash}{a1dbc39b4b91170c26423be43dc0c846}
+      \strng{bibnamehash}{19f1ae0a012325ac85fdd968b6ce61ee}
+      \strng{authorbibnamehash}{19f1ae0a012325ac85fdd968b6ce61ee}
+      \strng{authornamehash}{19f1ae0a012325ac85fdd968b6ce61ee}
+      \strng{authorfullhash}{a1dbc39b4b91170c26423be43dc0c846}
       \field{extraname}{2}
       \field{sortinit}{B}
       \field{sortinithash}{8de16967003c7207dae369d874f1456e}
+      \field{extradate}{2}
       \field{extradatescope}{labelyear}
       \field{labeldatesource}{year}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{booktitle}{Asteroids {IV}}
-      \field{isbn}{978-0-8165-3213-1}
-      \field{title}{Asteroid {Surface} {Alteration} by {Space} {Weathering} {Processes}}
-      \field{urlday}{30}
-      \field{urlmonth}{11}
-      \field{urlyear}{2022}
-      \field{year}{2015}
-      \field{urldateera}{ce}
+      \field{issn}{0019-1035}
+      \field{journaltitle}{Icarus}
+      \field{number}{2}
+      \field{title}{Modeling asteroid surfaces from observations and irradiation experiments: The case of 832 Karin}
+      \field{volume}{184}
+      \field{year}{2006}
+      \field{pages}{327\bibrangedash 337}
+      \range{pages}{11}
       \verb{doi}
-      \verb 10.2458/azu_uapress_9780816532131-ch031
+      \verb https://doi.org/10.1016/j.icarus.2006.05.019
       \endverb
       \verb{urlraw}
-      \verb http://muse.jhu.edu/chapter/1705187
+      \verb https://www.sciencedirect.com/science/article/pii/S0019103506001862
       \endverb
       \verb{url}
-      \verb http://muse.jhu.edu/chapter/1705187
+      \verb https://www.sciencedirect.com/science/article/pii/S0019103506001862
       \endverb
+      \keyw{Asteroid,Spectroscopy,Experimental techniques,Meteorites}
     \endentry
     \entry{bus_phase_2002}{article}{}
       \name{author}{2}{}{%
@@ -1336,6 +1238,31 @@
       \verb https://ui.adsabs.harvard.edu/abs/1992Mercu..21..107C
       \endverb
       \keyw{Asteroids,Comets,Detection,Interception,Meteoroid Hazards,Space Sciences (General)}
+    \endentry
+    \entry{carry_ao_2009}{article}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=98108b5cd3147167346dd26bc177b529}{%
+           family={Carry},
+           familyi={C\bibinitperiod},
+           given={B.},
+           giveni={B\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{98108b5cd3147167346dd26bc177b529}
+      \strng{fullhash}{98108b5cd3147167346dd26bc177b529}
+      \strng{bibnamehash}{98108b5cd3147167346dd26bc177b529}
+      \strng{authorbibnamehash}{98108b5cd3147167346dd26bc177b529}
+      \strng{authornamehash}{98108b5cd3147167346dd26bc177b529}
+      \strng{authorfullhash}{98108b5cd3147167346dd26bc177b529}
+      \field{sortinit}{C}
+      \field{sortinithash}{4c244ceae61406cdc0cc2ce1cb1ff703}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{month}{09}
+      \field{title}{Physical properties of asteroids from high-angular resolution imaging}
+      \field{year}{2009}
     \endentry
     \entry{carry_small_2015}{article}{}
       \name{author}{32}{}{%
@@ -2651,56 +2578,6 @@
       \endverb
       \keyw{notion}
     \endentry
-    \entry{ishiguro_scattered_2014}{article}{}
-      \name{author}{1}{}{%
-        {{un=0,uniquepart=base,hash=412cea21a27b4dae0591db6e3d7e1be9}{%
-           family={Ishiguro},
-           familyi={I\bibinitperiod},
-           given={M.},
-           giveni={M\bibinitperiod},
-           givenun=0}}%
-      }
-      \list{language}{1}{%
-        {en}%
-      }
-      \strng{namehash}{412cea21a27b4dae0591db6e3d7e1be9}
-      \strng{fullhash}{412cea21a27b4dae0591db6e3d7e1be9}
-      \strng{bibnamehash}{412cea21a27b4dae0591db6e3d7e1be9}
-      \strng{authorbibnamehash}{412cea21a27b4dae0591db6e3d7e1be9}
-      \strng{authornamehash}{412cea21a27b4dae0591db6e3d7e1be9}
-      \strng{authorfullhash}{412cea21a27b4dae0591db6e3d7e1be9}
-      \field{sortinit}{I}
-      \field{sortinithash}{9417e9a1288a9371e2691d999083ed39}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{year}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{issn}{0004-6264, 2053-051X}
-      \field{journaltitle}{Publications of the Astronomical Society of Japan}
-      \field{month}{6}
-      \field{number}{3}
-      \field{title}{Scattered light correction of {Hayabusa}/{AMICA} data and quantitative spectral comparisons of {Itokawa}}
-      \field{urlday}{30}
-      \field{urlmonth}{11}
-      \field{urlyear}{2022}
-      \field{volume}{66}
-      \field{year}{2014}
-      \field{urldateera}{ce}
-      \field{pages}{55\bibrangedash 55}
-      \range{pages}{1}
-      \verb{doi}
-      \verb 10.1093/pasj/psu036
-      \endverb
-      \verb{file}
-      \verb Full text:C\:\\Users\\gabri\\Zotero\\storage\\QIZBFJKI\\Ishiguro - 2014 - Scattered light correction of HayabusaAMICA data .pdf:application/pdf
-      \endverb
-      \verb{urlraw}
-      \verb https://academic.oup.com/pasj/article-lookup/doi/10.1093/pasj/psu036
-      \endverb
-      \verb{url}
-      \verb https://academic.oup.com/pasj/article-lookup/doi/10.1093/pasj/psu036
-      \endverb
-    \endentry
     \entry{jacobson_dynamics_2011}{article}{}
       \name{author}{2}{}{%
         {{un=0,uniquepart=base,hash=9c1739b64ceb459871193fa93c3d4638}{%
@@ -2813,48 +2690,6 @@
       \verb{url}
       \verb https://linkinghub.elsevier.com/retrieve/pii/S0016703797000859
       \endverb
-    \endentry
-    \entry{lambe_soil_2009}{book}{}
-      \name{author}{2}{}{%
-        {{un=0,uniquepart=base,hash=7409847a3462e755297367278f598b6e}{%
-           family={Lambe},
-           familyi={L\bibinitperiod},
-           given={Thomas\bibnamedelima William},
-           giveni={T\bibinitperiod\bibinitdelim W\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=5bef35e3cf8d94ecb998d8cc818519d4}{%
-           family={Whitman},
-           familyi={W\bibinitperiod},
-           given={Robert\bibnamedelima V.},
-           giveni={R\bibinitperiod\bibinitdelim V\bibinitperiod},
-           givenun=0}}%
-      }
-      \list{language}{1}{%
-        {eng}%
-      }
-      \list{location}{1}{%
-        {New York}%
-      }
-      \list{publisher}{1}{%
-        {Wiley}%
-      }
-      \strng{namehash}{0f4eb381b31509d199ac2f791bad96ff}
-      \strng{fullhash}{0f4eb381b31509d199ac2f791bad96ff}
-      \strng{bibnamehash}{0f4eb381b31509d199ac2f791bad96ff}
-      \strng{authorbibnamehash}{0f4eb381b31509d199ac2f791bad96ff}
-      \strng{authornamehash}{0f4eb381b31509d199ac2f791bad96ff}
-      \strng{authorfullhash}{0f4eb381b31509d199ac2f791bad96ff}
-      \field{sortinit}{L}
-      \field{sortinithash}{dad3efd0836470093a7b4a7bb756eb8c}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{year}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{edition}{Nachdr.}
-      \field{isbn}{978-0-471-51192-2}
-      \field{series}{Series in soil engineering}
-      \field{title}{Soil mechanics}
-      \field{year}{2009}
     \endentry
     \entry{lazzarin_space_2006}{article}{}
       \name{author}{7}{}{%
@@ -3180,56 +3015,94 @@
       \endverb
       \keyw{notion}
     \endentry
-    \entry{meibom_invited_1999}{article}{}
-      \name{author}{2}{}{%
-        {{un=0,uniquepart=base,hash=f0d29233f67d9f5cbc789e2e5d979325}{%
-           family={Meibom},
+    \entry{michel_asteroid_2015-1}{incollection}{}
+      \name{author}{5}{}{%
+        {{un=0,uniquepart=base,hash=716f922281ea61ca4bb74bba247056e2}{%
+           family={Margot},
            familyi={M\bibinitperiod},
-           given={Anders},
-           giveni={A\bibinitperiod},
+           given={J.-L.},
+           giveni={J\bibinithyphendelim L\bibinitperiod},
            givenun=0}}%
-        {{un=0,uniquepart=base,hash=1712ba20fbdfbb1b8aff638fef5cc4a5}{%
-           family={Clark},
+        {{un=0,uniquepart=base,hash=70b862081109a77dbbb4746ba6eb1455}{%
+           family={Pravec},
+           familyi={P\bibinitperiod},
+           given={P.},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=9fc8b6405571bbdd9dd418e6cfcc7627}{%
+           family={Taylor},
+           familyi={T\bibinitperiod},
+           given={P.},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=98108b5cd3147167346dd26bc177b529}{%
+           family={Carry},
            familyi={C\bibinitperiod},
-           given={Beth\bibnamedelima E.},
-           giveni={B\bibinitperiod\bibinitdelim E\bibinitperiod},
+           given={B.},
+           giveni={B\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=898642a054e9ff2c1cda91a46361c393}{%
+           family={Jacobson},
+           familyi={J\bibinitperiod},
+           given={S.},
+           giveni={S\bibinitperiod},
            givenun=0}}%
       }
-      \strng{namehash}{ecf193de8636b241b11fc9a4a43460c0}
-      \strng{fullhash}{ecf193de8636b241b11fc9a4a43460c0}
-      \strng{bibnamehash}{ecf193de8636b241b11fc9a4a43460c0}
-      \strng{authorbibnamehash}{ecf193de8636b241b11fc9a4a43460c0}
-      \strng{authornamehash}{ecf193de8636b241b11fc9a4a43460c0}
-      \strng{authorfullhash}{ecf193de8636b241b11fc9a4a43460c0}
+      \name{editor}{3}{}{%
+        {{hash=f6b799fa09a48a1b562238c5dfab042c}{%
+           family={Michel},
+           familyi={M\bibinitperiod},
+           given={Patrick},
+           giveni={P\bibinitperiod}}}%
+        {{hash=330d7b5c26a712124afe2f08c89817c0}{%
+           family={DeMeo},
+           familyi={D\bibinitperiod},
+           given={Francesca\bibnamedelima E.},
+           giveni={F\bibinitperiod\bibinitdelim E\bibinitperiod}}}%
+        {{hash=659cc4647fdfa3ff220c71cd77a8724f}{%
+           family={Bottke},
+           familyi={B\bibinitperiod},
+           given={William\bibnamedelima F.},
+           giveni={W\bibinitperiod\bibinitdelim F\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {University of Arizona Press}%
+      }
+      \strng{namehash}{6d63e5adbbdd21d011f415982d88c0b0}
+      \strng{fullhash}{16120fe3ce5788b0a985d685d32690c0}
+      \strng{bibnamehash}{6d63e5adbbdd21d011f415982d88c0b0}
+      \strng{authorbibnamehash}{6d63e5adbbdd21d011f415982d88c0b0}
+      \strng{authornamehash}{6d63e5adbbdd21d011f415982d88c0b0}
+      \strng{authorfullhash}{16120fe3ce5788b0a985d685d32690c0}
+      \strng{editorbibnamehash}{192e4924b279ebeb04cf5a044f5f765a}
+      \strng{editornamehash}{192e4924b279ebeb04cf5a044f5f765a}
+      \strng{editorfullhash}{3d583fb04eab070f375840a334a3b98c}
       \field{sortinit}{M}
       \field{sortinithash}{2e5c2f51f7fa2d957f3206819bf86dc3}
       \field{extradatescope}{labelyear}
       \field{labeldatesource}{year}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{shorttitle}
-      \field{abstract}{We review the meteoritical and astronomical literature to answer the question: What is the evidence for the importance of ordinary chondritic material to the composition of the asteroid belt? From the meteoritical literature we find that currently: 1) our meteorite collections sample at least 135 different asteroids; 2) out of 25+ chondritic meteorite parent bodies, 3 are (by definition) ordinary chondritic; 3) out of 14 chondritic grouplets and unique chondrites, 11 are affiliated with a carbonaceous group/clan of chondrites; 4) out of 24 differentiated groups of meteorites, only the IIE iron meteorites clearly formed from ordinary chondritic precursor material; 5) out of 12 differentiated grouplets and unique differentiated meteorites, 8 seem to have had carbonaceous chondritic precursors; 6) a high frequency of carbonaceous clasts in ordinary chondritic breccias suggests that ordinary chondrites have been embedded in a swarm of carbonaceous material. The rare occurrence (only one example) of ordinary chondritic clasts in carbonaceous chondritic breccias indicates that ordinary chondritic material has not been widespread in the asteroid belt; 7) cosmic spherules, micrometeorites, and stratospheric interplanetary dust particles, believed to represent a less biased sampling of asteroidal material, show that only a very small fraction (< ?1\%) of asteroidal dust has an ordinary chondritic composition. From the astronomical literature we find that currently: 8) spectroscopic surveys of the main asteroid belt are finding more and more non-ordinary chondritic primitive material in the inner main belt; 9) the increase in spectroscopic data has increased the inferred mineralogical diversity of main belt asteroids; 10) no ordinary chondritic asteroids have been directly observed in the main belt. These lines of evidence strongly suggest a scenario in which ordinary chondritic asteroids were never abundant in the main belt. The S-type asteroids may currently be primarily differentiated, but the precursor material is more likely to have been carbonaceous chondritic, not ordinary chondritic. Historically, carbonaceous material could have dominated the entire main belt. This could explain the presence in the inner main belt of asteroids linked to the primitive carbonaceous chondrites, and the absence of asteroids linked to the ordinary chondrites. The implications of this scenario for the asteroid heating mechanism(s) are briefly discussed.}
-      \field{issn}{1086-9379}
-      \field{journaltitle}{Meteoritics and Planetary Science}
-      \field{month}{1}
-      \field{note}{ADS Bibcode: 1999M\&PS...34....7M}
-      \field{shorttitle}{Invited review}
-      \field{title}{Invited review: {Evidence} for the insignificance of ordinary chondritic material in the asteroid belt}
+      \field{booktitle}{Asteroids {IV}}
+      \field{isbn}{978-0-8165-3213-1}
+      \field{shorttitle}{Asteroid {Systems}}
+      \field{title}{Asteroid {Systems}: {Binaries}, {Triples}, and {Pairs}}
       \field{urlday}{30}
       \field{urlmonth}{11}
       \field{urlyear}{2022}
-      \field{volume}{34}
-      \field{year}{1999}
+      \field{year}{2015}
       \field{urldateera}{ce}
-      \field{pages}{7\bibrangedash 24}
-      \range{pages}{18}
+      \verb{doi}
+      \verb 10.2458/azu_uapress_9780816532131-ch019
+      \endverb
       \verb{file}
-      \verb Full Text PDF:C\:\\Users\\gabri\\Zotero\\storage\\C95PF43V\\Meibom e Clark - 1999 - Invited review Evidence for the insignificance of.pdf:application/pdf
+      \verb Versione inviata:C\:\\Users\\gabri\\Zotero\\storage\\JWDQ5EB7\\Margot et al. - 2015 - Asteroid Systems Binaries, Triples, and Pairs.pdf:application/pdf
       \endverb
       \verb{urlraw}
-      \verb https://ui.adsabs.harvard.edu/abs/1999M&PS...34....7M
+      \verb http://muse.jhu.edu/chapter/1705173
       \endverb
       \verb{url}
-      \verb https://ui.adsabs.harvard.edu/abs/1999M&PS...34....7M
+      \verb http://muse.jhu.edu/chapter/1705173
       \endverb
     \endentry
     \entry{michel_population_2000}{article}{}
@@ -4148,343 +4021,6 @@
       \verb https://linkinghub.elsevier.com/retrieve/pii/S0019103520301640
       \endverb
     \endentry
-    \entry{noguchi_incipient_2011}{article}{}
-      \name{author}{18}{}{%
-        {{un=0,uniquepart=base,hash=feac1c2fcfcb9b2becd21c884721eb4e}{%
-           family={Noguchi},
-           familyi={N\bibinitperiod},
-           given={T.},
-           giveni={T\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=09dd2ddfd359a35038f97b77a5d17a33}{%
-           family={Nakamura},
-           familyi={N\bibinitperiod},
-           given={T.},
-           giveni={T\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=4bacd6dc7aab3e8059cff70c4eec0e29}{%
-           family={Kimura},
-           familyi={K\bibinitperiod},
-           given={M.},
-           giveni={M\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=c4479ac17d7bb23a99c060e5677b16c9}{%
-           family={Zolensky},
-           familyi={Z\bibinitperiod},
-           given={M.\bibnamedelimi E.},
-           giveni={M\bibinitperiod\bibinitdelim E\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=bb93883167705814c0431a0cb8e04830}{%
-           family={Tanaka},
-           familyi={T\bibinitperiod},
-           given={M.},
-           giveni={M\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=c0f7e4a1a25c77a832994e959c467413}{%
-           family={Hashimoto},
-           familyi={H\bibinitperiod},
-           given={T.},
-           giveni={T\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=6b01904600e56b78d737590af09973ec}{%
-           family={Konno},
-           familyi={K\bibinitperiod},
-           given={M.},
-           giveni={M\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=eabcbc1b0eef325c948ec3b14aa92195}{%
-           family={Nakato},
-           familyi={N\bibinitperiod},
-           given={A.},
-           giveni={A\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=dc5fbe852fef1941a32170a73384bdfb}{%
-           family={Ogami},
-           familyi={O\bibinitperiod},
-           given={T.},
-           giveni={T\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=69130fae243af83d6629b493392f45fc}{%
-           family={Fujimura},
-           familyi={F\bibinitperiod},
-           given={A.},
-           giveni={A\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=59f1a75ee381d73cd4e48fa14453d559}{%
-           family={Abe},
-           familyi={A\bibinitperiod},
-           given={M.},
-           giveni={M\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=21f660bb1b856b3ee2ed0283d7a74f4e}{%
-           family={Yada},
-           familyi={Y\bibinitperiod},
-           given={T.},
-           giveni={T\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=8553aef0fa72cd1274dd0805e1f61e4c}{%
-           family={Mukai},
-           familyi={M\bibinitperiod},
-           given={T.},
-           giveni={T\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=1713c8a398588c6f2d31f5385fda7f7f}{%
-           family={Ueno},
-           familyi={U\bibinitperiod},
-           given={M.},
-           giveni={M\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=27ba03bfc111c5ccd28caba17cb46e85}{%
-           family={Okada},
-           familyi={O\bibinitperiod},
-           given={T.},
-           giveni={T\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=19c9a4df40ede050d59025e5e131f171}{%
-           family={Shirai},
-           familyi={S\bibinitperiod},
-           given={K.},
-           giveni={K\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=f55751a321f883520e8046bed8c3fa27}{%
-           family={Ishibashi},
-           familyi={I\bibinitperiod},
-           given={Y.},
-           giveni={Y\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=64c260d3a9046b7a019e66b4e9b609b4}{%
-           family={Okazaki},
-           familyi={O\bibinitperiod},
-           given={R.},
-           giveni={R\bibinitperiod},
-           givenun=0}}%
-      }
-      \list{language}{1}{%
-        {en}%
-      }
-      \strng{namehash}{27012eecdb8739ba4e4ed98a8301f7e3}
-      \strng{fullhash}{e494a018d8038a25500e3534e08b3204}
-      \strng{bibnamehash}{27012eecdb8739ba4e4ed98a8301f7e3}
-      \strng{authorbibnamehash}{27012eecdb8739ba4e4ed98a8301f7e3}
-      \strng{authornamehash}{27012eecdb8739ba4e4ed98a8301f7e3}
-      \strng{authorfullhash}{e494a018d8038a25500e3534e08b3204}
-      \field{extraname}{1}
-      \field{sortinit}{N}
-      \field{sortinithash}{98cf339a479c0454fe09153a08675a15}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{year}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{abstract}{Laboratory analysis of samples returned from an asteroid establishes a direct link between asteroids and meteorites and provides clues to the complex history of the asteroid and its surface. , The reflectance spectra of the most abundant meteorites, ordinary chondrites, are different from those of the abundant S-type (mnemonic for siliceous) asteroids. This discrepancy has been thought to be due to space weathering, which is an alteration of the surfaces of airless bodies exposed to the space environment. Here we report evidence of space weathering on particles returned from the S-type asteroid 25143 Itokawa by the Hayabusa spacecraft. Surface modification was found in 5 out of 10 particles, which varies depending on mineral species. Sulfur-bearing Fe-rich nanoparticles exist in a thin (5 to 15 nanometers) surface layer on olivine, low-Ca pyroxene, and plagioclase, which is suggestive of vapor deposition. Sulfur-free Fe-rich nanoparticles exist deeper inside (<60 nanometers) ferromagnesian silicates. Their texture suggests formation by metamictization and in situ reduction of Fe 2+ .}
-      \field{issn}{0036-8075, 1095-9203}
-      \field{journaltitle}{Science}
-      \field{month}{8}
-      \field{number}{6046}
-      \field{title}{Incipient {Space} {Weathering} {Observed} on the {Surface} of {Itokawa} {Dust} {Particles}}
-      \field{urlday}{30}
-      \field{urlmonth}{11}
-      \field{urlyear}{2022}
-      \field{volume}{333}
-      \field{year}{2011}
-      \field{urldateera}{ce}
-      \field{pages}{1121\bibrangedash 1125}
-      \range{pages}{5}
-      \verb{doi}
-      \verb 10.1126/science.1207794
-      \endverb
-      \verb{urlraw}
-      \verb https://www.science.org/doi/10.1126/science.1207794
-      \endverb
-      \verb{url}
-      \verb https://www.science.org/doi/10.1126/science.1207794
-      \endverb
-    \endentry
-    \entry{noguchi_space_2014}{article}{}
-      \name{author}{24}{}{%
-        {{un=0,uniquepart=base,hash=63d251b5ab7007e00545da2192094526}{%
-           family={Noguchi},
-           familyi={N\bibinitperiod},
-           given={Takaaki},
-           giveni={T\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=393b0ea4f41304aad8ead7ec6b48b84d}{%
-           family={Kimura},
-           familyi={K\bibinitperiod},
-           given={Makoto},
-           giveni={M\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=b600622982299c98ab1ad8c126eb3ca1}{%
-           family={Hashimoto},
-           familyi={H\bibinitperiod},
-           given={Takahito},
-           giveni={T\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=c58f795fc7a916d9e13c4e95745ea318}{%
-           family={Konno},
-           familyi={K\bibinitperiod},
-           given={Mitsuru},
-           giveni={M\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=c6bc8d03fb33541dcd4203cbd39cfcd5}{%
-           family={Nakamura},
-           familyi={N\bibinitperiod},
-           given={Tomoki},
-           giveni={T\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=1f14a84b09b9828f9c131e70962bb26e}{%
-           family={Zolensky},
-           familyi={Z\bibinitperiod},
-           given={Michael\bibnamedelima E.},
-           giveni={M\bibinitperiod\bibinitdelim E\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=6bcb9666261781f06ad06030e28e5678}{%
-           family={Okazaki},
-           familyi={O\bibinitperiod},
-           given={Ryuji},
-           giveni={R\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=1dd10eeb524ec4b6b378959d0fd4c335}{%
-           family={Tanaka},
-           familyi={T\bibinitperiod},
-           given={Masahiko},
-           giveni={M\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=ce6cf3ac0f504a541a10b8580cdc32a0}{%
-           family={Tsuchiyama},
-           familyi={T\bibinitperiod},
-           given={Akira},
-           giveni={A\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=5cef92f56b3db1aa11e265655d009c85}{%
-           family={Nakato},
-           familyi={N\bibinitperiod},
-           given={Aiko},
-           giveni={A\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=1b2158e664c02eef07482e69494b96e5}{%
-           family={Ogami},
-           familyi={O\bibinitperiod},
-           given={Toshinori},
-           giveni={T\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=a625aca8fa4864383eaa831a28018757}{%
-           family={Ishida},
-           familyi={I\bibinitperiod},
-           given={Hatsumi},
-           giveni={H\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=7a13517cf5c8f5d5e57e210b90bf3aa1}{%
-           family={Sagae},
-           familyi={S\bibinitperiod},
-           given={Ryosuke},
-           giveni={R\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=5b11397774dd356c73a19be4d12bf7f6}{%
-           family={Tsujimoto},
-           familyi={T\bibinitperiod},
-           given={Shinichi},
-           giveni={S\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=75288914ab8435f3cf4a2b5ab6a6fce5}{%
-           family={Matsumoto},
-           familyi={M\bibinitperiod},
-           given={Toru},
-           giveni={T\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=2e974213c49ca248db1c3d905c7fe9a7}{%
-           family={Matsuno},
-           familyi={M\bibinitperiod},
-           given={Junya},
-           giveni={J\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=c9d70999aef0113b667e35037dacbbbd}{%
-           family={Fujimura},
-           familyi={F\bibinitperiod},
-           given={Akio},
-           giveni={A\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=0510f4e4be4d7986a72decded8195489}{%
-           family={Abe},
-           familyi={A\bibinitperiod},
-           given={Masanao},
-           giveni={M\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=03d5401243a7aca2e2242f87961966c7}{%
-           family={Yada},
-           familyi={Y\bibinitperiod},
-           given={Toru},
-           giveni={T\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=86f8e23dc34f9c03a8a159d8975caada}{%
-           family={Mukai},
-           familyi={M\bibinitperiod},
-           given={Toshifumi},
-           giveni={T\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=08a618a0f71a744788d32d761a44732a}{%
-           family={Ueno},
-           familyi={U\bibinitperiod},
-           given={Munetaka},
-           giveni={M\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=e955cee5bab3c11fc3762aefd386663c}{%
-           family={Okada},
-           familyi={O\bibinitperiod},
-           given={Tatsuaki},
-           giveni={T\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=97f2d9e35485c4bef2cea0d4a50f8fb5}{%
-           family={Shirai},
-           familyi={S\bibinitperiod},
-           given={Kei},
-           giveni={K\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=cd2fcb119aa0a491da65cce5212d26aa}{%
-           family={Ishibashi},
-           familyi={I\bibinitperiod},
-           given={Yukihiro},
-           giveni={Y\bibinitperiod},
-           givenun=0}}%
-      }
-      \list{language}{1}{%
-        {en}%
-      }
-      \strng{namehash}{1d694f9592864cd888568f2cb4583b28}
-      \strng{fullhash}{a6c67d51b6869be26d7d55c881f928bd}
-      \strng{bibnamehash}{1d694f9592864cd888568f2cb4583b28}
-      \strng{authorbibnamehash}{1d694f9592864cd888568f2cb4583b28}
-      \strng{authornamehash}{1d694f9592864cd888568f2cb4583b28}
-      \strng{authorfullhash}{a6c67d51b6869be26d7d55c881f928bd}
-      \field{extraname}{2}
-      \field{sortinit}{N}
-      \field{sortinithash}{98cf339a479c0454fe09153a08675a15}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{year}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{issn}{10869379}
-      \field{journaltitle}{Meteorit Planet Sci}
-      \field{month}{2}
-      \field{number}{2}
-      \field{title}{Space weathered rims found on the surfaces of the {Itokawa} dust particles}
-      \field{urlday}{30}
-      \field{urlmonth}{11}
-      \field{urlyear}{2022}
-      \field{volume}{49}
-      \field{year}{2014}
-      \field{urldateera}{ce}
-      \field{pages}{188\bibrangedash 214}
-      \range{pages}{27}
-      \verb{doi}
-      \verb 10.1111/maps.12111
-      \endverb
-      \verb{urlraw}
-      \verb https://onlinelibrary.wiley.com/doi/10.1111/maps.12111
-      \endverb
-      \verb{url}
-      \verb https://onlinelibrary.wiley.com/doi/10.1111/maps.12111
-      \endverb
-    \endentry
     \entry{pajola_anticipated_2022}{article}{}
       \name{author}{49}{}{%
         {{un=0,uniquepart=base,hash=7e9044557e5da2f086dd213a7ba5a724}{%
@@ -5352,6 +4888,46 @@
       \verb https://iopscience.iop.org/article/10.3847/PSJ/ac76c4
       \endverb
       \keyw{notion}
+    \endentry
+    \entry{popescu_modelling_2012}{article}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=a7a7e08c07de72e0320c229ccc3c7987}{%
+           family={{Popescu, M.}},
+           familyi={P\bibinitperiod}}}%
+        {{un=0,uniquepart=base,hash=273106b1cce2c0d6c22ae8e6b096ec6e}{%
+           family={{Birlan, M.}},
+           familyi={B\bibinitperiod}}}%
+        {{un=0,uniquepart=base,hash=55f086b865c20093087cca3e914dcef1}{%
+           family={{Nedelcu, D. A.}},
+           familyi={N\bibinitperiod}}}%
+      }
+      \strng{namehash}{79acc567b069afcb1a1361c8f47a05e0}
+      \strng{fullhash}{ae8824b749ecee3f673bf12fb6775f93}
+      \strng{bibnamehash}{79acc567b069afcb1a1361c8f47a05e0}
+      \strng{authorbibnamehash}{79acc567b069afcb1a1361c8f47a05e0}
+      \strng{authornamehash}{79acc567b069afcb1a1361c8f47a05e0}
+      \strng{authorfullhash}{ae8824b749ecee3f673bf12fb6775f93}
+      \field{sortinit}{P}
+      \field{sortinithash}{bb5b15f2db90f7aef79bb9e83defefcb}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{A\&A}
+      \field{title}{Modeling of asteroid spectra - M4AST}
+      \field{volume}{544}
+      \field{year}{2012}
+      \field{pages}{A130}
+      \range{pages}{-1}
+      \verb{doi}
+      \verb 10.1051/0004-6361/201219584
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1051/0004-6361/201219584
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1051/0004-6361/201219584
+      \endverb
     \endentry
     \entry{pravec_photometric_2006}{article}{}
       \name{author}{10}{}{%
@@ -7830,6 +7406,132 @@
       \range{pages}{14}
       \verb{doi}
       \verb https://doi.org/10.1016/0019-1035(85)90071-5
+      \endverb
+    \endentry
+    \entry{Vokrouhlicky_1999}{article}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=e1664eff1d5bc351d3732453a3d52d85}{%
+           family={Vokrouhlicky},
+           familyi={V\bibinitperiod},
+           given={D.},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=872c83b7723bf7d92d64ad2156bde6b7}{%
+           family={Farinella},
+           familyi={F\bibinitperiod},
+           given={P.},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{9c532b01400da0bf051f6b831a8e0fa6}
+      \strng{fullhash}{9c532b01400da0bf051f6b831a8e0fa6}
+      \strng{bibnamehash}{9c532b01400da0bf051f6b831a8e0fa6}
+      \strng{authorbibnamehash}{9c532b01400da0bf051f6b831a8e0fa6}
+      \strng{authornamehash}{9c532b01400da0bf051f6b831a8e0fa6}
+      \strng{authorfullhash}{9c532b01400da0bf051f6b831a8e0fa6}
+      \field{sortinit}{V}
+      \field{sortinithash}{02432525618c08e2b03cac47c19764af}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{The Astronomical Journal}
+      \field{month}{12}
+      \field{number}{6}
+      \field{title}{The Yarkovsky Seasonal Effect on Asteroidal Fragments: A Nonlinearized Theory for Spherical Bodies}
+      \field{volume}{118}
+      \field{year}{1999}
+      \field{pages}{3049}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1086/301138
+      \endverb
+      \verb{urlraw}
+      \verb https://dx.doi.org/10.1086/301138
+      \endverb
+      \verb{url}
+      \verb https://dx.doi.org/10.1086/301138
+      \endverb
+    \endentry
+    \entry{vokrouhlicky_yarkovsky_2015}{incollection}{}
+      \name{author}{5}{}{%
+        {{un=0,uniquepart=base,hash=e1664eff1d5bc351d3732453a3d52d85}{%
+           family={Vokrouhlicky},
+           familyi={V\bibinitperiod},
+           given={D.},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=6ad27dbcf8f180df036e09f72369ae5c}{%
+           family={Bottke},
+           familyi={B\bibinitperiod},
+           given={W.\bibnamedelimi F.},
+           giveni={W\bibinitperiod\bibinitdelim F\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=1c5d5b47cb64628ee021fd6ba2fe840a}{%
+           family={Chelsey},
+           familyi={C\bibinitperiod},
+           given={S.\bibnamedelimi R.},
+           giveni={S\bibinitperiod\bibinitdelim R\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=82eae3cfeb8b6d709ad4ee22695e6e74}{%
+           family={Scheeres},
+           familyi={S\bibinitperiod},
+           given={D.\bibnamedelimi J.},
+           giveni={D\bibinitperiod\bibinitdelim J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=351798d765c862b6351cbaae0ac72682}{%
+           family={Statler},
+           familyi={S\bibinitperiod},
+           given={T.\bibnamedelimi S.},
+           giveni={T\bibinitperiod\bibinitdelim S\bibinitperiod},
+           givenun=0}}%
+      }
+      \name{editor}{3}{}{%
+        {{hash=f6b799fa09a48a1b562238c5dfab042c}{%
+           family={Michel},
+           familyi={M\bibinitperiod},
+           given={Patrick},
+           giveni={P\bibinitperiod}}}%
+        {{hash=330d7b5c26a712124afe2f08c89817c0}{%
+           family={DeMeo},
+           familyi={D\bibinitperiod},
+           given={Francesca\bibnamedelima E.},
+           giveni={F\bibinitperiod\bibinitdelim E\bibinitperiod}}}%
+        {{hash=659cc4647fdfa3ff220c71cd77a8724f}{%
+           family={Bottke},
+           familyi={B\bibinitperiod},
+           given={William\bibnamedelima F.},
+           giveni={W\bibinitperiod\bibinitdelim F\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {University of Arizona Press}%
+      }
+      \strng{namehash}{1f541d41d3170a21cb2a07038aae4856}
+      \strng{fullhash}{b579ce6a892965307cf4a6a73f185e87}
+      \strng{bibnamehash}{1f541d41d3170a21cb2a07038aae4856}
+      \strng{authorbibnamehash}{1f541d41d3170a21cb2a07038aae4856}
+      \strng{authornamehash}{1f541d41d3170a21cb2a07038aae4856}
+      \strng{authorfullhash}{b579ce6a892965307cf4a6a73f185e87}
+      \strng{editorbibnamehash}{192e4924b279ebeb04cf5a044f5f765a}
+      \strng{editornamehash}{192e4924b279ebeb04cf5a044f5f765a}
+      \strng{editorfullhash}{3d583fb04eab070f375840a334a3b98c}
+      \field{sortinit}{V}
+      \field{sortinithash}{02432525618c08e2b03cac47c19764af}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Asteroids {IV}}
+      \field{title}{The Yarkovsky and YORP Effects}
+      \field{year}{2015}
+      \verb{doi}
+      \verb https://doi.org/10.48550/arXiv.1502.01249
+      \endverb
+      \verb{urlraw}
+      \verb https://muse.jhu.edu/chapter/1705183
+      \endverb
+      \verb{url}
+      \verb https://muse.jhu.edu/chapter/1705183
       \endverb
     \endentry
     \entry{walsh_rotational_2008}{article}{}

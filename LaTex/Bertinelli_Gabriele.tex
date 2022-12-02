@@ -6,8 +6,10 @@
 \usepackage{amssymb,amsmath,amsthm,amsfonts}
 \usepackage{xspace}
 \usepackage{indentfirst}
+\usepackage{subfloat}
 \usepackage{graphicx}
 \usepackage{tabularx}
+\usepackage{setspace}
 \usepackage[pdfa]{hyperref}
 \usepackage[noabbrev,capitalize, italian]{cleveref}
 \usepackage{subfigure}
@@ -28,7 +30,6 @@
 \usepackage{adjustbox}
 \usepackage[utf8]{inputenc}   %per riuscire a scrivere gli accenti
 \usepackage[italian, english, polish, greek]{babel}   %per riuscire a scrivere gli accenti
-\usepackage{setspace}
 \usepackage[backend=biber, sorting=nyt, mincitenames=1, maxcitenames=2, maxbibnames=2, minbibnames=1, style=authoryear-comp, dashed=false, url=false, isbn=false, natbib=true, language=auto, language=american, uniquename=init, giveninits=true, uniquelist=false]{biblatex}
 \usepackage[style=british, english=american]{csquotes}
 \renewcommand*{\nameyeardelim}{\addcomma\space}
@@ -177,13 +178,39 @@ Dal 1801, quando Giuseppe Piazzi scoprì il primo corpo minore Cerere, catalogat
 
 Esistono numerosi gruppi di asteroidi, a diverse distanze dal Sole. Nella \cref{tab:asteroid-classification} sono riportati i principali gruppi e famiglie, con le loro classificazioni dinamiche.
 
-In questo capitolo verranno descritte brevemente le principali caratteristiche degli asteroidi. La loro distinzione è spesso legata alla risonanza con Giove o Nettuno, mentre altri gruppi sono definiti dalla vicinanza della loro orbita con quella di un pianeta (e.g. Near Earth Objects e Mars Crossers).
+In questo capitolo verranno descritte brevemente le principali caratteristiche degli asteroidi. La loro distinzione è spesso legata alla risonanza con Giove, Saturno o Nettuno, mentre altri gruppi sono definiti dalla vicinanza della loro orbita con quella di un pianeta (e.g. Near Earth Objects e Mars Crossers).
 
 \section{Proprietà generali dei corpi minori}
-piccola introduzione
+
 
 \subsection{Risonanze}
-Prima di passare 
+La struttura generale della distribuzione degli asteroidi è legata alle risonanze orbitali con un pianeta di grandi dimensioni. Queste risonanze sono divise in due classi principali: risonanze di \textit{moto medio} e \textit{secolari}.
+
+\paragraph*{Risonanze di moto medio} 
+Le risonanze di moto medio hanno luogo a distanze dal Sole dove i periodi orbitali degli oggetti sono legati da un piccolo rapporto intero al periodo di rivoluzione di un pianeta (e.g 1:1, 2:1, 5:1, ecc). Questo accade principalmente con quello di Giove, specialmente nel Sistema Solare interno. Le risonanze di moto medio sono molto presenti all'interno della Main Belt e sono chiamate "Kirkwood Gaps", in onore di Daniel Kirkwood che per primo le ha riconosciute nel 1874. Nel Sistema Solare esterno le risonanze di moto medio sono principalmente legate al periodo orbitale di Nettuno\footnote{Si veda la \cref{tab:asteroid-classification} per maggiori dettagli.} (\cref{fig:jupiter_resonances,fig:neptune_resonances}).
+
+\paragraph*{Risonanze secolari}
+Le risonanze secolari sono dovute alle relazioni delle frequenze di precessione e alle relazioni tra le frequenze di variazione dell'eccentricità e dell'inclinazione tra gli asteroidi e i pianeti maggiori:
+\begin{itemize}
+    \item $\nu_5$: quando la precessione dell'argomento del perielio dell'oggetto è simile a quella di Giove;
+    \item $\nu_6$: quando la precessione dell'argomento del perielio dell'oggetto è simile a quella di Saturno;
+    \item $\nu_{16}$: quando la precessione della longitudine del nodo ascendente dell'oggetto è simile a quella di Giove.
+\end{itemize} 
+Particolarmente interessante è la risonanza $\nu_6$ tra gli asteroidi e Saturno. Quando un asteroide si avvicina a questa risonanza la sua eccentricità aumenta lentamente fino a diventare un Mars Crosser (vedasi il prossimo paragrafo per approfondimenti), a questo punto viene solitamente espulso dalla fascia principale a causa di un passaggio ravvicinato con Marte. Questo tipo di risonanza secolare forma il bordo interno della fascia principale, intorno alle 2 AU e ai 20° di inclinazione.
+
+\begin{figure}
+    \centering
+    \includegraphics[scale=0.24]{figure/jupiter_resonances.png}
+    \caption[Risonanze di moto medio con Giove.]{Istogramma che mostra i principali Kirkwood Gaps nella Main Belt. Sulle ascisse si trova il valore del semiasse maggiore, sulle ordinate in numero di asteroidi a una data distanza dal Sole. Le principali risonanze di moto medio sono indicate in alto. Per esempio la risonanza 3:1 è situata a una distanza tale per cui l'asteroide completa 3 orbite per ogni orbita completata da Giove. (JPL/Caltech)}
+    \label{fig:jupiter_resonances}
+\end{figure}
+
+\begin{figure}
+    \centering
+    \includegraphics[width=\textwidth]{figure/neptune_resonances.png}
+    \caption[Risonanze di moto medio con Nettuno.]{Istogramma che mostra la distribuzione degli oggetti trans-nettuniani. Sulle ascisse si trova il valore del semiasse maggiore (o il periodo), sulle ordinate il valore dell'inclinazione orbitale. Le principali risonanze di moto medio sono indicate in alto. (Wikipedia)}
+    \label{fig:neptune_resonances}
+\end{figure}
 
 \subsection{Distribuzione e classificazione dinamica}
 In questo paragrafo verrà decritta la classificazione in gruppi e famiglie.
@@ -291,6 +318,36 @@ Sono oggetti con $a\geq 40$ AU e sono divisi nei seguenti gruppi:
 \qquad \textit{Oort Cloud Objects (OCOs)}: la Oort Cloud è un guscio sferico di oggetti ghiacciati, di cui non si ha evidenza diretta perché troppo lontano e scuro ma ipotizzato come luogo di origine delle comete a lungo/lunghissimo periodo. Si troverebbe tra circa 50000 e 100000 AU.
 
 \subsection{Effetto Yarkovsky}
+L’effetto Yarkovsky è una forza percepita da un corpo dovuta all’emissione anisotropa di fotoni termici, che trasportano momento. La sua influenza è più significativa per meteoroidi e piccoli asteroidi, da $10\; cm$ a $10\; km$ di diametro \citep{vokrouhlicky_yarkovsky_2015}.\\
+L’effetto fu scoperto da Ivan Osipovich Yarkovsky, che notò come il riscaldamento diurno di un oggetto rotante nello spazio causasse una piccola forza sull’oggetto che avrebbe avuto effetti a lungo termine sulla sua orbita.
+
+L’effetto è dovuto a due componenti:
+
+\paragraph*{Effetto diurno}
+Su un corpo rotante illuminato dal Sole, la superficie è più calda nel pomeriggio e nella prima parte della notte, rispetto alla mattina e a notte tarda. Il risultato è che viene radiato più calore dal lato notturno, rispetto a quello diurno, e, al netto, agisce una forza dovuta alla pressione di radiazione nella direzione opposta alla notte. Per oggetti rotanti in modo progrado, questa forza è nella direzione della loro orbita e il semiasse maggiore, nel lungo periodo, tende ad aumentare. Situazione opposta per gli oggetti che ruotano in modo retrogrado.
+
+\paragraph*{Effetto stagionale}
+Questa seconda tipologia tiene conto del fatto che nel corso di un anno uno dei due emisferi dell’asteroide risulta maggiormente esposto alla radiazione solare rispetto all’altro. Per oggetti rotanti, l’effetto stagionale aumenta con l’inclinazione assiale. Esso domina solo se l’effetto diurno è abbastanza piccolo \citep{Vokrouhlicky_1999}.
+L’effetto stagionale potrebbe avvenire per:
+
+\begin{itemize}
+    \item rotazione molto veloce
+    \item piccole dimensioni dell’oggetto
+    \item inclinazione assiale vicina a 90°
+\end{itemize}
+
+Anche questo effetto ha ripercussioni sul semiasse maggiore e nell'ordine dei milioni di anni può portare un asteroide dalla Main Belt al Sistema Solare interno.
+
+\begin{figure}[!h]
+    \centering
+    \includegraphics[scale=0.38]{figure/yark.jpg}
+    \caption[Visualizzazione dell'effetto Yarkovsky diurno e stagionale.]{Visualizzazione dell'effetto Yarkovsky diurno (a sinistra) e stagionale (a destra). \citep{bottke_yarkovsky_2002}}
+    \label{fig:yark}
+\end{figure}
+
+\paragraph*{Effetto YORP}
+L’effetto Yarkovsky-O'Keefe-Radzievskii-Paddack (YORP) è un variazione al secondo ordine dell’effetto Yarkovsky che causa l’aumentare o il diminuire della velocità di rotazione (o spin) di un piccolo corpo, come un asteroide.\\
+Nel lungo termine, l'inclinazione e il tasso di rotazione dell'oggetto possono variare in modo casuale, in modo caotico o regolare, a seconda di molti fattori.
 
 \section{Potentially Hazardous Asteroids}\label{sec:pha}
 Tra i NEO esiste una categoria di oggetti che riveste un ruolo importante: sono gli asteroidi potenzialmente pericolosi, Potentially Hazardous Asteroids (PHA). Rientrano in questa categoria tutti gli oggetti la cui minima distanza all'intersezione dell'orbita terrestre (Minimum Orbit Intersection Distance - MOID) è inferiore a 0.05 AU e la cui magnitudine assoluta H è minore di 22. Sono quindi quegli asteroidi che se impattassero con la Terra provocherebbero danni su larga scala, anche globale. A oggi si conoscono più di 2500 PHA, la maggior parte dei quali sono della famiglia Apollo, e ogni giorno vengo aggiunti o rimossi oggetti sulla base di nuovi risultati dei parametri orbitali.\\
@@ -313,8 +370,8 @@ Oltre alla probabilità di collisione e alcune caratteristiche dell’oggetto (m
 \section{Introduzione}
 Lo studio della mineralogia superficiale di singoli asteroidi o di gruppi di asteroidi può fornire i dati per migliorare la nostra comprensione della loro origine ed evoluzione. La superficie degli asteroidi può essere studiata dall'interpretazione delle proprietà osservabili per determinare la presenza, l'abbondanza e la composizione mineralogica.\\
 La spettroscopia di riflettanza nel visibile (VIS) e nell'infrarosso (IR) viene ampiamente usata per determinare la composizione degli asteroidi poiché può caratterizzare la composizione superficiale della maggior parte dei tipi di asteroidi. Le caratteristiche diagnostiche negli spettri, che derivano da transizioni elettroniche e vibrazionali all'interno dei minerali e delle molecole, sono riscontrabili nell'intervallo di frequenza $0.35-2.50\,\mu m$.\\
-I minerali più importanti presenti negli spettri degli asteroidi sono: olivine, pirosseni, metalli Ferro-Nichel, feldspati e fillosilicati idrati e composti organici. Poiché i parametri spettrali dei diversi assorbimenti (e.g. la posizione delle bande e il rapporto tra esse) sono legati a una specifica composizione del singolo minerale, l'analisi spettrale della superficie degli asteroidi è in grado, nella maggior parte dei casi, di rilevare le firme mineralogiche caratteristiche di una particolare specie.\\
-La possibilità di rilevare un'intensità dipende dall'abbondanza della particolare specie, in modo che la forza della caratteristica possa essere rilevata sopra il rumore dello spettro.\\
+I minerali più importanti presenti negli spettri degli asteroidi sono: olivine, pirosseni, metalli ferro-nichel (Fe-Ni), feldspati e fillosilicati idrati e composti organici. Poiché i parametri spettrali dei diversi assorbimenti (e.g. la posizione delle bande e il rapporto tra esse) sono legati a una specifica composizione del singolo minerale, l'analisi spettrale della superficie degli asteroidi è in grado, nella maggior parte dei casi, di rilevare le firme mineralogiche caratteristiche di una particolare specie.\\
+La possibilità di rilevare un'intensità dipende dall'abbondanza della particolare specie, in modo che la forza dell'intensità possa essere rilevata sopra il rumore dello spettro.\\
 In spettri di alta qualità possono essere anche determinate la composizione e le relative abbondanze. Per questi motivi l'analisi degli spettri può fornire una varietà di dati sulla composizione della superficie degli asteroidi.\\
 
 \section{Spettri degli asteroidi}
@@ -417,7 +474,7 @@ alterato (o termicamente o dall'azione dell'acqua).
 
 \subsection{Tassonomia di Bus}
 I dati della SMASSII\footnote{\href{http://smass.mit.edu/smass.html}{http://smass.mit.edu/smass.html}} (Small Main-Belt Asteroid Spectroscopic Survey) hanno fornito le basi per una nuova tassonomia. \citet{bus_phase_2002, bus_phase_2002-1} hanno costruito il loro sistema di classificazione basandosi sulle tassonomie pre-esistenti. In particolare hanno definito tre gruppi principali: S-, C- e X-complex, corrispondenti alle definizioni classiche dei tipi S, C e X. Di conseguenza sono state definite 26 classi sulla base della presenza o assenza di assorbimenti, quando presenti, e delle pendenze degli spettri. Di queste 26 classi, 12 hanno una designazione a una lettera: A, B, C, D, K, O, Q, R, S, T, V e X. Una nuova classe, la L, è stata introdotta per descrivere gli oggetti con una pendenza molto ripida nell'UV, vicino a $0.75\,\mu m$, ma con uno spettro piatto oltre i $0.75\,\mu m$. Asteroidi con caratteristiche intermedie sono associati a classi multi-lettera: Cb, Cg, Cgh, Ch, Ld, Sa, Sk, Sl, Sq, Sr, Xc, Xe, e Xk. I membri delle classi Cgh- e Ch- hanno spettri contenenti un assorbimento a $0.7\,\mu m$ legato all'idratazione.\\
-Un nuovo asteroide può quindi venire facilmente classificato all’interno di una di queste classi solamente sulla base delle sue caratteristiche spettrali. Successivamente, \citep{demeo_extension_2009} hanno coinvolto nella classificazione anche la regione infrarossa. Di seguito un riassunto delle chiavi tassonomiche della classificazione Bus-DeMeo.
+Un nuovo asteroide può quindi venire facilmente classificato all’interno di una di queste classi solamente sulla base delle sue caratteristiche spettrali. Successivamente, \citet{demeo_extension_2009} ha coinvolto nella classificazione anche la regione infrarossa. Di seguito un riassunto delle chiavi tassonomiche della classificazione Bus-DeMeo.
 
 \begin{figure}[!ht]
     \centering
@@ -427,39 +484,47 @@ Un nuovo asteroide può quindi venire facilmente classificato all’interno di u
 \end{figure}
 
 \section{Space weathering}
-Lo space weathering (SW) è un termine che indica dei processi riguardanti i corpi senza atmosfera nel Sistema Solare. Questi processi includono irradiazione da ioni solari (vento solare, flares, espulsioni di particelle energetiche), raggi cosmici galattici, elettroni, raggi UV e X e bombardamenti da parte di micrometeoriti. Le alterazioni superficiali dovute a questi effetti variano non solo in funzione della composizione superficiale ma anche della zona di Sistema Solare in cui si trovano gli oggetti affetti da SW.\\
-La Luna è l'oggetto senza atmosfera più studiato e di cui si conoscono meglio gli effetti di SW \citep{gold_lunar_1955, hapke_space_2001}. Il principale responsabile è ferro metallico in nanofase ($npFe^0$) che è prodotto dal bombardamento del vento solare \citep{keller_nature_1997} e il suo effetto è quelli di rendere più arrossati gli spettri di riflettanza e scurire la regione del visibile-vicino infrarosso (VIS-NIR).\\
-Per quanto riguarda gli asteroidi, lo SW è sempre stato considerato per cercare di spiegare possibili corrispondenze (o discrepanze) tra le classi tassonomiche e le meteoriti. Il problema più studiato è quello che concerne la possibilità che gli asteroidi di tipo S (S-type) siano i corpi progenitori delle condriti ordinarie (OC). Numerosi studi si sono concentrati sul confronto della mineralogia degli S-type con le OC, giungendo alla conclusione che potrebbero esserci dei bias nelle collezioni di meteoriti \citep{meibom_invited_1999}. Studi successivi hanno dimostrato che esiste un trend nell'arrossamento nel VIS-NIR comparando le OC con asteroidi S-type dalla Main Belt fino ai NEA \citep{binzel_observed_2004}. Ciò suggerisce che, in generale, lo SW lunare sia valido anche per gli asteroidi.\\
-Alcuni processi di SW possono essere simulati in laboratorio usando diversi approcci e tecniche analitiche \citep{bennett_space-weathering_2013}. I modelli spettrali degli asteroidi sono stati sviluppati utilizzando questi risultati di laboratorio. Il risultato principale è che lo SW non modifica il centro della banda e le relative aree di assorbimento dei silicati nei VIS-NIR. Si conosce poco della risposta allo SW di altre classi di asteroidi. Per esempio, i trend di SW diventano più complessi e controversi quando i prendono in considerazione asteroidi più scuri (C-complex). Sono stati osservati dei trend di leggero arrossamento da alcuni \citep{lazzarin_space_2006}, di spostamento verso il blu da altri \citep{vernazza_paucity_2013}.
+Lo space weathering (SW) è un termine che indica dei processi riguardanti i corpi senza atmosfera nel Sistema Solare. Questi processi includono irraggiamento da ioni solari (vento solare, flares, espulsioni di particelle energetiche), raggi cosmici galattici, elettroni, raggi UV e X e bombardamenti da parte di micrometeoriti. Le alterazioni superficiali dovute a questi effetti variano non solo in funzione della composizione superficiale ma anche della zona di Sistema Solare in cui si trovano gli oggetti affetti da SW.\\
+La Luna è l'oggetto senza atmosfera più studiato e di cui si conoscono meglio gli effetti di SW \citep{gold_lunar_1955, hapke_space_2001}. 
+%Il principale responsabile è ferro metallico in nanofase ($npFe^0$) che è prodotto dal 
+La causa principale è il bombardamento del vento solare \citep{keller_nature_1997} e il suo effetto è quelli di rendere più arrossati gli spettri di riflettanza e scurire la regione del visibile-vicino infrarosso (VIS-NIR).\\
+Per quanto riguarda gli asteroidi, lo SW è sempre stato considerato per cercare di spiegare possibili corrispondenze (o discrepanze) tra le classi tassonomiche e le meteoriti. Il problema più studiato è quello che concerne la possibilità che gli asteroidi di tipo S (S-type) siano i corpi progenitori delle condriti ordinarie (OC). %Numerosi studi si sono concentrati sul confronto della mineralogia degli S-type con le OC, giungendo alla conclusione che potrebbero esserci dei bias nelle collezioni di meteoriti \citep{meibom_invited_1999}. 
+Diversi studi hanno dimostrato che esiste un trend nell'arrossamento nel VIS-NIR comparando le OC con asteroidi S-type dalla Main Belt fino ai NEA \citep{binzel_observed_2004}. Ciò suggerisce che, in generale, lo SW lunare sia valido anche per gli asteroidi.\\
+Si conosce poco della risposta allo SW di altre classi di asteroidi. Per esempio, i trend di SW diventano più complessi e controversi quando i prendono in considerazione asteroidi più scuri (C-complex). Sono stati osservati dei trend di leggero arrossamento da alcuni \citep{lazzarin_space_2006}, di spostamento verso il blu da altri \citep{vernazza_paucity_2013}.\\
+Alcuni processi di SW possono essere simulati in laboratorio usando diversi approcci e tecniche analitiche \citep{bennett_space-weathering_2013}. I modelli spettrali degli asteroidi sono stati sviluppati utilizzando questi risultati di laboratorio. Il risultato principale è che lo SW non modifica il centro della banda e le relative aree di assorbimento dei silicati nei VIS-NIR. 
 
-\subsection{Il caso di (25143) Itokawa}
+%\subsection{Il caso di (25143) Itokawa}
 
-\subsubsection{Evidenze di SW da osservazioni in situ}
-Prima delle osservazioni svolte dalla sonda Hayabusa (2003-2010), osservazioni da Terra nel visibile e infrarosso hanno mostrato che Itokawa è un asteroide di tipo S principalmente composto da olivine e pirosseni, con bande di assorbimento a $1$ e $2\,\mu m$ \citep{binzel_muses-c_2001}.\\
-La sonda Hayabusa ha osservato delle variazioni spettrali che possono essere spiegate con il modello di SW di Hapke \citep{hapke_space_2001}, in cui la quantità di $npFe^0$ controlla l'arrossamento spettrale. Analisi recenti dei dati in NIR, riguardo a regioni più blu e "immature" (con pendenze moderate tra $0.43$ e $0.70\,\mu m$), mostrano la banda a $1\,\mu m$ più profonda, confermando i risultati precedenti. Gli spettri del terreno più irregolare variano considerevolmente nel grado di SW, mentre i terreni più regolari sono, in media, debolmente affetti \citep{ishiguro_scattered_2014}.\\
-I terreni irregolari su Itokawa contengono sia aree scure (e rosse) che aree brillanti (e blu). Le regioni più scure hanno una quantità di massi maggiore e i massi più grandi (qualche decina di metri) appaiono più brillanti dei massi più piccoli.\\
-Le caratteristiche osservate nelle zone più brillanti possono essere spiegate se il terreno di Itokawa fosse composto da brecce litificate\footnote{In geologia, processo che conduce alla trasformazione di un sedimento sciolto in roccia sedimentaria.}, poiché esse litificate sono caratterizzate da un'eterogeneità mineralogica e petrologica su varie scale, il che modificherebbe il grado di SW.
-Inoltre, non ci sono variazioni significanti di colore tra i vari massi, ma quelli più piccoli mostrano delle variazioni di albedo.
-\subsubsection{Analisi dei campioni}
-La missione Hayabusa ha riportato sulla Terra, il 23 giugno 2010, più di 2000 particelle raccolte dalla superficie dell'asteroide. Le analisi svolte su questi campioni confermano che Itokawa ha una composizione simile alle LL-condriti.\\
-Le prime analisi al microscopio hanno riscontrato che metà delle particelle ha subito alterazioni superficiali \citep{noguchi_incipient_2011}. Studi successivi hanno trovato che anche le particelle che sembravano inalterate contenevano delle impurità dovute al ridepositarsi di vapori. In alcuni dei campioni analizzati si sono trovate delle vescicole, il che è probabilmente dovuto all'intrappolamento di He \citep{noguchi_space_2014}.
+%\subsubsection{Evidenze di SW da osservazioni in situ}
+%Prima delle osservazioni svolte dalla sonda Hayabusa (2003-2010), osservazioni da Terra nel visibile e infrarosso hanno mostrato che Itokawa è un asteroide di tipo S principalmente composto da olivine e pirosseni, con bande di assorbimento a $1$ e $2\,\mu m$ \citep{binzel_muses-c_2001}.\\
+%La sonda Hayabusa ha osservato delle variazioni spettrali che possono essere spiegate con il modello di SW di Hapke \citep{hapke_space_2001}, in cui la quantità di $npFe^0$ controlla l'arrossamento spettrale. Analisi recenti dei dati in NIR, riguardo a regioni più blu e "immature" (con pendenze moderate tra $0.43$ e $0.70\,\mu m$), mostrano la banda a $1\,\mu m$ più profonda, confermando i risultati precedenti. Gli spettri del terreno più irregolare variano considerevolmente nel grado di SW, mentre i terreni più regolari sono, in media, debolmente affetti \citep{ishiguro_scattered_2014}.\\
+%I terreni irregolari su Itokawa contengono sia aree scure (e rosse) che aree brillanti (e blu). Le regioni più scure hanno una quantità di massi maggiore e i massi più grandi (qualche decina di metri) appaiono più brillanti dei massi più piccoli.\\
+%Le caratteristiche osservate nelle zone più brillanti possono essere spiegate se il terreno di Itokawa fosse composto da brecce litificate\footnote{In geologia, processo che conduce alla trasformazione di un sedimento sciolto in roccia sedimentaria.}, poiché esse litificate sono caratterizzate da un'eterogeneità mineralogica e petrologica su varie scale, il che modificherebbe il grado di SW.
+%Inoltre, non ci sono variazioni significanti di colore tra i vari massi, ma quelli più piccoli mostrano delle variazioni di albedo.
 
-Diversi studi hanno mostrato che sebbene lo SW altera gli spettri di riflettanza dei minerali, il cambiamento principale è l'alterazione del continuo spettrale, poiché la posizione delle bande di assorbimento e le relative aree degli assorbimenti dei silicati in VIS-NIR non vengono modificate in modo significativo.\\
-La curva del continuo può essere parametrizzata da un coefficiente e può essere legata al tempo di esposizione allo SW. Questo approccio è stato usato per rimuovere gli effetti dello SW dagli spettri di asteroidi S-type, così da poter analizzare la composizione superficiale con più facilità.
+%\subsubsection{Analisi dei campioni}
+%La missione Hayabusa ha riportato sulla Terra, il 23 giugno 2010, più di 2000 particelle raccolte dalla superficie dell'asteroide. Le analisi svolte su questi campioni confermano che Itokawa ha una composizione simile alle LL-condriti.\\
+%Le prime analisi al microscopio hanno riscontrato che metà delle particelle ha subito alterazioni superficiali \citep{noguchi_incipient_2011}. Studi successivi hanno trovato che anche le particelle che sembravano inalterate contenevano delle impurità dovute al ridepositarsi di vapori. In alcuni dei campioni analizzati si sono trovate delle vescicole, il che è probabilmente dovuto all'intrappolamento di He \citep{noguchi_space_2014}.
+Diversi studi hanno mostrato che sebbene lo SW alteri gli spettri di riflettanza dei minerali, il cambiamento principale è l'alterazione del continuo spettrale, poiché la posizione delle bande di assorbimento e le relative aree degli assorbimenti dei silicati in VIS-NIR non vengono modificate in modo significativo.\\
+La curva del continuo può essere parametrizzata da un coefficiente e può essere legata al tempo di esposizione allo SW. Questo approccio è stato usato per rimuovere gli effetti dello SW dagli spettri di asteroidi S-type, così da poter analizzare la composizione superficiale con più facilità \citep{BRUNETTO2006327, popescu_modelling_2012}.
 
-\subsection{Stime del tasso di SW sugli asteroidi}
-Uno dei vantaggi principali degli studi di laboratorio è che essi possono stabilire quale trend spettrale sia dovuto a SW. Questi risultati possono essere usati per determinare se lo SW può causare le variazioni osservate tra gli analoghi terrestri (le meteoriti) e gli asteroidi o le differenze tra asteroidi con composizione simile. I cambiamenti spettrali osservati in laboratorio sono stati usati anche per stimare i tempi scala con cui queste variazioni potrebbero avvenire nell'ambiente spaziale. Per esempio, i tempi scala suggeriscono che gli effetti dovuti al bombardamento di ioni saturano tra $10^4$ e $10^6$ anni, mentre quelli dovuti al bombardamento di micrometeoriti sono nell'ordine di $10^8$ anni \citep{loeffler_irradiation_2009, brunetto_space_2006}.\\
-Nonostante lo SW indotto dagli ioni sia un processo abbastanza efficiente, ci sono molti asteroidi che non sono completamente alterati, anche se sono più vecchi dei tempi scala sopracitati. Questa apparente discrepanza indica che qualche processo di ringiovamento è in grado di ricostituire la superficie degli asteroidi, abbassando il tasso di SW. Tra questi effetti, i più probabili sono piccoli impatti non distruttivi e incontri planetari \citep{shestopalov_optical_2013}.
+%\subsection{Stime del tasso di SW sugli asteroidi}
+Uno dei vantaggi principali degli studi di laboratorio è che essi possono stabilire quale trend spettrale sia dovuto a SW. 
+%Questi risultati possono essere usati per determinare se lo SW può causare le variazioni osservate tra gli analoghi terrestri (le meteoriti) e gli asteroidi o le differenze tra asteroidi con composizione simile. I cambiamenti spettrali osservati in laboratorio sono stati usati anche per stimare i tempi scala con cui queste variazioni potrebbero avvenire nell'ambiente spaziale. 
+Per esempio, i tempi scala suggeriscono che gli effetti dovuti al bombardamento di ioni saturano tra $10^4$ e $10^6$ anni, mentre quelli dovuti al bombardamento di micrometeoriti sono nell'ordine di $10^8$ anni \citep{loeffler_irradiation_2009, brunetto_space_2006}.\\
+%Nonostante lo SW indotto dagli ioni sia un processo abbastanza efficiente, 
+Ci sono molti asteroidi che non sono completamente alterati, anche se sono più vecchi dei tempi scala sopracitati. Questa apparente discrepanza indica che qualche processo di ringiovamento sia in grado di ricostituire la superficie degli asteroidi, abbassando il tasso di SW. Tra questi effetti, i più probabili sono piccoli impatti non distruttivi e incontri planetari \citep{shestopalov_optical_2013}.
 
-Gli effetti di SW possono essere derivati anche dallo studio dinamico delle famiglie di asteroidi. La distruzione del progenitore è un processo violento che dovrebbe eliminare la superficie preesistente (alterata o meno) ed esporre nuovo materiale. Questo dovrebbe essere principalmente inalterato, ma sarà alterato dallo SW in tempi successivi. Idealmente, quindi, le famiglie di asteroidi potrebbero essere usate per misurare empiricamente il tasso di SW (invitiamo a consultare \cite{michel_asteroid_2015} per un approfondimento del metodo).
+%Gli effetti di SW possono essere derivati anche dallo studio dinamico delle famiglie di asteroidi. La distruzione del progenitore è un processo violento che dovrebbe eliminare la superficie preesistente (alterata o meno) ed esporre nuovo materiale. Questo dovrebbe essere principalmente inalterato, ma sarà alterato dallo SW in tempi successivi. Idealmente, quindi, le famiglie di asteroidi potrebbero essere usate per misurare empiricamente il tasso di SW (invitiamo a consultare \cite{michel_asteroid_2015} per un approfondimento del metodo).
 
-Nonostante siano stati trovati pochi oggetti nella Main Belt con spettri inalterati simili alle OC, esse sono piuttosto comuni tra i piccoli NEA; ciò potrebbe essere dovuto a un particolare processo che interessa i NEA.\\
-Usando la tassonomia standard, con cui gli spettri inalterati simili alle OC sono indicati con la lettera Q, si nota che non c'è nessun asteroide di tipo Q tra i NEA con diametro maggiore di $5\,km$. La comparsa degli asteroidi di tipo Q era stata attribuita ai corti tempi di vita collisionali dei piccoli asteroidi, ma è poco probabile poiché i tempi scala collisionali di asteroidi, con dimensione nell'ordine del chilometro, sono presumibilmente $>10^6$ anni, mentre i tempi scala dello SW sono probabilmente minori. Questo problema potrebbe invece essere collegato alla ritenzione della regolite, perché i piccoli asteroidi hanno una gravità più debole e gli strati di regolite alterata vengono rimossi più facilmente da micro-impatti.\\
-Recentemente \citet{binzel_earth_2010} ha trovato evidenze che gli incontri planetari dei NEA con la Terra possono rinnovare le superfici degli asteroidi.
+%Nonostante siano stati trovati pochi oggetti nella Main Belt con spettri inalterati simili alle OC, esse sono piuttosto comuni tra i piccoli NEA; ciò potrebbe essere dovuto a un particolare processo che interessa i NEA.\\
+%Usando la tassonomia standard, con cui gli spettri inalterati simili alle OC sono indicati con la lettera Q, si nota che non c'è nessun asteroide di tipo Q tra i NEA con diametro maggiore di $5\,km$. La comparsa degli asteroidi di tipo Q era stata attribuita ai corti tempi di vita collisionali dei piccoli asteroidi, ma è poco probabile poiché i tempi scala collisionali di asteroidi, con dimensione nell'ordine del chilometro, sono presumibilmente $>10^6$ anni, mentre i tempi scala dello SW sono probabilmente minori. Questo problema potrebbe invece essere collegato alla ritenzione della regolite, perché i piccoli asteroidi hanno una gravità più debole e gli strati di regolite alterata vengono rimossi più facilmente da micro-impatti.\\
+%Recentemente \citet{binzel_earth_2010} ha trovato evidenze che gli incontri planetari dei NEA con la Terra possono rinnovare le superfici degli asteroidi.
 
-L'ultimo processo di SW che tratteremo è quello dell'accrezione e perdita di massa da parte di processi di "rimescolamento" degli strati superficiali che possono esporre materiale "fresco" e/o aggiungere materiale esogeno, precedentemente processato in differenti ambienti.\\
+%L'ultimo processo di 
+Lo SW può essere dovuto anche all'accrezione e perdita di massa dovute a processi di "rimescolamento" degli strati superficiali che possono esporre materiale "fresco" e/o aggiungere materiale esogeno, precedentemente processato in differenti ambienti.\\
 Ci sono due modi per accrescere massa: (1) polvere e meteoroidi e (2) particelle solari energetiche. Il flusso di polvere non è noto, ma si possono ricavare delle stime del flusso di micrometeoriti basandosi sui modelli dinamici della nube zodiacale. Questo materiale è esso stesso un agente alterante che influenza le proprietà locali della regolite e gli spettri di riflettanza delle regioni dove si è depositato.\\
-L'ultimo aspetto da menzionare è la possibilità di perdite di massa indotte dal flusso incidente di ioni e meteoriti. Questo aspetto può essere legato alla ricerca di esosfere attorno ad asteroidi.
+%L'ultimo aspetto da menzionare è la possibilità di perdite di massa indotte dal flusso incidente di ioni e meteoriti. Questo aspetto può essere legato alla ricerca di esosfere attorno ad asteroidi.
 
 \chapter{La missione DART}\label{ch:ch_3}
 
@@ -488,7 +553,7 @@ In letteratura sono stati descritti diversi metodi per la difesa planetaria. Tut
 Le varie tecniche di prevenzione dalle collisioni presentano diversi compromessi rispetto a parametri quali le prestazioni complessive, i costi, i rischi di missione, le operazioni e le disponibilità tecnologiche \citep{canavan_interception_1992}. Esistono vari metodi per modificare l'orbita di un asteroide o cometa \citep{hall_ross_1997}, che possono essere catalogati in base al tipo di mitigazione (deflessione o frammentazione), la fonte di energia (cinetica, elettromagnetica, gravitazionale, solare/termica o nucleare) e la strategia di approccio (intercettazione o rendezvous \citep{solem_interception_1993}).
 
 Dato l'argomento di questa tesi ci concentreremo sul metodo dell'impattatore cinetico.\\
-Quando un asteroide è ancora lontano dalla Terra, un modo per deflettere la sua orbita è quello di alterare direttamente il suo momento facendo collidere una sonda sulla sua superficie. Delle analisi condotte da NASA nel 2007\footnote{\href{https://web.archive.org/web/20160305101217/http://neo.jpl.nasa.gov/neo/report2007.html}{https://web.archive.org/web/20160305101217/http://neo.jpl.nasa.gov/neo/report2007.html}} mostrarono che "gli impattatori cinetici non nucleari sono l'approccio più maturo e potrebbero essere usati in scenari di deflessione/mitigazione che coinvolgono piccoli oggetti singoli."
+Quando un asteroide è ancora lontano dalla Terra, un modo per deflettere la sua orbita è quello di alterare direttamente il suo momento facendo collidere una sonda sulla sua superficie. Analisi condotte da NASA nel 2007\footnote{\href{https://web.archive.org/web/20160305101217/http://neo.jpl.nasa.gov/neo/report2007.html}{https://web.archive.org/web/20160305101217/http://neo.jpl.nasa.gov/neo/report2007.html}} mostrarono che "gli impattatori cinetici non nucleari sono l'approccio più maturo e potrebbero essere usati in scenari di deflessione/mitigazione che coinvolgono piccoli oggetti singoli."
 
 Il principio di deviazione, applicato poi dalla sonda DART, si basa sulla legge di conservazione del momento
 \begin{equation}
@@ -513,7 +578,7 @@ Il sensore utilizzato era un CMOS con un range spettrale di $0.4-1\,\mu m$ (dal 
 
 \begin{figure}
     \centering
-    \includegraphics[scale=0.4]{figure/dart_cleanroom.jpg}
+    \includegraphics[scale=0.26]{figure/dart_cleanroom.jpg}
     \caption[La sonda DART nella clean room.]{La sonda DART appena installata sul payload adapter. Al centro è possibile vedere il dispenser di LICIACube. (NASA/JHU-APL)}
     \label{fig:dart_cleanroom}
 \end{figure}
@@ -534,15 +599,23 @@ L'11 settembre 2022, 15 giorni prima dell'impatto, LICIACube è stato rilasciato
 L'impatto è avvenuto a $6.6\,km/s$, liberando circa 11 gigajoule di energia.
 2 minuti e 45 secondi dopo l'impatto LICIACube ha effettuato il flyby di Dimorphos a $56.7\,km$.
 
-{\footnotesize\textit{ci vanno le immagini ma al momento non funziona il pacchetto}}
+\begin{figure}[!h]
+\centering
+	{\includegraphics[width=.5\textwidth]{figure/primo_contatto.jpg}} \\
+	\vspace{0.5cm}
+	{\includegraphics[width=.3\textwidth]{figure/920.png}} \quad
+	{\includegraphics[width=.3\textwidth]{figure/penultima_dart.png}}
+\caption{Partendo dall'alto in senso antiorario: primo contatto di DART con il sistema di Didymos; immagine del sistema a 920 m; penultima immagine prima dello scontro. (NASA/JHU-JPL)}
+\label{fig:subfig}
+\end{figure}
 
 \subsection{Campagna di osservazioni}
-L'impatto è stato seguito da un gran numero di osservatori terrestri e nello spazio (vedi \cref{fig:obs_dart}).\\
+L'impatto è stato seguito da un gran numero di osservatori terrestri e nello spazio (\cref{fig:obs_dart}).\\
 Poiché la strumentazione a bordo della sonda era ridotta al minimo, la missione dipende quasi interamente dai dati raccolti dagli osservatori nei giorni e mesi seguenti l'impatto.
 Hubble Space Telescope (HST), James Webb Space Telescope (JWST), l'ATLAS Observatory e l'osservatorio SOAR hanno rilevato il pennacchio di ejecta qualche ora dopo l'impatto, misurandone l'estensione di più di $10000\,km$. Sono state svolte osservazioni anche con il telescopio Copernico (e Galileo) dell'Osservatorio Astrofisico di Asiago e i dati raccolti saranno utilizzati per futuri lavori di analisi spettroscopica del sistema.\\
 Nel \cref{ch:ch_4}(?) verranno descritti i primi risultati ottenuti dopo l'impatto, le osservazioni svolte ad Asiago e le problematicità a esse connesse.
 
-\begin{figure}[h]
+\begin{figure}[!h]
     \centering
     \includegraphics[scale=0.113]{figure/Telescopes_observing_DART's_impact.png}
     \caption[Osservatori che hanno osservato l'impatto di DART.]{Lista di osservatori che partecipano alla campagna si osservazioni post impatto. (NASA/JHU-APL)}
@@ -568,7 +641,7 @@ Questi strumenti saranno necessari per raccogliere informazioni sui due asteroid
 
 \begin{figure}[!h]
     \centering
-    \includegraphics[scale=0.57]{figure/Hera_mission_timeline.png}
+    \includegraphics[scale=0.50]{figure/Hera_mission_timeline.png}
     \caption[Timeline della missione Hera.]{Timeline della missione Hera. (ESA)}
     \label{fig:hera_timeline}
 \end{figure}
@@ -592,10 +665,24 @@ Il radar si è rivelato un ottimo metodo per rilevare i secondari (la componente
 Le osservazioni nella regione radio possono essere usate per rilevare i satelliti di asteroidi grazie all'abilità di risolvere le componenti di un sistema sia spazialmente (lungo la linea di vista, LoS) che in termini di frequenza (spostamento Doppler della velocità rotazionale e di quella lungo la LoS), col risultato di ottenere una separazione tra le componenti misurabile in due dimensioni.\\
 La maggior parte dei sistemi binari di NEA osservati fino a oggi consistono in un primario con una rotazione molto rapida e un secondario più piccolo, nell'ordine di 1/100 la dimensione del primario, la cui rotazione è sincronizzata al periodo orbitale mutuo. La maggioranza dei primari ruota in meno di 2.8 h.
 
+\begin{figure}[!h]
+    \centering
+    \includegraphics[scale=0.4]{figure/radar_image.png}
+    \caption[Asteroide binario (285263) 1998 QE$_2$ rilevato dall'osservatorio di Arecibo.]{Asteroide binario (285263) 1998 QE$_2$ rilevato dall'osservatorio di Arecibo. \textbf{(a)} Potenza eco in funzione della frequenza Doppler. La banda radio molto stretta relativa al secondario (bloccato marealmente) spicca rispetto alla larga banda del primario. \textbf{(b)} Immagine radar. Le componenti sono risolte spazialmente (7.5 m/px). L'asse verticale rappresenta la distanza con l'osservatore, che aumenta verso il basso. L'asse orizzontale è la frequenza Doppler dovuta ai moti rotazionale e orbitale delle componenti. \citep{michel_asteroid_2015-1}}
+    \label{fig:radar_image}
+\end{figure}
+
 Le forme e i volumi dei corpi, ottenuti dall'inversione delle immagini radar, combinate con la massa del sistema derivata dai moti orbitali, permettono di stimare la densità del sistema. Basse densità, nell'ordine di $1-2\;g/cm^3$ \citep{becker_physical_2015, brozovic_radar_2011}, suggeriscono una significativa macroporosità interna di almeno il 50\%, implicando una struttura rubble-pile (letteralmente \textit{agglomerato di detriti}). Con queste densità così basse, la rapida rotazione del primario può portare all'accumulo di materiale lungo la fascia equatoriale. La combinazione di rotazione rapida, forma, porosità e struttura rubble-pile hanno implicazioni sul meccanismo di formazione dei sistemi multipli di asteroidi.
 
 \subsubsection{Osservazioni della curva di luce di NEA e MBA}
 Una curva fotometrica consiste in una serie temporale di misurazioni della brillanza totale di un asteroide. La rilevazione di asteroidi binari tramite curva fotometrica si basa sul fatto che le componenti possono oscurare o proiettare un'ombra l'una sull'altra, producendo occultazioni o eclissi rispettivamente. Questo è il metodo principale utilizzato per lo studio del sistema di Didymos post impatto. Le tecniche di osservazione, analisi e modellazione sono state descritte da \citet{pravec_photometric_2006}, \citet{scheirich_modeling_2009}, \citet{scheirich_binary_2015}.
+
+\begin{figure}[!h]
+    \centering
+    \includegraphics[scale=0.55]{figure/didymos_lightcurve.png}
+    \caption[Curva di luce di (65803) Didymos.]{Curva di luce di Didymos ottenuta dai dati raccolti tra le notti del 20 e del 24 novembre 2003. \textbf{(a)} Curve di luce di entrambi le componenti. \textbf{(b)} Curva di luce della componente orbitale, derivata dopo la sottrazione della curva di luce del primario, che mostra l'evento di eclissi mutua tra le due componenti del sistema. \textbf{(c)} Curva di luce del primario. I dati sono stati confrontati con una serie di Fourier con parametri: priodo orbitale $P_{orb}=11.91$ h; periodo di rotazione del primario $P_{prim}=2.26$ h. \citep{pravec_photometric_2006}}
+    \label{fig:didymos_lightcurve}
+\end{figure}
 
 Tra le scoperte principali ottenute con questo metodo c'è quella che stabilisce che gli asteroidi binari sono ubiqui. Sono stati trovati tra i NEA, tra i Mars Crossers e anche in tutta la Main Belt, sia all'interno di famiglie che non. C'è quindi il sospetto che i sistemi binari siano presenti tra i MBA tanto quanto lo sono tra i NEA. Pare esserci un limite superiore al diametro del primario di circa $13\,km$ \citep{carry_small_2015}. Un limite inferiore non è ancora stato identificato univocamente.\\
 Un'altra scoperta chiave è che i piccoli asteroidi binari hanno un momento angolare vicino al valore critico: questo valore è consistente con la formazione tramite fissione di un corpo progenitore con periodo di rotazione molto rapido e struttura rubble-pile poco coesa \citep{pravec_binary_2007}.\\
@@ -609,6 +696,13 @@ Le osservazioni spettrali mostrano che le componenti di un sistema hanno spettri
 \subsubsection{Imaging diretto di MBA binari}
 L'imaging diretto di asteroidi può portare all'identificazione di uno o più satelliti e alla stima dei parametri orbitali. Questa modalità di osservazione rimane impegnativa perché i satelliti sono generalmente molto più piccoli e deboli rispetto ai primari e perché la maggior parte dei satelliti conosciuti orbita a distanze angolari sotto il secondo d'arco. La strumentazione in grado di ottenere i requisiti di contrasto e risoluzione include l'HST e i telescopi terrestri ($>10\,m$) equipaggiati con ottica adattiva.
 
+\begin{figure}[!h]
+    \centering
+    \includegraphics[width=0.9\textwidth]{figure/binaries_direct_imaging.jpg}
+    \caption[Rilevazione del satellite di (41) Daphne grazie all'uso dell'ottica adattiva.]{Rilevazione di un satellite grazie all'utilizzo di ottica adattiva. \textbf{(a)} Immagine di (41) Daphne ottenuta la camera NACO al VLT (5 s di esposizione). \textbf{(b)} Stessa immagine ma a cui è stato sottratto il flusso del primario, permettendo una misura più accurata del flusso e della posizione del secondario. \textbf{(c)} Determinazione dell'orbita. \citep{carry_ao_2009}}
+    \label{fig:binaries_direct_imaging}
+\end{figure}
+
 La frazione di grandi MBA con satelliti è difficile da stimare data la complessa dipendenza dell'osservabilità del satellite dalla separazione angolare e dal rapporto di flussi tra primario e secondario. I satelliti conosciuti hanno un rapporto tra le masse con il primario tra $10^{-6}$ e $10^{-2}$. Tutti hanno un periodo orbitale tra 1 e 5.5 giorni. Molte orbite hanno eccentricità vicine a zero, valori dovuti a effetti di smorzamento tramite forze mareali.
 
 \subsection{Formazione dei sistemi di piccoli asteroidi}
@@ -617,15 +711,15 @@ Si è visto come gli asteroidi primari di piccoli sistemi binari abbiano rotazio
 \citet{jacobson_dynamics_2011} hanno mostrato che dopo la fissione rotazionale ci sono varie possibili alternative all'evoluzione del sistema. Le loro simulazioni numeriche hanno portato alla stesura del diagramma mostrato in \cref{fig:binaries_evolution}. La distinzione tra alto e basso rapporto di massa $q$ gioca un ruolo importante nel distinguere due percorsi evolutivi. Lungo $q\gtrsim0.2$, entrambi i corpi si sincronizzano tramite forze mareali ed evolvono poi in base all'effetto Binary-YORP.\\
 Lungo $q\lesssim0.2$ il sistema binario è non-legato. Durante la fase caotica il sistema può andare incontro a un altro episodio di fissione rotazionale. La materia persa da un corpo può accrescere il primario, contribuendo alla formazione della cresta equatoriale, o può fuggire dal sistema. Se avviene quest'ultimo evento ci sono tre possibili risultati: si forma un asteroide con una forma diversa, una coppia di asteroidi o un sistema binario stabile. Successivamente, in quest'ultimo caso il secondario si sincronizza con il primario a causa delle forze mareali. In seguito il sistema evolve in base a come agiscono l'effetto BYORP e le forze mareali.
 
-\begin{figure}
+\begin{figure}[!h]
     \centering
-    \includegraphics[scale=0.73]{figure/binaries_evolution.jpg}
+    \includegraphics[scale=0.65]{figure/binaries_evolution.jpg}
     \caption[Diagramma dei possibili percorsi evolutivi di un piccolo asteroide.]{Diagramma dei possibili percorsi evolutivi di un asteroide dopo la fissione rotazionale. Le fasi sottolineate sono stabili in un tempo scala dell'effetto YORP. $q$ è il rapporto tra la massa del secondario e del primario. \citep{jacobson_dynamics_2011}}
     \label{fig:binaries_evolution}
 \end{figure}
 
 \section{Caratteristiche dinamiche}
-Il sistema di Didymos, con un afelio di 2.2753 AU e un perielio di 1.0131 AU, fa parte della famiglia Apollo\footnote{Il suo perielio è minore di 1.017 AU, afelio dell'orbita terrestre (vedi \cref{tab:asteroid-classification}).}.
+Il sistema di Didymos, con un afelio di 2.2753 AU e un perielio di 1.0131 AU, fa parte della famiglia Apollo\footnote{Il suo perielio è minore di 1.017 AU, afelio dell'orbita terrestre (\cref{tab:asteroid-classification}).} (\cref{fig:orbit_view}).
 
 \begin{figure}[!h]
     \centering
@@ -634,7 +728,7 @@ Il sistema di Didymos, con un afelio di 2.2753 AU e un perielio di 1.0131 AU, fa
     \label{fig:orbit_view}
 \end{figure}
 
-Confrontando i dati radio raccolti nel 2003 e rianalizzati da \citet{naidu_radar_2020}, la larghezza di banda del secondario suggerisce un periodo di rotazione di $12.4\pm 3.0$ h, valore consistente con una rotazione che è sincronizzata con il periodo orbitale mutuo di 11.9 h. Usando il delay nel segnale e le separazioni Doppler si è ottenuto un valore del semiasse maggiore del sistema di $1190\pm 30\, m$, un'eccentricità $\leq 0.03$ e un periodo orbitale di $11.93\pm 0.01$ h, valori consistenti con i precedenti lavori di \citet{scheirich_modeling_2009} e \citet{fang_near-earth_2012}\footnote{Un riassunto dei parametri è consultabile nella \cref{tab:param_didymos}.}.\\
+Confrontando i dati radio raccolti nel 2003 e rianalizzati da \citet{naidu_radar_2020}, la larghezza di banda del secondario suggerisce un periodo di rotazione di $12.4\pm 3.0$ h, valore consistente con una rotazione che è sincronizzata con il periodo orbitale mutuo di 11.9 h. Usando il delay nel segnale e le separazioni Doppler si è ottenuto un valore del semiasse maggiore del sistema di $1190\pm 30\, m$, un'eccentricità $\leq 0.03$ e un periodo orbitale di $11.93\pm 0.01$ h\footnote{Un riassunto dei parametri è consultabile nella \cref{tab:param_didymos}.}, valori consistenti con i precedenti lavori di \citet{scheirich_modeling_2009} e \citet{fang_near-earth_2012} (\cref{fig:system_orbit}).\\
 Lo studio delle proprietà rotazionali del sistema sono importati per lo studio delle proprietà dinamiche poiché Didymos appartiene a una classe di asteroidi binari il cui primario è a rischio di distruzione rotazionale \citep{walsh_rotational_2008}.\\
 Riguardo la sua origine dinamica nella Main Belt, \citet{richardson_dynamical_2016} ha suggerito che Didymos ha raggiunto la sua orbita attuale molto probabilmente ($>$82\%) uscendo dalla Main Belt interna, vicino o all'interno della risonanza $\nu_6$, situata tra 2.1 e 2.5 AU.
 
@@ -642,7 +736,7 @@ Riguardo la sua origine dinamica nella Main Belt, \citet{richardson_dynamical_20
 \begin{figure}[!h]
     \centering
     \includegraphics[scale=0.78]{figure/system_orbit.jpg}
-    \caption[Geometria del sistema di Didymos. In giallo e arancio sono evidenziati i sitemi di riferimento.]{Geometria del sistema di Didymos. In giallo e arancio sono evidenziati i sitemi di riferimento. \citep{bottiglieri_applied_2022}}
+    \caption[Geometria del sistema di Didymos. In giallo e arancio sono evidenziati i sistemi di riferimento.]{Geometria del sistema di Didymos. In giallo e arancio sono evidenziati i sistemi di riferimento. \citep{bottiglieri_applied_2022}}
     \label{fig:system_orbit}
 \end{figure}
 
@@ -703,14 +797,14 @@ Questi risultati indicano la possibilità di un forte contrasto tra le caratteri
 Prendendo in considerazione gli attuali dati radar \citep{naidu_radar_2020} e le curve di luce \citep{pravec_binary_2016}, è possibile escludere le forze mareali come meccanismo rilevante per la formazione ed evoluzione di Dimorphos. Infatti, le forze mareali fanno sì che il corpo precursore si deformi in un corpo allungato. Al contrario, secondo i modelli descritti nella \cref{sec:shape_model}, Didymos è pressoché assisimmetrico, in contraddizione con la forma attesa dovuta alle forze mareali. Le curve di luce più recenti suggeriscono un oggetto leggermente più piccolo, più sferico e più denso \citep{pravec_photometric_2022}.\\
 Per quanto riguarda lo scenario dell'impatto, l'esistenza di grandi crateri su Didymos potrebbero esserne un potenziale indicatore. Nell'eventualità che Didymos si riveli essere monolitico, questo scenario è escluso perché per formare un corpo delle dimensioni di Dimorphos servirebbe un impatto che genererebbe un cratere di 10 km di diametro, molto più grande rispetto alla dimensione del primario. Nel caso di un impatto sub-catastrofico, invece, potrebbe non esserci un'evidenza univoca di crateri. Una grande quantità di materia potrebbe essere espulsa da Didymos a basse velocità contribuendo alla formazione ed evoluzione del satellite. In questo caso Didymos presenterebbe numerose caratteristiche topografiche asimmetriche: sarebbe possibile, quindi, trovare materiale esogeno sulla superficie dell'asteroide.\\
 %Il periodo di rotazione potrebbe essere abbastanza breve da indurre un rimodellamento su varie scale di lunghezza: da movimenti di massa in zone confinate della superficie a una riconfigurazione globale. \\
-Lo scenario dell'effetto rotazionale deriva dalle espulsioni di massa dovute al breve periodo di rotazione. In questo caso, in base alla presenza di coesione, la formazione di Dimorphos potrebbe essere differente. Se c'è coesione, una roccia monolitica potrebbe aver lasciato Didymos. Non è ancora chiaro quale potrebbe essere il lascito di questo evento, dato che sui piccoli asteroidi i massi più grandi sono ben sepolti e non si muovono facilmente \citep{daly_hemispherical_2020}. Se le particelle non sono coese, la perdita di materiale dalla superficie e la sua successiva riaccumulazione potrebbero portare alla formazione di un satellite \citep{walsh_spin-up_2012}. Per lo scenario senza coesione, i due asteroidi avrebbero la stessa composizione, ma la presenza di regolite fine ($<1\,cm$) potrebbe essere differente. La pressione di radiazione solare potrebbe aver avuto abbastanza tempo per spazzare via le particelle più piccole. Inoltre , l'evoluzione orbitale degli ejecta, da Didymos a Dimorphos, potrebbe portare a essere più giovane la faccia di Dimorphos rivolta verso Didymos \citep{agrusa_excited_2021}.\\
+Lo scenario dell'effetto rotazionale deriva dalle espulsioni di massa dovute al breve periodo di rotazione. In questo caso, in base alla presenza di coesione, la formazione di Dimorphos potrebbe essere differente. Se c'è coesione, una roccia monolitica potrebbe aver lasciato Didymos. Non è ancora chiaro quale potrebbe essere il lascito di questo evento, dato che sui piccoli asteroidi i massi più grandi sono ben sepolti e non si muovono facilmente \citep{daly_hemispherical_2020}. Se le particelle non sono coese, la perdita di materiale dalla superficie e la sua successiva riaccumulazione potrebbero portare alla formazione di un satellite \citep{walsh_spin-up_2012}. Per lo scenario senza coesione, i due asteroidi avrebbero la stessa composizione, ma la presenza di regolite fine ($<1\,cm$) potrebbe essere differente. La pressione di radiazione solare potrebbe aver avuto abbastanza tempo per spazzare via le particelle più piccole. Inoltre, l'evoluzione orbitale degli ejecta, da Didymos a Dimorphos, potrebbe portare a essere più giovane la faccia di Dimorphos rivolta verso Didymos \citep{agrusa_excited_2021}.\\
 La geologia superficiale potrebbe anche dipendere dall'evoluzione delle orbite tra Didymos e Dimorphos. Per esempio, l'accelerazione dell'anomalia media di Dimorphos è stata calcolata essere bassa, il che fa propendere per due possibili scenari. Per quanto riguarda il primo, se questa bassa accelerazione dell'anomalia media è dovuta al moto caotico di Dimorphos, l'accumulo di materiale potrebbe essere uniforme sulla superficie rivolta verso Didymos. In questo scenario, il riscontro geologico sarebbe trovare materiale di età simile su tutta la superficie di Dimorphos. Il secondo scenario è che nonostante l'effetto BYORP sia significativo questo venga cancellato dalle forze mareali del primario sul secondario. In questo caso, una faccia di Dimorphos sarebbe sempre rivolta verso il primario, portando a una dicotomia nei colori delle due facce, poiché il materiale proveniente da Didymos si depositerebbe solo sulla faccia rivolta verso di esso.
 
 \section{Caratteristiche spettrali pre-impatto}
 Adottando un diametro di Didymos di $D_p=0.75 \pm 0.1\; km$, dalle stime delle immagini delay-Doppler ottenute con il telescopio di Arecibo, si ottiene un'albedo geometrica nel visibile di $p_V=0.16 \pm 0.04$, valore congruente con quello trovato successivamente da \citet{naidu_radar_2020} utilizzando gli stessi dati grezzi. \citet{binzel_observed_2004} ha classificato l'asteroide come Xk nella tassonomia di Bus. Dunque, sommando le informazioni della classificazione con quelle dell'albedo, l'asteroide è classificato come classe M nella tassonomia di Tholen.\\
 Con le successive apparizioni, tra il 2003 e il 2019, sono state svolte ulteriori osservazioni spettroscopiche, ma la classificazione di Didymos è rimasta enigmatica. In seguito al lavoro di \citet{binzel_observed_2004}, \citet{de_leon_spectral_2006, de_leon_observations_2010} ha esteso la tassonomia nel vicino infrarosso e ha classificato l'asteroide come potenziale tipo S. \citet{dunn_mineralogies_2013} ha confermato che Didymos sembra spettroscopicamente consistente con le condriti ordinarie, con un'affinità per le meteoriti di tipo L/LL. Nel corso del tempo è maturato il consenso che Didymos sia composto da silicati, anche se rimangono alcune anomalie come quella della banda a $2\,\mu m$ che appare meno profonda rispetto a quella dei tipici asteroidi silicatici. 
 
-La campagna osservativa svolta da \citet{ieva_spectral_2022} con il Telescopio Nazionale Galielo (TNG) nel 2021, ha confermato la natura silicatica con qualche discrepanza. L'analisi degli spettri, confrontati con quelli d'archivio e gli spettri delle meteoriti all'interno del database RELAB\footnote{\href{https://pds-speclib.rsl.wustl.edu/search.aspx?catalog=RELAB}{https://pds-speclib.rsl.wustl.edu/search.aspx?catalog=RELAB}}, ha mostrato una variazione tenue ma persistente della pendenza spettrale del sistema di Didymos, tra $0.5$ e $0.7\,\mu m$. 
+La campagna osservativa svolta da \citet{ieva_spectral_2022} con il Telescopio Nazionale Galileo (TNG) nel 2021, ha confermato la natura silicatica con qualche discrepanza. L'analisi degli spettri, confrontati con quelli d'archivio e gli spettri delle meteoriti all'interno del database RELAB\footnote{\href{https://pds-speclib.rsl.wustl.edu/search.aspx?catalog=RELAB}{https://pds-speclib.rsl.wustl.edu/search.aspx?catalog=RELAB}}, ha mostrato una variazione tenue ma persistente della pendenza spettrale del sistema di Didymos, tra $0.5$ e $0.7\,\mu m$. 
 
 \begin{figure}[!h]
     \centering
@@ -724,7 +818,7 @@ La variazione, in principio, potrebbe essere dovuta al contributo del secondario
 \begin{figure}[!h]
     \centering
     \includegraphics[scale=0.7]{figure/slope_ieva.jpg}
-    \caption[Confronto tra spettri di Didymos e analoghi delle meteoriti.]{Pendenze spettrali ricavate dai dati del 2021 vs la frazione di fase rotazionale, assegnata prendendo il primo spettro come riferimento. Gli spettri osservati durante il 15 febbraio sono in giallo, quello osservato il 23 febbraio in arancione. \citep{ieva_spectral_2022}}
+    \caption[Pendenze spettrali dei dati del 2021.]{Pendenze spettrali ricavate dai dati del 2021 vs la frazione di fase rotazionale, assegnata prendendo il primo spettro come riferimento. Gli spettri osservati durante il 15 febbraio sono in giallo, quello osservato il 23 febbraio in arancione. \citep{ieva_spectral_2022}}
     \label{fig:slope_ieva}
 \end{figure}
 
@@ -733,7 +827,7 @@ L'analisi mostra che gli spettri (e.g. \#4, \#5, \#7) con una pendenza simile po
 \begin{figure}[!h]
     \centering
     \includegraphics[scale=0.96]{figure/Ieva et al.jpg}
-    \caption[Confronto tra spettri di Didymos e analoghi delle meteoriti.]{Confronto tra due spettri di Didymos, ottenuti durante l'osservazione del sistema con il TNG nel 2021, e quelli dei migliori analoghi delle meteoriti, selezionate attraverso il tool M4AST. Il tool è stato usato per confrontare i dati con quelli presenti nel database RELAB, selezionando quelli con il minor $\chi^2$. \citep{ieva_spectral_2022}}
+    \caption[Confronto tra spettri di Didymos e analoghi delle meteoriti.]{Confronto tra due spettri di Didymos, ottenuti durante l'osservazione del sistema con il TNG nel 2021, e quelli dei migliori analoghi delle meteoriti, selezionate attraverso il tool M4AST (per approfondire consigliamo \cite{popescu_modelling_2012}). Il tool è stato usato per confrontare i dati con quelli presenti nel database RELAB, selezionando quelli con il minor $\chi^2$. \citep{ieva_spectral_2022}}
     \label{fig:ieva_spectra}
 \end{figure}
 

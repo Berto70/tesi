@@ -12,31 +12,23 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {1.2.2}Distribuzione e classificazione dinamica}{2}{subsection.1.2.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {1.2.3}Effetto Yarkovsky}{4}{subsection.1.2.3}%
+\contentsline {subsection}{\numberline {1.2.3}Effetto Yarkovsky}{6}{subsection.1.2.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {1.3}Potentially Hazardous Asteroids}{4}{section.1.3}%
+\contentsline {section}{\numberline {1.3}Potentially Hazardous Asteroids}{7}{section.1.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {2}Spettroscopia}{7}{chapter.2}%
+\contentsline {chapter}{\numberline {2}Spettroscopia}{9}{chapter.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {2.1}Introduzione}{7}{section.2.1}%
+\contentsline {section}{\numberline {2.1}Introduzione}{9}{section.2.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {2.2}Spettri degli asteroidi}{8}{section.2.2}%
+\contentsline {section}{\numberline {2.2}Spettri degli asteroidi}{10}{section.2.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {2.3}Tipi tassonomici}{8}{section.2.3}%
+\contentsline {section}{\numberline {2.3}Tipi tassonomici}{10}{section.2.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.3.1}Tassonomia di Tholen}{8}{subsection.2.3.1}%
+\contentsline {subsection}{\numberline {2.3.1}Tassonomia di Tholen}{10}{subsection.2.3.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.3.2}Tassonomia di Bus}{12}{subsection.2.3.2}%
+\contentsline {subsection}{\numberline {2.3.2}Tassonomia di Bus}{14}{subsection.2.3.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {2.4}Space weathering}{14}{section.2.4}%
-\defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.4.1}Il caso di (25143) Itokawa}{15}{subsection.2.4.1}%
-\defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Evidenze di SW da osservazioni in situ}{15}{section*.29}%
-\defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Analisi dei campioni}{16}{section*.30}%
-\defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.4.2}Stime del tasso di SW sugli asteroidi}{16}{subsection.2.4.2}%
+\contentsline {section}{\numberline {2.4}Space weathering}{16}{section.2.4}%
 \defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\numberline {3}La missione DART}{19}{chapter.3}%
 \defcounter {refsection}{0}\relax 
@@ -50,7 +42,7 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {3.2.2}Missione primaria}{23}{subsection.3.2.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.2.3}Campagna di osservazioni}{23}{subsection.3.2.3}%
+\contentsline {subsection}{\numberline {3.2.3}Campagna di osservazioni}{24}{subsection.3.2.3}%
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {3.3}Missioni future}{24}{section.3.3}%
 \defcounter {refsection}{0}\relax 
@@ -62,32 +54,32 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {4.1.2}Osservazioni}{28}{subsection.4.1.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Osservazioni radar dei NEA binari}{28}{section*.37}%
+\contentsline {subsubsection}{Osservazioni radar dei NEA binari}{28}{section*.44}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Osservazioni della curva di luce di NEA e MBA}{28}{section*.38}%
+\contentsline {subsubsection}{Osservazioni della curva di luce di NEA e MBA}{29}{section*.46}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Osservazioni spettrali di coppie di asteroidi}{29}{section*.39}%
+\contentsline {subsubsection}{Osservazioni spettrali di coppie di asteroidi}{30}{section*.48}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Imaging diretto di MBA binari}{29}{section*.40}%
+\contentsline {subsubsection}{Imaging diretto di MBA binari}{30}{section*.49}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.1.3}Formazione dei sistemi di piccoli asteroidi}{29}{subsection.4.1.3}%
+\contentsline {subsection}{\numberline {4.1.3}Formazione dei sistemi di piccoli asteroidi}{31}{subsection.4.1.3}%
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {4.2}Caratteristiche dinamiche}{31}{section.4.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.2.1}Deriva dell'orbita del sistema}{31}{subsection.4.2.1}%
+\contentsline {subsection}{\numberline {4.2.1}Deriva dell'orbita del sistema}{33}{subsection.4.2.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.3}Caratteristiche fisiche e morfologiche}{32}{section.4.3}%
+\contentsline {section}{\numberline {4.3}Caratteristiche fisiche e morfologiche}{34}{section.4.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.3.1}Modellizzazione della forma}{33}{subsection.4.3.1}%
+\contentsline {subsection}{\numberline {4.3.1}Modellizzazione della forma}{34}{subsection.4.3.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.3.2}Formazione del crinale equatoriale}{34}{subsection.4.3.2}%
+\contentsline {subsection}{\numberline {4.3.2}Formazione del crinale equatoriale}{35}{subsection.4.3.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.3.3}Asteroidi rubble-pile}{35}{subsection.4.3.3}%
+\contentsline {subsection}{\numberline {4.3.3}Asteroidi rubble-pile}{36}{subsection.4.3.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.3.4}Indizi sulla formazione ed evoluzione del sistema}{36}{subsection.4.3.4}%
+\contentsline {subsection}{\numberline {4.3.4}Indizi sulla formazione ed evoluzione del sistema}{37}{subsection.4.3.4}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.4}Caratteristiche spettrali pre-impatto}{37}{section.4.4}%
+\contentsline {section}{\numberline {4.4}Caratteristiche spettrali pre-impatto}{38}{section.4.4}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.5}Didymos come obiettivo della missione DART}{39}{section.4.5}%
+\contentsline {section}{\numberline {4.5}Didymos come obiettivo della missione DART}{40}{section.4.5}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{Bibliografia}{40}{figure.caption.51}%
+\contentsline {chapter}{Bibliografia}{41}{figure.caption.61}%
