@@ -1766,6 +1766,143 @@
       \verb https://www.science.org/doi/10.1126/sciadv.abd3649
       \endverb
     \endentry
+    \entry{de_leon_spectral_2006}{article}{}
+      \name{author}{4}{}{%
+        {{un=0,uniquepart=base,hash=8b21e9161b04f41fe6d766715425cfaf}{%
+           family={{de León}},
+           familyi={d\bibinitperiod},
+           given={J.},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=957b7bd23e1b5cf8e95fc9efc2980078}{%
+           family={Licandro},
+           familyi={L\bibinitperiod},
+           given={J.},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=028c8e58531ee03db2c44ca0eceda5f0}{%
+           family={Duffard},
+           familyi={D\bibinitperiod},
+           given={R.},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=eb55b06d0fa418c5af9c9fb7ebf826bb}{%
+           family={Serra-Ricart},
+           familyi={S\bibinithyphendelim R\bibinitperiod},
+           given={M.},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{language}{1}{%
+        {en}%
+      }
+      \strng{namehash}{363763cf8b2878e04b516881f7db5428}
+      \strng{fullhash}{786d75ed6af2441b22cf175dc1ed3d81}
+      \strng{bibnamehash}{363763cf8b2878e04b516881f7db5428}
+      \strng{authorbibnamehash}{363763cf8b2878e04b516881f7db5428}
+      \strng{authornamehash}{363763cf8b2878e04b516881f7db5428}
+      \strng{authorfullhash}{786d75ed6af2441b22cf175dc1ed3d81}
+      \field{extraname}{1}
+      \field{sortinit}{d}
+      \field{sortinithash}{c438b3d5d027251ba63f5ed538d98af5}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{02731177}
+      \field{journaltitle}{Advances in Space Research}
+      \field{month}{1}
+      \field{number}{1}
+      \field{title}{Spectral analysis and mineralogical characterization of 11 olivine–pyroxene rich {NEAs}}
+      \field{urlday}{30}
+      \field{urlmonth}{11}
+      \field{urlyear}{2022}
+      \field{volume}{37}
+      \field{year}{2006}
+      \field{urldateera}{ce}
+      \field{pages}{178\bibrangedash 183}
+      \range{pages}{6}
+      \verb{doi}
+      \verb 10.1016/j.asr.2005.05.074
+      \endverb
+      \verb{urlraw}
+      \verb https://linkinghub.elsevier.com/retrieve/pii/S0273117705006915
+      \endverb
+      \verb{url}
+      \verb https://linkinghub.elsevier.com/retrieve/pii/S0273117705006915
+      \endverb
+    \endentry
+    \entry{de_leon_observations_2010}{article}{}
+      \name{author}{5}{}{%
+        {{un=0,uniquepart=base,hash=8b21e9161b04f41fe6d766715425cfaf}{%
+           family={{de León}},
+           familyi={d\bibinitperiod},
+           given={J.},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=957b7bd23e1b5cf8e95fc9efc2980078}{%
+           family={Licandro},
+           familyi={L\bibinitperiod},
+           given={J.},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=eb55b06d0fa418c5af9c9fb7ebf826bb}{%
+           family={Serra-Ricart},
+           familyi={S\bibinithyphendelim R\bibinitperiod},
+           given={M.},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=b1b971bf1eb78d24fe73b81cc2d5af79}{%
+           family={Pinilla-Alonso},
+           familyi={P\bibinithyphendelim A\bibinitperiod},
+           given={N.},
+           giveni={N\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=c69ed9e9af855d727ee2ad9251f10375}{%
+           family={Campins},
+           familyi={C\bibinitperiod},
+           given={H.},
+           giveni={H\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{363763cf8b2878e04b516881f7db5428}
+      \strng{fullhash}{f125b0207f840bca6f911c7976b493c4}
+      \strng{bibnamehash}{363763cf8b2878e04b516881f7db5428}
+      \strng{authorbibnamehash}{363763cf8b2878e04b516881f7db5428}
+      \strng{authornamehash}{363763cf8b2878e04b516881f7db5428}
+      \strng{authorfullhash}{f125b0207f840bca6f911c7976b493c4}
+      \field{extraname}{2}
+      \field{sortinit}{d}
+      \field{sortinithash}{c438b3d5d027251ba63f5ed538d98af5}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{0004-6361, 1432-0746}
+      \field{journaltitle}{A\&A}
+      \field{month}{7}
+      \field{title}{Observations, compositional, and physical characterization of near-{Earth} and {Mars}-crosser asteroids from a spectroscopic survey}
+      \field{urlday}{30}
+      \field{urlmonth}{11}
+      \field{urlyear}{2022}
+      \field{volume}{517}
+      \field{year}{2010}
+      \field{urldateera}{ce}
+      \field{pages}{A23}
+      \range{pages}{-1}
+      \verb{doi}
+      \verb 10.1051/0004-6361/200913852
+      \endverb
+      \verb{file}
+      \verb Versione inviata:C\:\\Users\\gabri\\Zotero\\storage\\6TP44QNL\\de León et al. - 2010 - Observations, compositional, and physical characte.pdf:application/pdf
+      \endverb
+      \verb{urlraw}
+      \verb http://www.aanda.org/10.1051/0004-6361/200913852
+      \endverb
+      \verb{url}
+      \verb http://www.aanda.org/10.1051/0004-6361/200913852
+      \endverb
+    \endentry
     \entry{DellaGiustina2019}{article}{}
       \name{author}{4}{}{%
         {{un=0,uniquepart=base,hash=c8a1675c597ccba9b97280c667f7de2c}{%
@@ -1854,6 +1991,7 @@
       \strng{authorbibnamehash}{5be5a93d87270babba301ed372ebeffa}
       \strng{authornamehash}{5be5a93d87270babba301ed372ebeffa}
       \strng{authorfullhash}{09ae4970c3e4c9a9e201b7a4cd5820a6}
+      \field{extraname}{1}
       \field{sortinit}{D}
       \field{sortinithash}{c438b3d5d027251ba63f5ed538d98af5}
       \field{extradatescope}{labelyear}
@@ -1884,6 +2022,129 @@
       \endverb
       \verb{url}
       \verb https://linkinghub.elsevier.com/retrieve/pii/S0019103509000554
+      \endverb
+    \endentry
+    \entry{demeo_connecting_2022}{article}{}
+      \name{author}{15}{}{%
+        {{un=0,uniquepart=base,hash=a994d7ecfea8b95ca569834d0faa4344}{%
+           family={DeMeo},
+           familyi={D\bibinitperiod},
+           given={F.\bibnamedelimi E.},
+           giveni={F\bibinitperiod\bibinitdelim E\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=7584db9c3997859d5134d373f5f3d56c}{%
+           family={Burt},
+           familyi={B\bibinitperiod},
+           given={Brian\bibnamedelima J.},
+           giveni={B\bibinitperiod\bibinitdelim J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=63e471bdd4c9c78dbee102163565698f}{%
+           family={Marsset},
+           familyi={M\bibinitperiod},
+           given={Michaël},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=5030eec177a444da73d093de1e19e835}{%
+           family={Polishook},
+           familyi={P\bibinitperiod},
+           given={David},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=181e7c6ae596851f4a529369f2673565}{%
+           family={Burbine},
+           familyi={B\bibinitperiod},
+           given={Thomas\bibnamedelima H.},
+           giveni={T\bibinitperiod\bibinitdelim H\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=97196e4845bc5ba6442b3d8635703ea0}{%
+           family={Carry},
+           familyi={C\bibinitperiod},
+           given={Benoît},
+           giveni={B\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=e3de323311c8a39ea75bf0a90e0e2b97}{%
+           family={Binzel},
+           familyi={B\bibinitperiod},
+           given={Richard\bibnamedelima P.},
+           giveni={R\bibinitperiod\bibinitdelim P\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=0c9faad6eeadf468f79d270906e9c8e3}{%
+           family={Vernazza},
+           familyi={V\bibinitperiod},
+           given={Pierre},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=ae64de2c1fd528c92b677688e1cdea8f}{%
+           family={Reddy},
+           familyi={R\bibinitperiod},
+           given={Vishnu},
+           giveni={V\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=bf0284c3835533c5505f7199a8f35d11}{%
+           family={Tang},
+           familyi={T\bibinitperiod},
+           given={Michelle},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=be2e8e53a6c997cc7e1fe7c7c090b439}{%
+           family={Thomas},
+           familyi={T\bibinitperiod},
+           given={Cristina\bibnamedelima A.},
+           giveni={C\bibinitperiod\bibinitdelim A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=10f35e18aae6487202d78a17d9a00b09}{%
+           family={Rivkin},
+           familyi={R\bibinitperiod},
+           given={Andrew\bibnamedelima S.},
+           giveni={A\bibinitperiod\bibinitdelim S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=aedbdaa44b0703a4b4f6568ef72ac235}{%
+           family={Moskovitz},
+           familyi={M\bibinitperiod},
+           given={Nicholas\bibnamedelima A.},
+           giveni={N\bibinitperiod\bibinitdelim A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=a10f1ca0b911c4cd981e3b56c4a75b4b}{%
+           family={Slivan},
+           familyi={S\bibinitperiod},
+           given={Stephen\bibnamedelima M.},
+           giveni={S\bibinitperiod\bibinitdelim M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=f95b81e25387f8b7750c5748325a2c42}{%
+           family={Bus},
+           familyi={B\bibinitperiod},
+           given={Schelte\bibnamedelima J.},
+           giveni={S\bibinitperiod\bibinitdelim J\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{5be5a93d87270babba301ed372ebeffa}
+      \strng{fullhash}{c427c27a00f9ed57bcca8a2b1aebba80}
+      \strng{bibnamehash}{5be5a93d87270babba301ed372ebeffa}
+      \strng{authorbibnamehash}{5be5a93d87270babba301ed372ebeffa}
+      \strng{authornamehash}{5be5a93d87270babba301ed372ebeffa}
+      \strng{authorfullhash}{c427c27a00f9ed57bcca8a2b1aebba80}
+      \field{extraname}{2}
+      \field{sortinit}{D}
+      \field{sortinithash}{c438b3d5d027251ba63f5ed538d98af5}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{0019-1035}
+      \field{journaltitle}{Icarus}
+      \field{title}{Connecting asteroids and meteorites with visible and near-infrared spectroscopy}
+      \field{volume}{380}
+      \field{year}{2022}
+      \field{pages}{114971}
+      \range{pages}{1}
+      \verb{doi}
+      \verb https://doi.org/10.1016/j.icarus.2022.114971
+      \endverb
+      \verb{urlraw}
+      \verb https://www.sciencedirect.com/science/article/pii/S0019103522000896
+      \endverb
+      \verb{url}
+      \verb https://www.sciencedirect.com/science/article/pii/S0019103522000896
       \endverb
     \endentry
     \entry{dunn_mineralogies_2013}{article}{}
@@ -2776,149 +3037,6 @@
       \endverb
       \verb{url}
       \verb https://iopscience.iop.org/article/10.1086/507448
-      \endverb
-    \endentry
-    \entry{de_leon_spectral_2006}{article}{}
-      \name{author}{4}{}{%
-        {{un=0,uniquepart=base,hash=3a2d022360654f22a73df59d6c16c9f1}{%
-           family={León},
-           familyi={L\bibinitperiod},
-           given={J.},
-           giveni={J\bibinitperiod},
-           givenun=0,
-           prefix={de},
-           prefixi={d\bibinitperiod},
-           prefixun=0}}%
-        {{un=0,uniquepart=base,hash=957b7bd23e1b5cf8e95fc9efc2980078}{%
-           family={Licandro},
-           familyi={L\bibinitperiod},
-           given={J.},
-           giveni={J\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=028c8e58531ee03db2c44ca0eceda5f0}{%
-           family={Duffard},
-           familyi={D\bibinitperiod},
-           given={R.},
-           giveni={R\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=eb55b06d0fa418c5af9c9fb7ebf826bb}{%
-           family={Serra-Ricart},
-           familyi={S\bibinithyphendelim R\bibinitperiod},
-           given={M.},
-           giveni={M\bibinitperiod},
-           givenun=0}}%
-      }
-      \list{language}{1}{%
-        {en}%
-      }
-      \strng{namehash}{1f80706e2bc672dad7f732741c8dac30}
-      \strng{fullhash}{93e562b77b04d30762de7355b0cc9820}
-      \strng{bibnamehash}{1f80706e2bc672dad7f732741c8dac30}
-      \strng{authorbibnamehash}{1f80706e2bc672dad7f732741c8dac30}
-      \strng{authornamehash}{1f80706e2bc672dad7f732741c8dac30}
-      \strng{authorfullhash}{93e562b77b04d30762de7355b0cc9820}
-      \field{extraname}{1}
-      \field{sortinit}{L}
-      \field{sortinithash}{dad3efd0836470093a7b4a7bb756eb8c}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{year}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{issn}{02731177}
-      \field{journaltitle}{Advances in Space Research}
-      \field{month}{1}
-      \field{number}{1}
-      \field{title}{Spectral analysis and mineralogical characterization of 11 olivine–pyroxene rich {NEAs}}
-      \field{urlday}{30}
-      \field{urlmonth}{11}
-      \field{urlyear}{2022}
-      \field{volume}{37}
-      \field{year}{2006}
-      \field{urldateera}{ce}
-      \field{pages}{178\bibrangedash 183}
-      \range{pages}{6}
-      \verb{doi}
-      \verb 10.1016/j.asr.2005.05.074
-      \endverb
-      \verb{urlraw}
-      \verb https://linkinghub.elsevier.com/retrieve/pii/S0273117705006915
-      \endverb
-      \verb{url}
-      \verb https://linkinghub.elsevier.com/retrieve/pii/S0273117705006915
-      \endverb
-    \endentry
-    \entry{de_leon_observations_2010}{article}{}
-      \name{author}{5}{}{%
-        {{un=0,uniquepart=base,hash=3a2d022360654f22a73df59d6c16c9f1}{%
-           family={León},
-           familyi={L\bibinitperiod},
-           given={J.},
-           giveni={J\bibinitperiod},
-           givenun=0,
-           prefix={de},
-           prefixi={d\bibinitperiod},
-           prefixun=0}}%
-        {{un=0,uniquepart=base,hash=957b7bd23e1b5cf8e95fc9efc2980078}{%
-           family={Licandro},
-           familyi={L\bibinitperiod},
-           given={J.},
-           giveni={J\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=eb55b06d0fa418c5af9c9fb7ebf826bb}{%
-           family={Serra-Ricart},
-           familyi={S\bibinithyphendelim R\bibinitperiod},
-           given={M.},
-           giveni={M\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=b1b971bf1eb78d24fe73b81cc2d5af79}{%
-           family={Pinilla-Alonso},
-           familyi={P\bibinithyphendelim A\bibinitperiod},
-           given={N.},
-           giveni={N\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=c69ed9e9af855d727ee2ad9251f10375}{%
-           family={Campins},
-           familyi={C\bibinitperiod},
-           given={H.},
-           giveni={H\bibinitperiod},
-           givenun=0}}%
-      }
-      \strng{namehash}{1f80706e2bc672dad7f732741c8dac30}
-      \strng{fullhash}{ab7dd0a12a4f5f62e820a11d422a0b2c}
-      \strng{bibnamehash}{1f80706e2bc672dad7f732741c8dac30}
-      \strng{authorbibnamehash}{1f80706e2bc672dad7f732741c8dac30}
-      \strng{authornamehash}{1f80706e2bc672dad7f732741c8dac30}
-      \strng{authorfullhash}{ab7dd0a12a4f5f62e820a11d422a0b2c}
-      \field{extraname}{2}
-      \field{sortinit}{L}
-      \field{sortinithash}{dad3efd0836470093a7b4a7bb756eb8c}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{year}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{issn}{0004-6361, 1432-0746}
-      \field{journaltitle}{A\&A}
-      \field{month}{7}
-      \field{title}{Observations, compositional, and physical characterization of near-{Earth} and {Mars}-crosser asteroids from a spectroscopic survey}
-      \field{urlday}{30}
-      \field{urlmonth}{11}
-      \field{urlyear}{2022}
-      \field{volume}{517}
-      \field{year}{2010}
-      \field{urldateera}{ce}
-      \field{pages}{A23}
-      \range{pages}{-1}
-      \verb{doi}
-      \verb 10.1051/0004-6361/200913852
-      \endverb
-      \verb{file}
-      \verb Versione inviata:C\:\\Users\\gabri\\Zotero\\storage\\6TP44QNL\\de León et al. - 2010 - Observations, compositional, and physical characte.pdf:application/pdf
-      \endverb
-      \verb{urlraw}
-      \verb http://www.aanda.org/10.1051/0004-6361/200913852
-      \endverb
-      \verb{url}
-      \verb http://www.aanda.org/10.1051/0004-6361/200913852
       \endverb
     \endentry
     \entry{loeffler_irradiation_2009}{article}{}
