@@ -26,9 +26,9 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {2.3.1}Tassonomia di Tholen}{11}{subsection.2.3.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.3.2}Tassonomia di Bus}{16}{subsection.2.3.2}%
+\contentsline {subsection}{\numberline {2.3.2}Tassonomia di Bus}{15}{subsection.2.3.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {2.4}Space weathering}{17}{section.2.4}%
+\contentsline {section}{\numberline {2.4}Space weathering}{16}{section.2.4}%
 \defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\numberline {3}La missione DART}{19}{chapter.3}%
 \defcounter {refsection}{0}\relax 
@@ -87,3 +87,7 @@
 \contentsline {section}{\numberline {5.1}Risultati NASA}{43}{section.5.1}%
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {5.2}Osservazioni da Asiago}{46}{section.5.2}%
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{Conclusioni}{49}{chapter*.72}%
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{Bibliografia}{51}{chapter*.72}%
