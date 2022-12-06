@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/W32TeX) (preloaded format=pdflatex 2020.2.13)  6 DEC 2022 15:33
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/W32TeX) (preloaded format=pdflatex 2020.2.13)  6 DEC 2022 17:07
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1223,8 +1223,8 @@ Package csquotes Info: Disabling multilingual quotes.
 Package csquotes Info: Redefining alias 'default' -> 'british'.
 Package csquotes Info: Redefining alias 'english' -> 'english/american'.
 )
-Package hyperref Info: Option `bookmarksopen' set `true' on input line 71.
-Package hyperref Info: Option `colorlinks' set `true' on input line 71.
+Package hyperref Info: Option `bookmarksopen' set `true' on input line 79.
+Package hyperref Info: Option `colorlinks' set `true' on input line 79.
 
 (c:/texlive/2019/texmf-dist/tex/latex/l3backend/l3backend-pdfmode.def
 File: l3backend-pdfmode.def 2020-02-03 L3 backend support: PDF mode
@@ -1240,32 +1240,32 @@ File: lgrcmr.fd 2017/07/29 v1.2 Greek European Computer Regular
 ))
 \openout1 = `Bertinelli_Gabriele.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 95.
-LaTeX Font Info:    ... okay on input line 95.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 95.
-LaTeX Font Info:    ... okay on input line 95.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 95.
-LaTeX Font Info:    ... okay on input line 95.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 95.
-LaTeX Font Info:    ... okay on input line 95.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 95.
-LaTeX Font Info:    ... okay on input line 95.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 95.
-LaTeX Font Info:    ... okay on input line 95.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 95.
-LaTeX Font Info:    ... okay on input line 95.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 95.
-LaTeX Font Info:    ... okay on input line 95.
-LaTeX Font Info:    Checking defaults for LGR/cmr/m/n on input line 95.
-LaTeX Font Info:    ... okay on input line 95.
-LaTeX Font Info:    Checking defaults for T3/cmr/m/n on input line 95.
-LaTeX Font Info:    Trying to load font information for T3+cmr on input line 95
-.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 103.
+LaTeX Font Info:    ... okay on input line 103.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 103.
+LaTeX Font Info:    ... okay on input line 103.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 103.
+LaTeX Font Info:    ... okay on input line 103.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 103.
+LaTeX Font Info:    ... okay on input line 103.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 103.
+LaTeX Font Info:    ... okay on input line 103.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 103.
+LaTeX Font Info:    ... okay on input line 103.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 103.
+LaTeX Font Info:    ... okay on input line 103.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 103.
+LaTeX Font Info:    ... okay on input line 103.
+LaTeX Font Info:    Checking defaults for LGR/cmr/m/n on input line 103.
+LaTeX Font Info:    ... okay on input line 103.
+LaTeX Font Info:    Checking defaults for T3/cmr/m/n on input line 103.
+LaTeX Font Info:    Trying to load font information for T3+cmr on input line 10
+3.
 
 (c:/texlive/2019/texmf-dist/tex/latex/tipa/t3cmr.fd
 File: t3cmr.fd 2001/12/31 TIPA font definitions
 )
-LaTeX Font Info:    ... okay on input line 95.
+LaTeX Font Info:    ... okay on input line 103.
 
 (c:/texlive/2019/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
@@ -1298,7 +1298,7 @@ File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
 \AtBeginShipoutBox=\box57
-Package hyperref Info: Link coloring ON on input line 95.
+Package hyperref Info: Link coloring ON on input line 103.
 
 (c:/texlive/2019/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2019/09/16 v2.46 Cross-referencing by name of section
@@ -1311,9 +1311,9 @@ Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
 \c@section@level=\count435
 )
-LaTeX Info: Redefining \ref on input line 95.
-LaTeX Info: Redefining \pageref on input line 95.
-LaTeX Info: Redefining \nameref on input line 95.
+LaTeX Info: Redefining \ref on input line 103.
+LaTeX Info: Redefining \pageref on input line 103.
+LaTeX Info: Redefining \nameref on input line 103.
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: listings package is loaded.
 Package caption Info: End \AtBeginDocument code.
@@ -1351,12 +1351,12 @@ Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'Bertinelli_Gabriele.bbl' found.
 
 (./Bertinelli_Gabriele.bbl)
-Package biblatex Info: Reference section=0 on input line 95.
-Package biblatex Info: Reference segment=0 on input line 95.
+Package biblatex Info: Reference section=0 on input line 103.
+Package biblatex Info: Reference segment=0 on input line 103.
 <Bertinelli_Gabriele-frn.pdf, id=4, 597.50829pt x 845.0471pt>
 File: Bertinelli_Gabriele-frn.pdf Graphic file (type pdf)
 <use Bertinelli_Gabriele-frn.pdf>
-Package pdftex.def Info: Bertinelli_Gabriele-frn.pdf  used on input line 97.
+Package pdftex.def Info: Bertinelli_Gabriele-frn.pdf  used on input line 105.
 (pdftex.def)             Requested size: 597.50682pt x 845.04504pt.
  [1
 
@@ -1402,7 +1402,7 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.191 
+l.199 
        [1
 
 
@@ -1410,29 +1410,29 @@ l.191
 <figure/jupiter_resonances.png, id=260, 1284.8pt x 992.70876pt>
 File: figure/jupiter_resonances.png Graphic file (type png)
 <use figure/jupiter_resonances.png>
-Package pdftex.def Info: figure/jupiter_resonances.png  used on input line 203.
+Package pdftex.def Info: figure/jupiter_resonances.png  used on input line 211.
 
 (pdftex.def)             Requested size: 308.3583pt x 238.25497pt.
 <figure/neptune_resonances.png, id=262, 1927.2pt x 963.6pt>
 File: figure/neptune_resonances.png Graphic file (type png)
 <use figure/neptune_resonances.png>
-Package pdftex.def Info: figure/neptune_resonances.png  used on input line 210.
+Package pdftex.def Info: figure/neptune_resonances.png  used on input line 218.
 
 (pdftex.def)             Requested size: 360.0pt x 179.9982pt.
 pdfTeX warning (ext4): destination with the same identifier (name{page.2}) has 
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.231 \paragraph
+l.239 \paragraph
                 *{Near Earth Objects}\label{sec:neo} [2] [3 <./figure/jupiter_r
 esonances.png> <./figure/neptune_resonances.png>] [4] [5] [6]
 <figure/yark.jpg, id=312, 816.04875pt x 542.77782pt>
 File: figure/yark.jpg Graphic file (type jpg)
 <use figure/yark.jpg>
-Package pdftex.def Info: figure/yark.jpg  used on input line 343.
+Package pdftex.def Info: figure/yark.jpg  used on input line 351.
 (pdftex.def)             Requested size: 310.10175pt x 206.2577pt.
 
-Overfull \hbox (7.1823pt too wide) in paragraph at lines 349--351
+Overfull \hbox (7.1823pt too wide) in paragraph at lines 357--359
  []\OT1/cmr/bx/n/10.95 Effetto YORP \OT1/cmr/m/n/10.95 L'ef-fet-to Yarkovsky-O'
 Keefe-Radzievskii-Paddack (YORP)
  []
@@ -1441,7 +1441,7 @@ Keefe-Radzievskii-Paddack (YORP)
 <figure/pha_map.jpg, id=321, 764.8575pt x 625.33624pt>
 File: figure/pha_map.jpg Graphic file (type jpg)
 <use figure/pha_map.jpg>
-Package pdftex.def Info: figure/pha_map.jpg  used on input line 359.
+Package pdftex.def Info: figure/pha_map.jpg  used on input line 367.
 (pdftex.def)             Requested size: 267.70413pt x 218.87096pt.
  [8 <./figure/pha_map.jpg>]
 Capitolo 2.
@@ -1454,7 +1454,7 @@ Underfull \vbox (badness 2197) has occurred while \output is active []
 <figure/spettro_qsa.jpg, id=348, 818.30719pt x 589.4522pt>
 File: figure/spettro_qsa.jpg Graphic file (type jpg)
 <use figure/spettro_qsa.jpg>
-Package pdftex.def Info: figure/spettro_qsa.jpg  used on input line 402.
+Package pdftex.def Info: figure/spettro_qsa.jpg  used on input line 410.
 (pdftex.def)             Requested size: 245.49405pt x 176.83702pt.
 
 
@@ -1464,28 +1464,28 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 <figure/spettro_rv.jpg, id=359, 791.95876pt x 582.67688pt>
 File: figure/spettro_rv.jpg Graphic file (type jpg)
 <use figure/spettro_rv.jpg>
-Package pdftex.def Info: figure/spettro_rv.jpg  used on input line 418.
+Package pdftex.def Info: figure/spettro_rv.jpg  used on input line 426.
 (pdftex.def)             Requested size: 237.58946pt x 174.80441pt.
  [12 <./figure/spettro_qsa.jpg> <./figure/spettro_rv.jpg>]
-Underfull \hbox (badness 10000) in paragraph at lines 428--429
+Underfull \hbox (badness 10000) in paragraph at lines 436--437
 
  []
 
 <figure/spettro_bgc.jpg, id=368, 812.28468pt x 581.92406pt>
 File: figure/spettro_bgc.jpg Graphic file (type jpg)
 <use figure/spettro_bgc.jpg>
-Package pdftex.def Info: figure/spettro_bgc.jpg  used on input line 432.
+Package pdftex.def Info: figure/spettro_bgc.jpg  used on input line 440.
 (pdftex.def)             Requested size: 243.68729pt x 174.57855pt.
 [13 <./figure/spettro_bgc.jpg>]
 <figure/spettro_d.jpg, id=379, 820.56563pt x 575.90157pt>
 File: figure/spettro_d.jpg Graphic file (type jpg)
 <use figure/spettro_d.jpg>
-Package pdftex.def Info: figure/spettro_d.jpg  used on input line 447.
+Package pdftex.def Info: figure/spettro_d.jpg  used on input line 455.
 (pdftex.def)             Requested size: 246.17159pt x 172.7718pt.
 <figure/spettro_em.jpg, id=382, 823.57687pt x 572.89032pt>
 File: figure/spettro_em.jpg Graphic file (type jpg)
 <use figure/spettro_em.jpg>
-Package pdftex.def Info: figure/spettro_em.jpg  used on input line 457.
+Package pdftex.def Info: figure/spettro_em.jpg  used on input line 465.
 (pdftex.def)             Requested size: 247.07497pt x 171.86841pt.
 
 
@@ -1495,16 +1495,16 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 <figure/spettro_t.jpg, id=393, 822.82407pt x 584.1825pt>
 File: figure/spettro_t.jpg Graphic file (type jpg)
 <use figure/spettro_t.jpg>
-Package pdftex.def Info: figure/spettro_t.jpg  used on input line 472.
+Package pdftex.def Info: figure/spettro_t.jpg  used on input line 480.
 (pdftex.def)             Requested size: 246.84912pt x 175.25609pt.
  [15 <./figure/spettro_em.jpg> <./figure/spettro_t.jpg>]
 <figure/spettro_bus.jpg, id=408, 666.99188pt x 560.0925pt>
 File: figure/spettro_bus.jpg Graphic file (type jpg)
 <use figure/spettro_bus.jpg>
-Package pdftex.def Info: figure/spettro_bus.jpg  used on input line 483.
+Package pdftex.def Info: figure/spettro_bus.jpg  used on input line 491.
 (pdftex.def)             Requested size: 293.47733pt x 246.44145pt.
  [16 <./figure/spettro_bus.jpg>] [17]
-Underfull \hbox (badness 10000) in paragraph at lines 529--532
+Underfull \hbox (badness 10000) in paragraph at lines 537--540
 
  []
 
@@ -1513,7 +1513,7 @@ Capitolo 3.
 <figure/DART_mission_patch.png, id=448, 224.33812pt x 276.03125pt>
 File: figure/DART_mission_patch.png Graphic file (type png)
 <use figure/DART_mission_patch.png>
-Package pdftex.def Info: figure/DART_mission_patch.png  used on input line 539.
+Package pdftex.def Info: figure/DART_mission_patch.png  used on input line 547.
 
 (pdftex.def)             Requested size: 112.16878pt x 138.01527pt.
 
@@ -1523,19 +1523,19 @@ Underfull \vbox (badness 5726) has occurred while \output is active []
 
  <./figure/DART_mission_patch.png>]
 
-LaTeX Warning: Command \; invalid in math mode on input line 552.
+LaTeX Warning: Command \; invalid in math mode on input line 560.
 
 
-LaTeX Warning: Command \; invalid in math mode on input line 552.
+LaTeX Warning: Command \; invalid in math mode on input line 560.
 
 [20]
-Overfull \hbox (26.85435pt too wide) in paragraph at lines 561--561
+Overfull \hbox (26.85435pt too wide) in paragraph at lines 569--569
 [][][][][]\OT1/cmr/m/n/9 https://web.archive.org/web/20160305101217/http://neo.
 jpl.nasa.gov/neo/report2007.html[][]| 
  []
 
 
-Overfull \hbox (65.05545pt too wide) in paragraph at lines 572--572
+Overfull \hbox (65.05545pt too wide) in paragraph at lines 580--580
 [][][][][]\OT1/cmr/m/n/9 https://www.esa.int/Space[]Safety/Hera/Asteroid[]Impac
 t[]Deflection[]Assessment[]AIDA[]collaboration[][]| 
  []
@@ -1544,23 +1544,23 @@ t[]Deflection[]Assessment[]AIDA[]collaboration[][]|
 <figure/dart_cleanroom.jpg, id=487, 792.71156pt x 566.115pt>
 File: figure/dart_cleanroom.jpg Graphic file (type jpg)
 <use figure/dart_cleanroom.jpg>
-Package pdftex.def Info: figure/dart_cleanroom.jpg  used on input line 586.
+Package pdftex.def Info: figure/dart_cleanroom.jpg  used on input line 594.
 (pdftex.def)             Requested size: 206.10014pt x 147.18642pt.
  [22 <./figure/dart_cleanroom.jpg>]
 <figure/primo_contatto.jpg, id=498, 1510.64375pt x 1010.77625pt>
 File: figure/primo_contatto.jpg Graphic file (type jpg)
 <use figure/primo_contatto.jpg>
-Package pdftex.def Info: figure/primo_contatto.jpg  used on input line 609.
+Package pdftex.def Info: figure/primo_contatto.jpg  used on input line 617.
 (pdftex.def)             Requested size: 288.0011pt x 192.69725pt.
 <figure/920.png, id=499, 1044.90375pt x 1044.90375pt>
 File: figure/920.png Graphic file (type png)
 <use figure/920.png>
-Package pdftex.def Info: figure/920.png  used on input line 616.
+Package pdftex.def Info: figure/920.png  used on input line 624.
 (pdftex.def)             Requested size: 172.79846pt x 172.78433pt.
 <figure/penultima_dart.png, id=500, 1044.90375pt x 1044.90375pt>
 File: figure/penultima_dart.png Graphic file (type png)
 <use figure/penultima_dart.png>
-Package pdftex.def Info: figure/penultima_dart.png  used on input line 617.
+Package pdftex.def Info: figure/penultima_dart.png  used on input line 625.
 (pdftex.def)             Requested size: 172.79846pt x 172.78433pt.
 
 
@@ -1572,7 +1572,7 @@ pt>
 File: figure/Telescopes_observing_DART's_impact.png Graphic file (type png)
 <use figure/Telescopes_observing_DART's_impact.png>
 Package pdftex.def Info: figure/Telescopes_observing_DART's_impact.png  used on
- input line 630.
+ input line 638.
 (pdftex.def)             Requested size: 349.90007pt x 189.17416pt.
  [24 <./figure/920.png (PNG copy)> <./figure/penultima_dart.png> <./figure/Tele
 scopes_observing_DART's_impact.png>]
@@ -1580,7 +1580,7 @@ scopes_observing_DART's_impact.png>]
 File: figure/Hera_mission_timeline.png Graphic file (type png)
 <use figure/Hera_mission_timeline.png>
 Package pdftex.def Info: figure/Hera_mission_timeline.png  used on input line 6
-45.
+53.
 (pdftex.def)             Requested size: 289.07928pt x 171.76128pt.
  [25 <./figure/Hera_mission_timeline.png>] [26]
 Capitolo 4.
@@ -1590,17 +1590,17 @@ Capitolo 4.
 <figure/radar_image.png, id=541, 865.2325pt x 408.52625pt>
 File: figure/radar_image.png Graphic file (type png)
 <use figure/radar_image.png>
-Package pdftex.def Info: figure/radar_image.png  used on input line 681.
+Package pdftex.def Info: figure/radar_image.png  used on input line 689.
 (pdftex.def)             Requested size: 346.08687pt x 163.4076pt.
  [28 <./figure/radar_image.png>]
 <figure/didymos_lightcurve.png, id=559, 608.2725pt x 394.47375pt>
 File: figure/didymos_lightcurve.png Graphic file (type png)
 <use figure/didymos_lightcurve.png>
-Package pdftex.def Info: figure/didymos_lightcurve.png  used on input line 693.
+Package pdftex.def Info: figure/didymos_lightcurve.png  used on input line 701.
 
 (pdftex.def)             Requested size: 334.55092pt x 216.96123pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 698--702
+Underfull \hbox (badness 10000) in paragraph at lines 706--710
 
  []
 
@@ -1608,7 +1608,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 698--702
 <figure/ifu_jwst.png, id=578, 997.326pt x 1218.2313pt>
 File: figure/ifu_jwst.png Graphic file (type png)
 <use figure/ifu_jwst.png>
-Package pdftex.def Info: figure/ifu_jwst.png  used on input line 709.
+Package pdftex.def Info: figure/ifu_jwst.png  used on input line 717.
 (pdftex.def)             Requested size: 270.0pt x 329.80052pt.
 
 
@@ -1618,7 +1618,7 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 File: figure/binaries_direct_imaging.jpg Graphic file (type jpg)
 <use figure/binaries_direct_imaging.jpg>
 Package pdftex.def Info: figure/binaries_direct_imaging.jpg  used on input line
- 719.
+ 727.
 (pdftex.def)             Requested size: 352.79846pt x 118.22723pt.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
@@ -1631,7 +1631,7 @@ LaTeX Warning: Text page 31 contains only floats.
 <figure/binaries_evolution.jpg, id=602, 487.8225pt x 430.81642pt>
 File: figure/binaries_evolution.jpg Graphic file (type jpg)
 <use figure/binaries_evolution.jpg>
-Package pdftex.def Info: figure/binaries_evolution.jpg  used on input line 734.
+Package pdftex.def Info: figure/binaries_evolution.jpg  used on input line 742.
 
 (pdftex.def)             Requested size: 317.08086pt x 280.02734pt.
 
@@ -1641,7 +1641,7 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 <figure/orbit_viewer.jpg, id=608, 1927.2pt x 1011.78pt>
 File: figure/orbit_viewer.jpg Graphic file (type jpg)
 <use figure/orbit_viewer.jpg>
-Package pdftex.def Info: figure/orbit_viewer.jpg  used on input line 744.
+Package pdftex.def Info: figure/orbit_viewer.jpg  used on input line 752.
 (pdftex.def)             Requested size: 346.88104pt x 182.11253pt.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
@@ -1649,7 +1649,7 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 <figure/system_orbit.jpg, id=617, 328.65643pt x 212.9384pt>
 File: figure/system_orbit.jpg Graphic file (type jpg)
 <use figure/system_orbit.jpg>
-Package pdftex.def Info: figure/system_orbit.jpg  used on input line 755.
+Package pdftex.def Info: figure/system_orbit.jpg  used on input line 763.
 (pdftex.def)             Requested size: 256.35098pt x 166.09128pt.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
@@ -1668,37 +1668,37 @@ Underfull \vbox (badness 7777) has occurred while \output is active []
 <figure/didymos_241103.jpg, id=657, 248.8497pt x 161.403pt>
 File: figure/didymos_241103.jpg Graphic file (type jpg)
 <use figure/didymos_241103.jpg>
-Package pdftex.def Info: figure/didymos_241103.jpg  used on input line 778.
+Package pdftex.def Info: figure/didymos_241103.jpg  used on input line 786.
 (pdftex.def)             Requested size: 323.50455pt x 209.82387pt.
  [35 <./figure/didymos_241103.jpg>]
 <figure/didymos_shape_model.jpg, id=668, 455.22897pt x 252.34476pt>
 File: figure/didymos_shape_model.jpg Graphic file (type jpg)
 <use figure/didymos_shape_model.jpg>
-Package pdftex.def Info: figure/didymos_shape_model.jpg  used on input line 788
+Package pdftex.def Info: figure/didymos_shape_model.jpg  used on input line 796
 .
 (pdftex.def)             Requested size: 355.07715pt x 196.82811pt.
 <figure/failure_models.jpg, id=674, 369.99359pt x 346.896pt>
 File: figure/failure_models.jpg Graphic file (type jpg)
 <use figure/failure_models.jpg>
-Package pdftex.def Info: figure/failure_models.jpg  used on input line 801.
+Package pdftex.def Info: figure/failure_models.jpg  used on input line 809.
 (pdftex.def)             Requested size: 221.99785pt x 208.13919pt.
  [36 <./figure/didymos_shape_model.jpg>] [37 <./figure/failure_models.jpg>] [38
 ]
 <figure/spettri_tot_ieva.jpg, id=723, 498.663pt x 188.04582pt>
 File: figure/spettri_tot_ieva.jpg Graphic file (type jpg)
 <use figure/spettri_tot_ieva.jpg>
-Package pdftex.def Info: figure/spettri_tot_ieva.jpg  used on input line 831.
+Package pdftex.def Info: figure/spettri_tot_ieva.jpg  used on input line 839.
 (pdftex.def)             Requested size: 324.1271pt x 122.22832pt.
  [39 <./figure/spettri_tot_ieva.jpg>]
 <figure/slope_ieva.jpg, id=737, 378.33345pt x 208.5403pt>
 File: figure/slope_ieva.jpg Graphic file (type jpg)
 <use figure/slope_ieva.jpg>
-Package pdftex.def Info: figure/slope_ieva.jpg  used on input line 840.
+Package pdftex.def Info: figure/slope_ieva.jpg  used on input line 848.
 (pdftex.def)             Requested size: 264.8316pt x 145.9772pt.
 <figure/Ieva et al.jpg, id=740, 344.36655pt x 123.68597pt>
 File: figure/Ieva et al.jpg Graphic file (type jpg)
 <use figure/Ieva et al.jpg>
-Package pdftex.def Info: figure/Ieva et al.jpg  used on input line 849.
+Package pdftex.def Info: figure/Ieva et al.jpg  used on input line 857.
 (pdftex.def)             Requested size: 330.59338pt x 118.73904pt.
 
 
@@ -1717,14 +1717,14 @@ Underfull \vbox (badness 1237) has occurred while \output is active []
 <figure/Michel et al.png, id=758, 736.25063pt x 470.50781pt>
 File: figure/Michel et al.png Graphic file (type png)
 <use figure/Michel et al.png>
-Package pdftex.def Info: figure/Michel et al.png  used on input line 900.
+Package pdftex.def Info: figure/Michel et al.png  used on input line 908.
 (pdftex.def)             Requested size: 360.0pt x 230.06982pt.
  [42 <./figure/Michel et al.png>]
 Capitolo 5.
 <figure/jwst_hst_impact.png, id=768, 1597.97pt x 638.385pt>
 File: figure/jwst_hst_impact.png Graphic file (type png)
 <use figure/jwst_hst_impact.png>
-Package pdftex.def Info: figure/jwst_hst_impact.png  used on input line 913.
+Package pdftex.def Info: figure/jwst_hst_impact.png  used on input line 921.
 (pdftex.def)             Requested size: 360.0pt x 143.81549pt.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
@@ -1732,7 +1732,7 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 [43
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 929--932
+Underfull \hbox (badness 10000) in paragraph at lines 937--940
 
  []
 
@@ -1740,12 +1740,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 929--932
 <figure/impact_lightcurve.jpg, id=788, 884.84424pt x 512.37576pt>
 File: figure/impact_lightcurve.jpg Graphic file (type jpg)
 <use figure/impact_lightcurve.jpg>
-Package pdftex.def Info: figure/impact_lightcurve.jpg  used on input line 941.
+Package pdftex.def Info: figure/impact_lightcurve.jpg  used on input line 949.
 (pdftex.def)             Requested size: 360.0pt x 208.46486pt.
 <figure/expected_dimorphos.png, id=789, 1304.62407pt x 744.53156pt>
 File: figure/expected_dimorphos.png Graphic file (type png)
 <use figure/expected_dimorphos.png>
-Package pdftex.def Info: figure/expected_dimorphos.png  used on input line 948.
+Package pdftex.def Info: figure/expected_dimorphos.png  used on input line 956.
 
 (pdftex.def)             Requested size: 326.15521pt x 186.13243pt.
 
@@ -1755,24 +1755,24 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 <figure/didymos_asiago.jpg, id=797, 224.93022pt x 198.13348pt>
 File: figure/didymos_asiago.jpg Graphic file (type jpg)
 <use figure/didymos_asiago.jpg>
-Package pdftex.def Info: figure/didymos_asiago.jpg  used on input line 960.
+Package pdftex.def Info: figure/didymos_asiago.jpg  used on input line 968.
 (pdftex.def)             Requested size: 224.92967pt x 198.133pt.
 <figure/liciacube_impact_1.png, id=798, 988.69376pt x 524.96124pt>
 File: figure/liciacube_impact_1.png Graphic file (type png)
 <use figure/liciacube_impact_1.png>
-Package pdftex.def Info: figure/liciacube_impact_1.png  used on input line 967.
+Package pdftex.def Info: figure/liciacube_impact_1.png  used on input line 975.
 
 (pdftex.def)             Requested size: 360.0pt x 191.14066pt.
 <figure/liciacube_impact_tot.jpg, id=799, 2055.68pt x 1079.03125pt>
 File: figure/liciacube_impact_tot.jpg Graphic file (type jpg)
 <use figure/liciacube_impact_tot.jpg>
-Package pdftex.def Info: figure/liciacube_impact_tot.jpg  used on input line 97
-4.
+Package pdftex.def Info: figure/liciacube_impact_tot.jpg  used on input line 98
+2.
 (pdftex.def)             Requested size: 360.0pt x 188.96501pt.
 <figure/hst_plume.png, id=800, 1185.42876pt x 1095.09125pt>
 File: figure/hst_plume.png Graphic file (type png)
 <use figure/hst_plume.png>
-Package pdftex.def Info: figure/hst_plume.png  used on input line 981.
+Package pdftex.def Info: figure/hst_plume.png  used on input line 989.
 (pdftex.def)             Requested size: 296.35646pt x 273.77214pt.
  [46 <./figure/expected_dimorphos.png>] [47 <./figure/didymos_asiago.jpg> <./fi
 gure/liciacube_impact_1.png>] [48 <./figure/liciacube_impact_tot.jpg> <./figure
@@ -1783,31 +1783,31 @@ gure/liciacube_impact_1.png>] [48 <./figure/liciacube_impact_tot.jpg> <./figure
 ] [51
 
 ]
-Overfull \hbox (1.29268pt too wide) in paragraph at lines 1028--1028
+Overfull \hbox (1.29268pt too wide) in paragraph at lines 1036--1036
 [][]\OT1/cmr/m/n/10.95 DellaGiustina, D. N. et al. (2019). `  Pro-per-ties of r
 ubble-pile aste-roid (101955)
  []
 
 [52] [53]
-Overfull \hbox (8.5555pt too wide) in paragraph at lines 1028--1028
+Overfull \hbox (8.5555pt too wide) in paragraph at lines 1036--1036
 \OT1/cmr/m/n/10.95 Crossing Aste-roids: A Quan-ti-ta-ti-ve Si-mu-la-tion'. \OT1
 /cmr/m/it/10.95 Scien-ce \OT1/cmr/m/n/10.95 281.5385, pp. 2022{
  []
 
 [54] [55]
-Overfull \hbox (4.41257pt too wide) in paragraph at lines 1028--1028
+Overfull \hbox (4.41257pt too wide) in paragraph at lines 1036--1036
 \OT1/cmr/m/n/10.95 na-ry aste-roids'. \OT1/cmr/m/it/10.95 Na-tu-re \OT1/cmr/m/n
 /10.95 454.7201, pp. 188{191. \OT1/cmr/m/sc/10.95 doi\OT1/cmr/m/n/10.95 : [][]$
 \OT1/cmtt/m/n/10.95 10 . 1038 / nature07078$[][]\OT1/cmr/m/n/10.95 . 
  []
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 1031.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 1039.
 [56]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 1031.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 1039.
  (./Bertinelli_Gabriele.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 1031.
-Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 1031.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 1031.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 1039.
+Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 1039.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 1039.
 Package logreq Info: Writing requests to 'Bertinelli_Gabriele.run.xml'.
 \openout1 = `Bertinelli_Gabriele.run.xml'.
 
