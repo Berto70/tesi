@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/W32TeX) (preloaded format=pdflatex 2020.2.13)  5 DEC 2022 11:17
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/W32TeX) (preloaded format=pdflatex 2020.2.13)  7 DEC 2022 09:13
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -141,20 +141,20 @@ File: l3backend-pdfmode.def 2020-02-03 L3 backend support: PDF mode
 \l__pdf_internal_box=\box47
 )
 No file Bertinelli_Gabriele-frn.aux.
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 27.
-LaTeX Font Info:    ... okay on input line 27.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 27.
-LaTeX Font Info:    ... okay on input line 27.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 27.
-LaTeX Font Info:    ... okay on input line 27.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 27.
-LaTeX Font Info:    ... okay on input line 27.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 27.
-LaTeX Font Info:    ... okay on input line 27.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 27.
-LaTeX Font Info:    ... okay on input line 27.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 27.
-LaTeX Font Info:    ... okay on input line 27.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 26.
+LaTeX Font Info:    ... okay on input line 26.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 26.
+LaTeX Font Info:    ... okay on input line 26.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 26.
+LaTeX Font Info:    ... okay on input line 26.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 26.
+LaTeX Font Info:    ... okay on input line 26.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 26.
+LaTeX Font Info:    ... okay on input line 26.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 26.
+LaTeX Font Info:    ... okay on input line 26.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 26.
+LaTeX Font Info:    ... okay on input line 26.
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
 *geometry* verbose mode - [ preamble ] result:
@@ -215,14 +215,14 @@ e
 <figure/UNIPD.png, id=1, 1204.5pt x 1204.5pt>
 File: figure/UNIPD.png Graphic file (type png)
 <use figure/UNIPD.png>
-Package pdftex.def Info: figure/UNIPD.png  used on input line 28.
+Package pdftex.def Info: figure/UNIPD.png  used on input line 27.
 (pdftex.def)             Requested size: 113.80379pt x 113.81102pt.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <12> on input line 28.
+(Font)              <12> on input line 27.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 28.
+(Font)              <8> on input line 27.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 28.
+(Font)              <6> on input line 27.
  [1
 
 {c:/texlive/2019/texmf-var/fonts/map/pdftex/updmap/pdftex.map} <./figure/UNIPD.
@@ -230,7 +230,7 @@ png>] )
 Here is how much of TeX's memory you used:
  2840 strings out of 481242
  41129 string characters out of 5921895
- 291277 words of memory out of 5000000
+ 291276 words of memory out of 5000000
  18089 multiletter control sequences out of 15000+600000
  536597 words of font info for 38 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -238,7 +238,7 @@ Here is how much of TeX's memory you used:
 <c:/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb><c
 :/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb><c:/texliv
 e/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb>
-Output written on Bertinelli_Gabriele-frn.pdf (1 page, 407471 bytes).
+Output written on Bertinelli_Gabriele-frn.pdf (1 page, 407476 bytes).
 PDF statistics:
  23 PDF objects out of 1000 (max. 8388607)
  14 compressed objects within 1 object stream
