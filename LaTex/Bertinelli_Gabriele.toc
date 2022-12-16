@@ -88,4 +88,4 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {chapter}{Conclusioni}{49}{chapter*.74}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{Bibliografia}{51}{chapter*.74}%
+\contentsline {chapter}{Bibliografia}{53}{figure.caption.76}%
